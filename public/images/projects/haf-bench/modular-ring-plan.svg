@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <pattern id="dot-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#d1ccc4" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="800" fill="#faf9f6" />
+  <rect width="800" height="800" fill="url(#dot-grid)" opacity="0.6" />
+
+  <!-- Center Datum Crosshairs -->
+  <line x1="400" y1="40" x2="400" y2="760" stroke="#b0aba2" stroke-width="0.8" stroke-dasharray="4 4" />
+  <line x1="40" y1="400" x2="760" y2="400" stroke="#b0aba2" stroke-width="0.8" stroke-dasharray="4 4" />
+  <circle cx="400" cy="400" r="4" fill="none" stroke="#111111" stroke-width="1.2" />
+  <circle cx="400" cy="400" r="1.5" fill="#111111" />
+
+  <!-- Radius dimension guides -->
+  <circle cx="400" cy="400" r="180" fill="none" stroke="#d5d0c7" stroke-width="0.8" stroke-dasharray="3 3" />
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#d5d0c7" stroke-width="0.8" stroke-dasharray="3 3" />
+
+  <!-- Modular Bench Segments in a 360 ring (12 curved segments) -->
+  <g id="bench-segments">
+    <!-- Segment 1: 0 deg -->
+    <path d="M 400 130 A 270 270 0 0 1 530 166 L 500 220 A 200 200 0 0 0 400 190 Z" fill="#151515" />
+    <!-- Segment 2: 30 deg -->
+    <path d="M 545 174 A 270 270 0 0 1 634 263 L 574 298 A 200 200 0 0 0 508 227 Z" fill="#1e1e1e" />
+    <!-- Segment 3: 60 deg -->
+    <path d="M 644 277 A 270 270 0 0 1 670 400 L 600 400 A 200 200 0 0 0 581 309 Z" fill="#151515" />
+    <!-- Segment 4: 90 deg -->
+    <path d="M 670 415 A 270 270 0 0 1 634 537 L 574 502 A 200 200 0 0 0 600 415 Z" fill="#1e1e1e" />
+    <!-- Segment 5: 120 deg -->
+    <path d="M 622 552 A 270 270 0 0 1 530 634 L 500 580 A 200 200 0 0 0 565 515 Z" fill="#151515" />
+    <!-- Segment 6: 150 deg -->
+    <path d="M 515 644 A 270 270 0 0 1 400 670 L 400 600 A 200 200 0 0 0 488 581 Z" fill="#1e1e1e" />
+    <!-- Segment 7: 180 deg -->
+    <path d="M 385 670 A 270 270 0 0 1 270 634 L 300 580 A 200 200 0 0 0 385 600 Z" fill="#151515" />
+    <!-- Segment 8: 210 deg -->
+    <path d="M 255 622 A 270 270 0 0 1 166 537 L 226 502 A 200 200 0 0 0 292 565 Z" fill="#1e1e1e" />
+    <!-- Segment 9: 240 deg -->
+    <path d="M 156 523 A 270 270 0 0 1 130 400 L 200 400 A 200 200 0 0 0 219 491 Z" fill="#151515" />
+    <!-- Segment 10: 270 deg -->
+    <path d="M 130 385 A 270 270 0 0 1 166 263 L 226 298 A 200 200 0 0 0 200 385 Z" fill="#1e1e1e" />
+    <!-- Segment 11: 300 deg -->
+    <path d="M 178 248 A 270 270 0 0 1 270 166 L 300 220 A 200 200 0 0 0 235 285 Z" fill="#151515" />
+    <!-- Segment 12: 330 deg -->
+    <path d="M 285 156 A 270 270 0 0 1 385 130 L 385 190 A 200 200 0 0 0 312 209 Z" fill="#1e1e1e" />
+  </g>
+
+  <!-- Acrylic Support Joint Lines (Radial) -->
+  <g stroke="#ffffff" stroke-width="1.8" opacity="0.9">
+    <line x1="400" y1="130" x2="400" y2="190" />
+    <line x1="537" y1="170" x2="504" y2="223" />
+    <line x1="639" y1="270" x2="577" y2="303" />
+    <line x1="670" y1="407" x2="600" y2="407" />
+    <line x1="628" y1="544" x2="569" y2="508" />
+    <line x1="522" y1="639" x2="494" y2="580" />
+    <line x1="392" y1="670" x2="392" y2="600" />
+    <line x1="262" y1="628" x2="296" y2="572" />
+    <line x1="161" y1="530" x2="222" y2="496" />
+    <line x1="130" y1="392" x2="200" y2="392" />
+    <line x1="172" y1="255" x2="230" y2="291" />
+    <line x1="278" y1="161" x2="306" y2="214" />
+  </g>
+
+  <!-- Central Stone Placement Contour -->
+  <g fill="#9c958c" opacity="0.5" stroke="#756f67" stroke-width="1">
+    <polygon points="370,360 410,340 440,365 435,410 395,435 360,405" />
+    <polygon points="340,380 365,395 355,420 330,410" />
+    <polygon points="430,425 450,420 465,445 440,455" />
+  </g>
+
+  <!-- Technical Annotations -->
+  <text x="400" y="95" font-family="monospace" font-size="11" fill="#444" text-anchor="middle" letter-spacing="2">R_EXT = 5,400 MM / R_INT = 4,000 MM</text>
+  <text x="400" y="475" font-family="monospace" font-size="10" fill="#666" text-anchor="middle" letter-spacing="1.5">Ø 3,600 MM ROCK VOID</text>
+  <text x="40" y="750" font-family="monospace" font-size="10" fill="#222" letter-spacing="1">DWG: HW-101 / AXIS PLAN</text>
+  <text x="760" y="750" font-family="monospace" font-size="10" fill="#222" text-anchor="end" letter-spacing="1">SCALE 1:50 @ A1</text>
+</svg>

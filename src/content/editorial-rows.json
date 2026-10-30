@@ -1,0 +1,542 @@
+[
+  {
+    "rowIndex": 1,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Brightspot Agora 2026",
+        "category": "Installation",
+        "year": "Finished, 2026",
+        "width": "40.0%",
+        "aspectRatio": 0.833,
+        "imgUrl": "/images/projects/brightspot-agora-2026.webp",
+        "slug": "brightspot-agora-2026",
+        "code": "HAF_360",
+        "location": "Jakarta"
+      },
+      {
+        "title": "SOSCO DINNER GATHERING SS27",
+        "category": "Installation",
+        "year": "Finished, 2026",
+        "width": "45.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/sosco-dinner-gathering-ss27.webp",
+        "slug": "sosco-dinner-gathering-ss27",
+        "code": "HAF_364",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 2,
+    "justify": "flex-end",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "180SPM AEON BSD",
+        "category": "Interior",
+        "year": "Finished, 2025",
+        "width": "35.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/180spm-aeon-bsd.webp",
+        "slug": "180spm-aeon-bsd",
+        "code": "HAF_224",
+        "location": "BSD, Tangerang"
+      },
+      {
+        "title": "The Goods Diner",
+        "category": "Interior",
+        "year": "Finished, 2025",
+        "width": "50.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/the-goods-diner.webp",
+        "slug": "the-goods-diner",
+        "code": "HAF_223",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 3,
+    "justify": "flex-start",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "Real Heavy",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "35.0%",
+        "aspectRatio": 0.8,
+        "imgUrl": "/images/projects/real-heavy.webp",
+        "slug": "real-heavy",
+        "code": "HAF_225",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Demie Bakmie Depok",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "50.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/demie-bakmie-depok.webp",
+        "slug": "demie-bakmie-depok",
+        "code": "HAF_226",
+        "location": "Depok"
+      }
+    ]
+  },
+  {
+    "rowIndex": 4,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Demie Bakmie BLOK M",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "35.0%",
+        "aspectRatio": 0.8,
+        "imgUrl": "/images/projects/demie-bakmie-blok-m.webp",
+        "slug": "demie-bakmie-blok-m",
+        "code": "HAF_227",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Dickies Photobox",
+        "category": "Installation",
+        "year": "Finished, 2024",
+        "width": "35.0%",
+        "aspectRatio": 0.667,
+        "imgUrl": "/images/projects/dickies-photobox.webp",
+        "slug": "dickies-photobox",
+        "code": "HAF_346",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 5,
+    "justify": "flex-end",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Saucony X JD.ID",
+        "category": "Installation",
+        "year": "Finished, 2025",
+        "width": "60.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/saucony-x-jd-id.webp",
+        "slug": "saucony-x-jd-id",
+        "code": "HAF_347",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 6,
+    "justify": "flex-start",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "NORDA - Seek - Grand Indonesia",
+        "category": "Installation",
+        "year": "Finished, 2025",
+        "width": "45.0%",
+        "aspectRatio": 0.8,
+        "imgUrl": "/images/projects/norda-seek-grand-indonesia.webp",
+        "slug": "norda-seek-grand-indonesia",
+        "code": "HAF_349",
+        "location": "Jakarta"
+      },
+      {
+        "title": "NORDA - Seek - Plaza Senayan",
+        "category": "Installation",
+        "year": "Finished, 2025",
+        "width": "30.0%",
+        "aspectRatio": 0.667,
+        "imgUrl": "/images/projects/norda-seek-plaza-senayan.webp",
+        "slug": "norda-seek-plaza-senayan",
+        "code": "HAF_350",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 7,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "SAUCONY SS26",
+        "category": "Installation",
+        "year": "Finished, 2026",
+        "width": "40.0%",
+        "aspectRatio": 1.332,
+        "imgUrl": "/images/projects/saucony-ss26.webp",
+        "slug": "saucony-ss26",
+        "code": "HAF_353",
+        "location": "Jakarta"
+      },
+      {
+        "title": "BRIGHTSPOT AGORA 2025",
+        "category": "Installation",
+        "year": "Finished, 2025",
+        "width": "35.0%",
+        "aspectRatio": 0.75,
+        "imgUrl": "/images/projects/brightspot-agora-2025.webp",
+        "slug": "brightspot-agora-2025",
+        "code": "HAF_354",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 8,
+    "justify": "flex-end",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "Besarati & KYND Office",
+        "category": "Architecture",
+        "year": "Conceptual, 2024",
+        "width": "40.0%",
+        "aspectRatio": 1.781,
+        "imgUrl": "/images/projects/besarati-kynd-office.webp",
+        "slug": "besarati-kynd-office",
+        "code": "HAF_103",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Besarati Slowbar",
+        "category": "Architecture",
+        "year": "Finished, 2024",
+        "width": "30.0%",
+        "aspectRatio": 0.796,
+        "imgUrl": "/images/projects/besarati-slowbar.webp",
+        "slug": "besarati-slowbar",
+        "code": "HAF_104",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 9,
+    "justify": "flex-start",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "Toko Misteri",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "30.0%",
+        "aspectRatio": 0.667,
+        "imgUrl": "/images/projects/toko-misteri.webp",
+        "slug": "toko-misteri",
+        "code": "HAF_209",
+        "location": "BSD"
+      },
+      {
+        "title": "Zodiac",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "35.0%",
+        "aspectRatio": 1.333,
+        "imgUrl": "/images/projects/zodiac.webp",
+        "slug": "zodiac",
+        "code": "HAF_210",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 10,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Apple Condovilla",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "40.0%",
+        "aspectRatio": 1.778,
+        "imgUrl": "/images/projects/apple-condovilla.webp",
+        "slug": "apple-condovilla",
+        "code": "HAF_211",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Better Goods",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "45.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/better-goods.webp",
+        "slug": "better-goods",
+        "code": "HAF_214",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 11,
+    "justify": "flex-end",
+    "gap": "10.01px",
+    "items": [
+      {
+        "title": "Dickies",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "40.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/dickies.webp",
+        "slug": "dickies",
+        "code": "HAF_218",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Sideroom",
+        "category": "Interior",
+        "year": "Finished, 2023",
+        "width": "40.0%",
+        "aspectRatio": 0.8,
+        "imgUrl": "/images/projects/sideroom.webp",
+        "slug": "sideroom",
+        "code": "HAF_215",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 12,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Salomon",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "60.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/salomon.webp",
+        "slug": "salomon",
+        "code": "HAF_219",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Dickies Central GI",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "35.0%",
+        "aspectRatio": 0.776,
+        "imgUrl": "/images/projects/dickies-central-gi.webp",
+        "slug": "dickies-central-gi",
+        "code": "HAF_221",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 13,
+    "justify": "flex-end",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "J\u00e4germeister X Ardneks",
+        "category": "Installation",
+        "year": "Finished, 2024",
+        "width": "40.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/j-germeister-x-ardneks.webp",
+        "slug": "j-germeister-x-ardneks",
+        "code": "HAF_325",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Brightspot Foodpark",
+        "category": "Installation",
+        "year": "Finished, 2024",
+        "width": "35.0%",
+        "aspectRatio": 0.75,
+        "imgUrl": "/images/projects/brightspot-foodpark.webp",
+        "slug": "brightspot-foodpark",
+        "code": "HAF_327",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 14,
+    "justify": "flex-start",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "Brightspot Agora",
+        "category": "Installation",
+        "year": "Finished, 2024",
+        "width": "45.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/brightspot-agora.webp",
+        "slug": "brightspot-agora",
+        "code": "HAF_332",
+        "location": "Jakarta"
+      },
+      {
+        "title": "USS 24 Dickies",
+        "category": "Installation",
+        "year": "Finished, 2024",
+        "width": "35.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/uss-24-dickies.webp",
+        "slug": "uss-24-dickies",
+        "code": "HAF_336",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 15,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "USS 24 Saucony",
+        "category": "Installation",
+        "year": "Finished,2024",
+        "width": "45.0%",
+        "aspectRatio": 1.333,
+        "imgUrl": "/images/projects/uss-24-saucony.webp",
+        "slug": "uss-24-saucony",
+        "code": "HAF_337",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Dickies FW25",
+        "category": "Installation",
+        "year": "Finished, 2025",
+        "width": "30.0%",
+        "aspectRatio": 0.667,
+        "imgUrl": "/images/projects/dickies-fw25.webp",
+        "slug": "dickies-fw25",
+        "code": "HAF_339",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 16,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Yesterday Backyard",
+        "category": "Architecture",
+        "year": "Conceptual, 2023",
+        "width": "45.0%",
+        "aspectRatio": 1.778,
+        "imgUrl": "/images/projects/yesterday-backyard.webp",
+        "slug": "yesterday-backyard",
+        "code": "HAF_101",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Sporting Supply CO",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "50.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/sporting-supply-co.webp",
+        "slug": "sporting-supply-co",
+        "code": "HAF_203",
+        "location": "Tangerang Selatan"
+      }
+    ]
+  },
+  {
+    "rowIndex": 17,
+    "justify": "flex-start",
+    "gap": "10px",
+    "items": [
+      {
+        "title": "Dave's Residence",
+        "category": "Interior",
+        "year": "Conceptual, 2023",
+        "width": "45.0%",
+        "aspectRatio": 1.778,
+        "imgUrl": "/images/projects/dave-s-residence.webp",
+        "slug": "dave-s-residence",
+        "code": "HAF_205",
+        "location": "Tangerang"
+      },
+      {
+        "title": "Seek Office",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "40.0%",
+        "aspectRatio": 1.333,
+        "imgUrl": "/images/projects/seek-office.webp",
+        "slug": "seek-office",
+        "code": "HAF_207",
+        "location": "Jakarta Selatan"
+      }
+    ]
+  },
+  {
+    "rowIndex": 18,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "MASSHIRO",
+        "category": "Installation",
+        "year": "Finished, 2024",
+        "width": "30.0%",
+        "aspectRatio": 0.665,
+        "imgUrl": "/images/projects/masshiro.webp",
+        "slug": "masshiro",
+        "code": "HAF_308",
+        "location": "Jakarta"
+      },
+      {
+        "title": "Sonaa Cafe",
+        "category": "Interior",
+        "year": "Finished, 2024",
+        "width": "40.0%",
+        "aspectRatio": 1.779,
+        "imgUrl": "/images/projects/sonaa-cafe.webp",
+        "slug": "sonaa-cafe",
+        "code": "HAF_208",
+        "location": "Jakarta Selatan"
+      }
+    ]
+  },
+  {
+    "rowIndex": 19,
+    "justify": "space-between",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Daniel's Room",
+        "category": "Interior",
+        "year": "Finished, 2023",
+        "width": "40.0%",
+        "aspectRatio": 0.833,
+        "imgUrl": "/images/projects/daniel-s-room.webp",
+        "slug": "daniel-s-room",
+        "code": "HAF_202",
+        "location": "Tangerang Selatan"
+      },
+      {
+        "title": "J\u00e4germeister Booth",
+        "category": "Installation",
+        "year": "Finished, 2024",
+        "width": "40.0%",
+        "aspectRatio": 0.988,
+        "imgUrl": "/images/projects/j-germeister-booth.webp",
+        "slug": "j-germeister-booth",
+        "code": "HAF_309",
+        "location": "Jakarta"
+      }
+    ]
+  }
+]

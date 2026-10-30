@@ -1,0 +1,560 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   HAF WERKS — CASE STUDY STYLES
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* Shell adjustments for Case Study: full-bleed 100vh with zero padding on top/left/right */
+body:has([data-page="case-study"]) .website-shell {
+  padding: 0 !important;
+}
+
+body:has([data-page="case-study"]) .texture-wrapper {
+  min-height: 100vh !important;
+}
+
+.caseStudyPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+/* Hide brand logo on Case Study page */
+body:has([data-page="case-study"]) .logoFixed {
+  display: none !important;
+}
+
+/* ── Fixed Specs / Metadata Table (Top: 10px, Left: 10px) ── */
+.specList {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  width: fit-content;
+  max-width: calc(100vw - 20px);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+
+.specRow {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 409.6px;
+  max-width: 100%;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: #121212;
+  box-sizing: border-box;
+}
+
+.specKey {
+  width: 33%;
+  flex: 0 0 33%;
+  color: #121212;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.specValue {
+  width: 67%;
+  flex: 0 0 67%;
+  color: #121212;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Gallery / Visual Content (Sections) ── */
+.gallery {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+/* ── Hero / Thumbnail Section (Default 100vh) ── */
+.heroSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* ── Editorial Row Section (Default 100vh) ── */
+.editorialRow {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.editorialCol {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.imageCard {
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+/* ── Sizing Modes ── */
+/* 1. Fill Height & Fit Width: Height fills 100% of section, width naturally fits image */
+.fitWidthWrapper {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fitWidthImg {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* 2. Cover: Fills full container width and height (cropped) */
+.coverWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.coverImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 3. Contain: Fits entirely within container */
+.containWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.containImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.caption {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  opacity: 0.7;
+  margin-top: 4px;
+}
+
+/* ── Mobile Breakpoint (< 810px) ── */
+@media (max-width: 809.98px) {
+
+  /* Show brand logo on mobile header (matching mobile prototype) */
+  body:has([data-page="case-study"]) .logoFixed {
+    display: block !important;
+  }
+
+  /* Fixed Specs Box positioned in bottom on Mobile (same layout as desktop, full width) */
+  .specList {
+    top: auto !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: fit-content !important;
+    padding: 10px !important;
+    margin: 0 !important;
+    gap: 3px !important;
+    background-color: var(--color-white) !important;
+    box-sizing: border-box !important;
+    z-index: 100 !important;
+  }
+
+  .specRow {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    gap: 0 !important;
+    justify-content: flex-start !important;
+    align-items: baseline !important;
+    font-size: var(--font-size-mobile) !important;
+    line-height: var(--line-height) !important;
+    letter-spacing: var(--letter-spacing) !important;
+    font-weight: 500 !important;
+  }
+
+  .specKey {
+    width: 33% !important;
+    flex: 0 0 33% !important;
+    font-size: var(--font-size-mobile) !important;
+    line-height: var(--line-height) !important;
+    letter-spacing: var(--letter-spacing) !important;
+    font-weight: 500 !important;
+    color: #121212 !important;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .specValue {
+    width: 67% !important;
+    flex: 0 0 67% !important;
+    max-width: 67% !important;
+    font-size: var(--font-size-mobile) !important;
+    line-height: var(--line-height) !important;
+    letter-spacing: var(--letter-spacing) !important;
+    font-weight: 500 !important;
+    color: #121212 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .caption {
+    font-size: var(--font-size-mobile);
+  }
+
+  /* Gallery Container */
+  .gallery {
+    gap: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Editorial Rows: Strictly 100vh on Mobile */
+  .editorialRow {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+  }
+
+  /* Hero / Thumbnail Section on Mobile: fit content height (not 100vh/fill), no bottom padding */
+  .heroSection {
+    height: fit-content !important;
+    min-height: auto !important;
+    width: 100% !important;
+    padding: 10px 10px 0 10px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+  }
+
+  .heroSection .editorialCol {
+    height: auto !important;
+    max-height: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 1 auto !important;
+    min-height: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .heroSection .imageCard {
+    height: auto !important;
+    max-height: 100% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .heroSection .imageWrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 100% !important;
+    aspect-ratio: var(--mobile-aspect-ratio, 3 / 2) !important;
+  }
+
+  .heroSection .coverImg {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  /* Editorial Rows on Mobile: Parent 100vh, image fits content height */
+  .editorialRow {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 10px 10px 100px 10px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .editorialRow .editorialCol {
+    height: auto !important;
+    max-height: 100% !important;
+    flex: 0 1 auto !important;
+    min-height: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .editorialRow .imageCard {
+    height: auto !important;
+    max-height: 100% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .editorialRow .imageWrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 100% !important;
+  }
+
+  .editorialRow .coverImg,
+  .editorialRow .containImg,
+  .editorialRow .fitWidthImg {
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .editorialRow .fitWidthWrapper {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 100% !important;
+  }
+
+  /* Lightbox on Mobile */
+  .lightboxStage {
+    padding: 60px 10px 50px 10px;
+  }
+
+  .lightboxCounter,
+  .lightboxClose,
+  .lightboxNavBtn,
+  .lightboxCaption {
+    font-size: var(--font-size-mobile);
+  }
+
+  .lightboxNavBtn {
+    top: auto;
+    bottom: 10px;
+    transform: none;
+  }
+}
+
+/* ── Lightbox Overlay (Pop-up Gallery) ── */
+.imageClickable {
+  cursor: pointer;
+}
+
+/* Hide fixed page chrome when lightbox is active so buttons never collide */
+body:has(.lightboxOverlay) .menuFixed,
+body:has(.lightboxOverlay) .logoFixed,
+body:has(.lightboxOverlay) .specList {
+  display: none !important;
+}
+
+.caseStudyGalleryWrapper {
+  width: 100%;
+  display: contents;
+}
+
+.lightboxOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background-color: rgba(255, 255, 255, 0.98);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  animation: lightboxFadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes lightboxFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.lightboxHeader {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1010;
+  pointer-events: none;
+}
+
+.lightboxCounter {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: #121212;
+  background: var(--color-white);
+  padding: 10px;
+  pointer-events: auto;
+  user-select: none;
+}
+
+.lightboxClose {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lightboxStage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px 40px 80px;
+  box-sizing: border-box;
+}
+
+.lightboxImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.lightboxImg {
+  object-fit: contain !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.lightboxNavBtn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1010;
+  padding: 14px 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.lightboxPrev {
+  left: 10px;
+}
+
+.lightboxNext {
+  right: 10px;
+}
+
+.lightboxFooter {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 1010;
+}
+
+.lightboxCaption {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: #121212;
+  background: var(--color-white);
+  padding: 8px 14px;
+  max-width: min(800px, 90vw);
+  text-align: center;
+  pointer-events: auto;
+  user-select: none;
+}

@@ -1,0 +1,254 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   HAF WERKS — HEADER NAVIGATION
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* Fixed Top-Left Logo Container (T:0, L:0 with zero gap) */
+.logoFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+  pointer-events: none;
+}
+
+body:has([data-page="information"]) .logoFixed,
+body:has([data-page="case-study"]) .logoFixed {
+  display: none !important;
+}
+
+/* Fixed Top-Right Menu Container (T:0, R:0 with zero gap) */
+.menuFixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* Single Horizontal Stack for Menu (Desktop) */
+.menuContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+  padding: 0;
+  margin: 0;
+  pointer-events: auto;
+  white-space: nowrap;
+}
+
+/* Nav Items Container */
+.navItemsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+}
+
+.menuClosed .navItemsList {
+  display: none !important;
+}
+
+.menuOpen .navItemsList {
+  display: flex;
+}
+
+/* Nav Item Wrapper */
+.navItemWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.mobileOnly {
+  display: none !important;
+}
+
+.desktopOnly {
+  display: inline-flex;
+}
+
+/* Unified Button Style for Logo, Menu button, and Nav links */
+.navButton {
+  background: var(--color-white);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 10px;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  pointer-events: auto;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.navButton:hover,
+.navButton:focus,
+.navButton:active {
+  background: var(--color-white);
+  color: var(--color-text);
+}
+
+.logoButton,
+.logoButton span {
+  font-family: var(--font-primary) !important;
+  font-weight: 700 !important;
+}
+
+.logoDot {
+  font-family: var(--font-primary) !important;
+  font-size: var(--font-size-desktop);
+  font-weight: 700 !important;
+}
+
+/* Arrow SVGs */
+.menuArrow,
+.accordionArrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 7px;
+  height: 11.66px;
+  flex-shrink: 0;
+  transform-origin: center center;
+  transition: transform 0.2s ease;
+}
+
+.menuArrow.arrowClosed {
+  transform: rotate(0deg);
+}
+
+.menuArrow.arrowOpen {
+  transform: rotate(180deg);
+}
+
+.accordionArrow.accordionClosed {
+  transform: rotate(0deg);
+}
+
+.accordionArrow.accordionOpen {
+  transform: rotate(90deg);
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   MOBILE BREAKPOINT (<= 809.98px) — MATCHES mobile-nav.html PROTOTYPE
+   ══════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 809.98px) {
+  .logoFixed {
+    top: 0;
+    left: 0;
+  }
+
+  body:has([data-page="case-study"]) .logoFixed {
+    display: block !important;
+  }
+
+  .menuFixed {
+    top: 0;
+    right: 0;
+  }
+
+  .desktopOnly {
+    display: none !important;
+  }
+
+  .mobileOnly {
+    display: flex !important;
+  }
+
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+  }
+
+  .navItemsList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+  }
+
+  .menuClosed .navItemsList {
+    display: none !important;
+  }
+
+  .menuOpen .navItemsList {
+    display: flex !important;
+  }
+
+  .navButton {
+    font-size: var(--font-size-mobile);
+    line-height: 16px;
+    height: 36px;
+    padding: 10px;
+  }
+
+  .menuToggleButton {
+    min-width: 81.5px;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .mobileWerksAccordion {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    width: 85.64px;
+  }
+
+  .werksAccordionToggle {
+    width: 85.64px;
+    height: 36px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .accordionSubItems {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 85.64px;
+  }
+
+  .accordionSubItem {
+    width: 85.64px;
+    height: 36px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  .logoDot {
+    font-size: var(--font-size-mobile);
+  }
+}

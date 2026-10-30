@@ -1,0 +1,348 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   HAF WERKS — INFORMATION PAGE STYLES (MATCHES information.html IDENTICALLY)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.infoPage {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--margin) * 2);
+  padding: 0 0 100px 0;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Hide top-left logo on Information page */
+body:has([data-page="information"]) .logoFixed {
+  display: none !important;
+}
+
+/* ── Top Section ── */
+.infoTop {
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+  width: 100%;
+}
+
+/* 3-Column Grid Row: Col1 (138.39px) — Gap (120px) — Col2+3 (65%) */
+.infoRow {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+/* Rows with solid white background fill (People & Studio) */
+.infoRowFilled,
+.infoTop > .infoRow:nth-child(2),
+.infoTop > .infoRow:nth-child(3) {
+  background-color: var(--color-white);
+}
+
+.infoCol1 {
+  width: 138.39px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+
+/* Highlighted Section: Width 65% */
+.infoCol23Wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  width: 65%;
+  flex-shrink: 0;
+  align-items: stretch;
+  padding: 0;
+}
+
+.infoCol2 {
+  width: 107.94px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}
+
+/* Col 2 Services label: aligned to bottom alongside services items */
+.infoCol2Services {
+  width: 107.94px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: stretch;
+  height: auto;
+  background-color: var(--color-white);
+  padding: 0 0 69.6px 0;
+  box-sizing: border-box;
+}
+
+/* Col 3 Unified White Container: Narrative paragraph + Services list (no unwanted padding) */
+.infoCol3AboutServices {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: var(--color-white);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.infoAboutText {
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: 0.58px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.infoServicesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  padding: 0;
+}
+
+.infoServiceItem {
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: 0.58px;
+  line-height: 19px;
+  white-space: nowrap;
+  background-color: var(--color-white);
+  padding: 0;
+}
+
+/* People Row: Col 2 offset by 227.94px (107.94px + 120px gap) */
+.infoCol2Offset {
+  padding-left: 227.94px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.infoPeopleBlock {
+  background-color: var(--color-white);
+  padding: 0;
+  width: 402.98px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.infoPeopleText {
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: 0.58px;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Studio spacer representing empty Col 2 (107.94px) */
+.infoStudioSpacer {
+  width: 107.94px;
+  flex-shrink: 0;
+  height: 19px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Generic White Block Badge without unwanted padding */
+.whiteBlock {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: 0.58px;
+  line-height: 19px;
+  padding: 0;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+/* Spacer pushing bottom contact to bottom of viewport */
+.infoSpacer {
+  flex: 1 1 auto;
+  min-height: 120px;
+}
+
+/* ── Bottom Section (Contact) ── */
+.infoBottom {
+  padding-left: 258.39px; /* 138.39px Col 1 + 120px gap */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.infoContactRow {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  align-items: flex-start;
+  background-color: var(--color-white);
+  width: fit-content;
+}
+
+.infoCol2Contact {
+  width: 107.94px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+}
+
+.infoContactList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0;
+}
+
+.infoContactEntry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-white);
+  padding: 0 0 5px 0;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.contactPrefix {
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: 0.58px;
+  line-height: 19px;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.contactLink {
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: 0.58px;
+  line-height: 19px;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 0;
+  transition: opacity 0.15s ease;
+}
+
+.contactLink:hover {
+  opacity: 0.6;
+}
+
+/* ── Mobile Layout (@media (max-width: 809.98px)) ── */
+@media (max-width: 809.98px) {
+  .infoPage {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  .infoTop {
+    gap: 36px;
+  }
+
+  .infoRow {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .infoCol1,
+  .infoCol2,
+  .infoCol23Wrapper,
+  .infoCol3AboutServices {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .infoCol23Wrapper {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .infoCol2Services {
+    height: auto;
+    padding-bottom: 0;
+    align-items: flex-start;
+    margin-top: 24px;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .infoCol2Offset {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .infoStudioSpacer {
+    display: none;
+  }
+
+  .infoPeopleBlock {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .infoSpacer {
+    min-height: 60px;
+  }
+
+  .infoBottom {
+    padding-left: 0;
+    width: 100%;
+    margin-top: 36px;
+  }
+
+  .infoContactRow {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .infoCol2Contact {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .whiteBlock,
+  .infoServiceItem,
+  .contactPrefix,
+  .contactLink {
+    font-size: var(--font-size-mobile);
+  }
+
+  .infoAboutText,
+  .infoPeopleText {
+    font-size: var(--font-size-mobile);
+    line-height: 1.25;
+  }
+}

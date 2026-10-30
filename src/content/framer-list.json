@@ -1,0 +1,306 @@
+[
+  {
+    "code": "HAF_101",
+    "title": "Yesterday Backyard",
+    "category": "Architecture",
+    "location": "Jakarta",
+    "year": "2023",
+    "slug": "yesterday-backyard"
+  },
+  {
+    "code": "HAF_103",
+    "title": "Besarati & KYND Office",
+    "category": "Architecture",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "besarati-kynd-office"
+  },
+  {
+    "code": "HAF_202",
+    "title": "Daniels Room",
+    "category": "Interior",
+    "location": "Tangerang Selatan",
+    "year": "2022",
+    "slug": "daniel-s-room"
+  },
+  {
+    "code": "HAF_203",
+    "title": "Sporting Supply CO",
+    "category": "Interior",
+    "location": "Tangerang Selatan",
+    "year": "2023",
+    "slug": "sporting-supply-co"
+  },
+  {
+    "code": "HAF_205",
+    "title": "Dave's Residence",
+    "category": "Interior",
+    "location": "Tangerang",
+    "year": "2023",
+    "slug": "dave-s-residence"
+  },
+  {
+    "code": "HAF_207",
+    "title": "Seek Office",
+    "category": "Interior",
+    "location": "Jakarta Selatan",
+    "year": "2023",
+    "slug": "seek-office"
+  },
+  {
+    "code": "HAF_208",
+    "title": "Sonna Cafe",
+    "category": "Interior",
+    "location": "Jakarta Selatan",
+    "year": "2023",
+    "slug": "sonaa-cafe"
+  },
+  {
+    "code": "HAF_209",
+    "title": "Toko Misteri",
+    "category": "Interior",
+    "location": "Tangerang",
+    "year": "2024",
+    "slug": "toko-misteri"
+  },
+  {
+    "code": "HAF_210",
+    "title": "Zodiac",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "zodiac"
+  },
+  {
+    "code": "HAF_211",
+    "title": "Apple Condovilla",
+    "category": "Interior",
+    "location": "Jakarta Selatan",
+    "year": "2024",
+    "slug": "apple-condovilla"
+  },
+  {
+    "code": "HAF_214",
+    "title": "Better Goods",
+    "category": "Interior",
+    "location": "Tangerang",
+    "year": "2024",
+    "slug": "better-goods"
+  },
+  {
+    "code": "HAF_215",
+    "title": "Sideroom",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "sideroom"
+  },
+  {
+    "code": "HAF_218",
+    "title": "Dickies Puri Indah Mall",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "dickies"
+  },
+  {
+    "code": "HAF_219",
+    "title": "Salomon Pim",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "salomon"
+  },
+  {
+    "code": "HAF_221",
+    "title": "Dickies Central GI",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "dickies-central-gi"
+  },
+  {
+    "code": "HAF_223",
+    "title": "The Goods Diner",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "the-goods-diner"
+  },
+  {
+    "code": "HAF_224",
+    "title": "180SPM AEON BSD",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "180spm-aeon-bsd"
+  },
+  {
+    "code": "HAF_225",
+    "title": "Real Heavy",
+    "category": "Interior",
+    "location": "Tangerang Selatan",
+    "year": "2025",
+    "slug": "real-heavy"
+  },
+  {
+    "code": "HAF_226",
+    "title": "Demie Bakmie Depok",
+    "category": "Interior",
+    "location": "Depok",
+    "year": "2025",
+    "slug": "demie-bakmie-depok"
+  },
+  {
+    "code": "HAF_227",
+    "title": "Demi Bakmie BLOK M",
+    "category": "Interior",
+    "location": "Jakarta Selatan",
+    "year": "2025",
+    "slug": "demie-bakmie-blok-m"
+  },
+  {
+    "code": "HAF_308",
+    "title": "Masshiro",
+    "category": "Installation",
+    "location": "Jakarta Selatan",
+    "year": "2023",
+    "slug": "masshiro"
+  },
+  {
+    "code": "HAF_309",
+    "title": "Jägermeister Booth",
+    "category": "Installation",
+    "location": "Jakarta Selatan",
+    "year": "2023",
+    "slug": "j-germeister-booth"
+  },
+  {
+    "code": "HAF_325",
+    "title": "Jägermeister X Ardneks",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "j-germeister-x-ardneks"
+  },
+  {
+    "code": "HAF_327",
+    "title": "Brightspot Foodpark",
+    "category": "Installation",
+    "location": "Tangerang Selatan",
+    "year": "2024",
+    "slug": "brightspot-foodpark"
+  },
+  {
+    "code": "HAF_331",
+    "title": "Guess",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "guess"
+  },
+  {
+    "code": "HAF_332",
+    "title": "Brightspot Agora",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "brightspot-agora"
+  },
+  {
+    "code": "HAF_336",
+    "title": "USS 24 Dickies",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "uss-24-dickies"
+  },
+  {
+    "code": "HAF_336",
+    "title": "USS 24 Saucony",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "uss-24-saucony"
+  },
+  {
+    "code": "HAF_339",
+    "title": "Dickies FW25",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "dickies-fw25"
+  },
+  {
+    "code": "HAF_342",
+    "title": "Saucony AW25",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2024",
+    "slug": "saucony-aw25"
+  },
+  {
+    "code": "HAF_346",
+    "title": "Dickies Photobox",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "dickies-photobox"
+  },
+  {
+    "code": "HAF_347",
+    "title": "Saucony x JD.ID",
+    "category": "Installation",
+    "location": "Jakarta Selatan",
+    "year": "2025",
+    "slug": "saucony-x-jd-id"
+  },
+  {
+    "code": "HAF_349",
+    "title": "Norda - Seek - Grand Indonesia",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "norda-seek-grand-indonesia"
+  },
+  {
+    "code": "HAF_349",
+    "title": "Norda - Seek - Plaza Senayan",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "norda-seek-plaza-senayan"
+  },
+  {
+    "code": "HAF_353",
+    "title": "Saucony SS26",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "saucony-ss26"
+  },
+  {
+    "code": "HAF_354",
+    "title": "Brightspot Agora 2025",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "brightspot-agora-2025"
+  },
+  {
+    "code": "HAF_360",
+    "title": "Brightspot Agora 2026",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "brightspot-agora-2026"
+  },
+  {
+    "code": "HAF_364",
+    "title": "Sosco Dinner Gathering SS27",
+    "category": "Installation",
+    "location": "Jakarta",
+    "year": "2026",
+    "slug": "sosco-dinner-gathering-ss27"
+  }
+]

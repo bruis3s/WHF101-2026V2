@@ -18,8 +18,14 @@ export function GalleryRow({
   const cols = row.columns || [];
   if (cols.length === 0) return null;
 
+  const isFullBleedHero =
+    isHero &&
+    cols.length === 1 &&
+    (!cols[0].widthPercent || cols[0].widthPercent === 100) &&
+    cols[0].fit !== 'contain';
+
   const sectionHeight = row.sectionHeight || '100vh';
-  const sectionClass = isHero ? 'heroSection' : 'editorialRow';
+  const sectionClass = isFullBleedHero ? 'heroSection' : 'editorialRow';
 
   return (
     <section
@@ -28,30 +34,30 @@ export function GalleryRow({
       style={{
         width: '100%',
         height: sectionHeight,
-        gap: isHero ? '0px' : (row.gap || (cols.length > 1 ? '30px' : '0px')),
-        justifyContent: isHero ? 'center' : (row.justifyContent || 'flex-start'),
-        alignItems: isHero ? 'stretch' : (row.verticalAlign || 'stretch'),
-        paddingTop: isHero ? '0px' : (row.paddingTop || '0px'),
-        paddingBottom: isHero ? '0px' : (row.paddingBottom || '0px'),
+        gap: isFullBleedHero ? '0px' : (row.gap || (cols.length > 1 ? '30px' : '0px')),
+        justifyContent: isFullBleedHero ? 'center' : (row.justifyContent || 'flex-start'),
+        alignItems: isFullBleedHero ? 'stretch' : (row.verticalAlign || 'stretch'),
+        paddingTop: isFullBleedHero ? '0px' : (row.paddingTop || '0px'),
+        paddingBottom: isFullBleedHero ? '0px' : (row.paddingBottom || '0px'),
       }}
     >
       {cols.map((col, idx) => {
         const imageUrl = sanitizeImageUrl(col.image);
         if (!imageUrl) return null;
 
-        const fit = col.fit || row.sizingMode || 'cover';
+        const fit = col.fit || row.sizingMode || (isFullBleedHero ? 'cover' : 'cover');
         const wrapperClass =
           fit === 'cover'
             ? 'coverWrapper'
             : fit === 'contain'
-            ? 'containWrapper'
-            : 'fitWidthWrapper';
+              ? 'containWrapper'
+              : 'fitWidthWrapper';
         const imgClass =
           fit === 'cover'
             ? 'coverImg'
             : fit === 'contain'
-            ? 'containImg'
-            : 'fitWidthImg';
+              ? 'containImg'
+              : 'fitWidthImg';
 
         const widthStyle = col.widthPercent ? `${col.widthPercent}%` : undefined;
 
@@ -60,11 +66,14 @@ export function GalleryRow({
           position: 'relative',
         };
 
-        if (isHero && fit === 'cover') {
+        if (isFullBleedHero && fit === 'cover') {
           wrapperStyle.width = '100%';
           wrapperStyle.height = '100%';
           (wrapperStyle as Record<string, string>)['--mobile-aspect-ratio'] = String(col.aspectRatio || '3 / 2');
-        } else if (col.aspectRatio && !isHero) {
+        } else if (fit === 'contain') {
+          wrapperStyle.width = '100%';
+          wrapperStyle.height = '100%';
+        } else if (col.aspectRatio && !isFullBleedHero) {
           wrapperStyle.aspectRatio = String(col.aspectRatio);
           wrapperStyle.width = '100%';
           wrapperStyle.height = 'auto';
@@ -83,11 +92,11 @@ export function GalleryRow({
             key={idx}
             className="editorialCol"
             style={{
-              flex: isHero ? '1 1 100%' : (widthStyle ? `0 0 ${widthStyle}` : 1),
-              width: isHero ? '100%' : undefined,
-              maxWidth: isHero ? '100%' : (widthStyle || '100%'),
+              flex: isFullBleedHero ? '1 1 100%' : (widthStyle ? `0 0 ${widthStyle}` : 1),
+              width: isFullBleedHero ? '100%' : (widthStyle || undefined),
+              maxWidth: isFullBleedHero ? '100%' : (widthStyle || '100%'),
               height: '100%',
-              justifyContent: col.verticalAlign || 'flex-start',
+              justifyContent: col.verticalAlign || row.verticalAlign || 'flex-start',
             }}
           >
             <div
@@ -104,7 +113,7 @@ export function GalleryRow({
                 fill
                 className={imgClass}
                 sizes={col.widthPercent ? `${col.widthPercent}vw` : '100vw'}
-                priority={col.priority || (isHero && idx === 0)}
+                priority={col.priority || startIndex === 0}
               />
             </div>
             {col.caption && <span className="caption">{col.caption}</span>}

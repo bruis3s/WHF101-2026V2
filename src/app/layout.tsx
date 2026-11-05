@@ -10,6 +10,7 @@ import '@/styles/werks.css';
 import '@/styles/case-study.css';
 import '@/styles/information.css';
 import '@/styles/archive.css';
+import '@/styles/explore.css';
 
 const helvetica = localFont({
   src: [
@@ -50,8 +51,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={helvetica.variable}>
-      <body>
+    <html lang="en" className={helvetica.variable} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <SmoothScroll>
           <WebsiteShell>{children}</WebsiteShell>
         </SmoothScroll>

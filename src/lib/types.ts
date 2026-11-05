@@ -74,5 +74,28 @@ export interface CaseStudy {
   layoutRows?: CaseStudyRow[];
 }
 
+export interface ExploreLayoutItem {
+  slug: string;
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  title: string;
+  category?: string;
+  year?: string;
+  status?: string;
+  coverImageUrl?: string;
+}
+
+export interface ExploreLayoutData {
+  canvasWidth: number;
+  canvasHeight: number;
+  initialX?: number;
+  initialY?: number;
+  initialCenterX?: number;
+  initialCenterY?: number;
+  items: ExploreLayoutItem[];
+}
+
 
 

@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 function ArrowSvg({ className }: { className?: string }) {
   return (
@@ -18,8 +19,16 @@ function ArrowSvg({ className }: { className?: string }) {
 }
 
 export function MenuToggle() {
+  const pathname = usePathname();
+  const isHome = pathname === '/';
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [werksOpen, setWerksOpen] = useState(false);
+
+  useEffect(() => {
+    setMenuOpen(false);
+    setWerksOpen(false);
+  }, [pathname]);
 
   const handleLinkClick = () => {
     setMenuOpen(false);
@@ -63,12 +72,14 @@ export function MenuToggle() {
         </button>
 
         <div className="navItemsList">
-          {/* Mobile-only Home Link */}
-          <div className="navItemWrapper mobileOnly">
-            <Link href="/" className="navButton" onClick={handleLinkClick}>
-              Home
-            </Link>
-          </div>
+          {/* Home Link (rendered on all pages except Homepage) */}
+          {!isHome && (
+            <div className="navItemWrapper">
+              <Link href="/" className="navButton" onClick={handleLinkClick}>
+                Home
+              </Link>
+            </div>
+          )}
 
           {/* Desktop-only Werks Link */}
           <div className="navItemWrapper desktopOnly">
@@ -105,6 +116,13 @@ export function MenuToggle() {
                   onClick={handleLinkClick}
                 >
                   Grid
+                </Link>
+                <Link
+                  href="/explore"
+                  className="navButton accordionSubItem"
+                  onClick={handleLinkClick}
+                >
+                  Explore
                 </Link>
               </div>
             )}

@@ -73,10 +73,11 @@
             "image": "/images/projects/haf-bench/bench-overview.jpg",
             "caption": "Fig. 01.0 — Perimeter segment installed at Werks Galleria showroom. Monolithic acrylic fins cast refracted shadows across the terracotta concrete slab.",
             "figureNumber": "FIG 01.0",
-            "fit": "fit-width",
+            "fit": "contain",
             "aspectRatio": "1 / 1"
           }
-        ]
+        ],
+        "justifyContent": "center"
       },
       {
         "id": "row-detail-study",
@@ -811,17 +812,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/yesterday-backyard/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "1 / 1"
+            "aspectRatio": "16 / 9"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
@@ -1145,16 +1146,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
-            "priority": true
+            "priority": true,
+            "aspectRatio": "16 / 9"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
@@ -1607,17 +1609,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/daniel-s-room/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 40,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "2 / 3"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -1969,16 +1971,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/dave-s-residence/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
-            "priority": true
+            "priority": true,
+            "aspectRatio": "16 / 9"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
@@ -2314,17 +2317,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/sonaa-cafe/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "16 / 9"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
@@ -2599,19 +2602,20 @@
         "columns": [
           {
             "image": "/images/projects/toko-misteri/01.jpg",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/toko-misteri/02.jpg",
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
-        ]
+        ],
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -2926,17 +2930,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/apple-condovilla/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "16 / 9"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
@@ -3417,16 +3421,17 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "1 / 1",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/sideroom/02.jpg",
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
-        ]
+        ],
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -3635,17 +3640,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/dickies/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "3 / 2"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -4218,16 +4223,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/dickies-central-gi/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 45,
             "fit": "cover",
-            "priority": true
+            "priority": true,
+            "aspectRatio": "2 / 3"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -4407,16 +4413,17 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/demie-bakmie-depok/02.jpg",
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
-        ]
+        ],
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -4756,17 +4763,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/demie-bakmie-blok-m/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 65,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "3 / 2"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -5175,14 +5182,14 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/masshiro/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 45,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "1 / 1"
+            "aspectRatio": "2 / 3"
           }
         ],
         "verticalAlign": "center"
@@ -5371,16 +5378,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/j-germeister-booth/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
-            "priority": true
+            "priority": true,
+            "aspectRatio": "1 / 1"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -5472,16 +5480,17 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/j-germeister-x-ardneks/02.jpg",
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
-        ]
+        ],
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -5667,17 +5676,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/brightspot-foodpark/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 45,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "2 / 3"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -6671,21 +6680,22 @@
     ],
     "layoutRows": [
       {
-        "id": "row-hero",
+        "id": "row-00",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-end",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 40,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "2 / 3"
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
           }
-        ],
-        "verticalAlign": "center"
+        ]
       },
       {
         "id": "row-01",
@@ -6693,6 +6703,7 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/02.jpg",
@@ -6703,7 +6714,7 @@
           },
           {
             "image": "/images/projects/dickies-photobox/03.jpg",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -6716,13 +6727,14 @@
         "sizingMode": "cover",
         "gap": "0px",
         "justifyContent": "center",
+        "verticalAlign": "center",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/04.jpg",
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "center"
           }
         ]
       },
@@ -6730,8 +6742,9 @@
         "id": "row-03",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
+        "gap": "0px",
         "justifyContent": "space-between",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/05.jpg",
@@ -6753,22 +6766,23 @@
         "id": "row-04",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
-        "justifyContent": "center",
+        "gap": "10px",
+        "justifyContent": "flex-start",
+        "verticalAlign": "center",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/07.jpg",
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "center"
           },
           {
             "image": "/images/projects/dickies-photobox/08.jpg",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "center"
           }
         ]
       },
@@ -6776,8 +6790,9 @@
         "id": "row-05",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
+        "gap": "0px",
         "justifyContent": "space-between",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/09.jpg",
@@ -6799,8 +6814,9 @@
         "id": "row-06",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
+        "gap": "0px",
         "justifyContent": "space-between",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/11.jpg",
@@ -6824,6 +6840,7 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/13.jpg",
@@ -6834,7 +6851,7 @@
           },
           {
             "image": "/images/projects/dickies-photobox/14.jpg",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -6846,14 +6863,15 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "flex-end",
+        "justifyContent": "center",
+        "verticalAlign": "center",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/15.jpg",
             "widthPercent": 60,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "center"
           }
         ]
       },
@@ -6861,8 +6879,9 @@
         "id": "row-09",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
+        "gap": "0px",
         "justifyContent": "space-between",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/16.jpg",
@@ -6886,6 +6905,7 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/18.jpg",
@@ -6896,7 +6916,7 @@
           },
           {
             "image": "/images/projects/dickies-photobox/19.jpg",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -7159,17 +7179,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/norda-seek-grand-indonesia/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 45,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "3 / 4"
+            "aspectRatio": "2 / 3"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -7323,17 +7343,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/norda-seek-plaza-senayan/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 40,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "2 / 3"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -7683,17 +7703,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2025/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 45,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "2 / 3"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-end"
       },
       {
         "id": "row-01",
@@ -8017,17 +8037,17 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/besarati-slowbar/01.jpg",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "1 / 1"
+            "aspectRatio": "16 / 9"
           }
         ],
-        "verticalAlign": "center"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",

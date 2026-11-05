@@ -13,9 +13,11 @@
   pointer-events: none;
 }
 
-body:has([data-page="information"]) .logoFixed,
-body:has([data-page="case-study"]) .logoFixed {
-  display: none !important;
+@media (min-width: 810px) {
+  body:has([data-page="information"]) .logoFixed,
+  body:has([data-page="case-study"]) .logoFixed {
+    display: none !important;
+  }
 }
 
 /* Fixed Top-Right Menu Container (T:0, R:0 with zero gap) */
@@ -160,7 +162,8 @@ body:has([data-page="case-study"]) .logoFixed {
     left: 0;
   }
 
-  body:has([data-page="case-study"]) .logoFixed {
+  body:has([data-page="case-study"]) .logoFixed,
+  body:has([data-page="information"]) .logoFixed {
     display: block !important;
   }
 
@@ -250,5 +253,26 @@ body:has([data-page="case-study"]) .logoFixed {
 
   .logoDot {
     font-size: var(--font-size-mobile);
+  }
+
+  /* Reversed navigation colors on mobile Information page (matches information-mobile.html identically) */
+  body:has([data-page="information"]) .menuFixed .navButton,
+  body:has([data-page="information"]) .menuFixed .menuToggleButton,
+  body:has([data-page="information"]) .menuFixed .werksAccordionToggle,
+  body:has([data-page="information"]) .menuFixed .accordionSubItem {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+  }
+
+  body:has([data-page="information"]) .menuFixed .navButton:hover,
+  body:has([data-page="information"]) .menuFixed .navButton:focus,
+  body:has([data-page="information"]) .menuFixed .navButton:active {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+  }
+
+  body:has([data-page="information"]) .menuFixed .menuArrow svg path,
+  body:has([data-page="information"]) .menuFixed .accordionArrow svg path {
+    fill: #ffffff !important;
   }
 }

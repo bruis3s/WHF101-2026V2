@@ -18,7 +18,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 0 0 90px 0; /* Space for bottom floating view switcher */
+  padding: 0 0 90px 0;
+  /* Space for bottom floating view switcher */
 }
 
 .workRow {
@@ -322,6 +323,7 @@
 }
 
 .listRow {
+  position: relative;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -331,19 +333,31 @@
   box-sizing: border-box;
   text-decoration: none;
   transition: opacity 0.15s ease;
-  content-visibility: auto;
-  contain-intrinsic-size: 0 33.2px;
+}
+
+/* ── Columns & Text (Desktop) ── */
+.colId,
+.colTitle,
+.colType,
+.colLocation,
+.colYear {
+  position: relative;
+  z-index: 20;
+  background-color: transparent;
 }
 
 .cellBox {
   display: inline-flex;
   align-items: center;
   background-color: var(--color-white);
-  padding: 0;
+  padding: 0 4px;
+  margin-left: -4px;
   height: 19.2px;
   width: fit-content;
   max-width: 100%;
   box-sizing: border-box;
+  position: relative;
+  z-index: 20;
 }
 
 .cellBox span {
@@ -361,6 +375,67 @@
 
 .listRow:hover .cellBox span {
   color: var(--color-text);
+}
+
+/* ── Desktop List Hover Thumbnail (Randomized, Straight, Instant) ── */
+.listRowHoverImage {
+  position: absolute;
+  top: 50%;
+  left: var(--hover-left, 35%);
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  /* Instant cutoff after 0.35s delay (no fade out, no scale) */
+  transition: visibility 0s linear 0.35s, opacity 0s linear 0.35s;
+}
+
+.listRow:hover .listRowHoverImage {
+  opacity: 1;
+  visibility: visible;
+  /* Instant appearance on hover (no fade in, no scale) */
+  transition: none;
+}
+
+.hoverImageLandscape {
+  width: 500px !important;
+}
+
+.hoverImageLandscape img,
+.hoverImageLandscape .hoverThumbImg {
+  width: 500px !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hoverImagePortrait {
+  width: auto;
+  max-height: 480px;
+}
+
+.hoverImagePortrait img,
+.hoverImagePortrait .hoverThumbImg {
+  width: auto;
+  height: auto;
+  max-width: 420px;
+  max-height: 480px;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .listRowHoverImage {
+    transition: none !important;
+  }
 }
 
 /* ── Mobile Layout ── */
@@ -483,6 +558,10 @@
   }
 
   .listHeader {
+    display: none !important;
+  }
+
+  .listRowHoverImage {
     display: none !important;
   }
 

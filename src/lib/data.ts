@@ -4,7 +4,8 @@ import archive from '@/content/archive.json';
 import information from '@/content/information.json';
 import caseStudies from '@/content/case-studies.json';
 import projects from '@/content/projects.json';
-import type { EditorialRow, WerksListItem, CaseStudy } from '@/lib/types';
+import exploreLayout from '@/content/explore-layout.json';
+import type { EditorialRow, WerksListItem, CaseStudy, ExploreLayoutData } from '@/lib/types';
 
 export function getEditorialRows(): EditorialRow[] {
   return editorial as EditorialRow[];
@@ -12,6 +13,14 @@ export function getEditorialRows(): EditorialRow[] {
 
 export function getWerksList(): WerksListItem[] {
   return list as WerksListItem[];
+}
+
+export function getExploreLayout(): ExploreLayoutData {
+  return exploreLayout as ExploreLayoutData;
+}
+
+export function getProjects() {
+  return projects;
 }
 
 export function getArchive() {

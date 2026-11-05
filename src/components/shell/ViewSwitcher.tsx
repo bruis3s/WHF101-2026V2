@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 interface ViewSwitcherProps {
-  activeView?: 'grid' | 'list';
+  activeView?: 'grid' | 'list' | 'explore';
 }
 
 export function ViewSwitcher({ activeView = 'grid' }: ViewSwitcherProps) {
@@ -28,6 +28,17 @@ export function ViewSwitcher({ activeView = 'grid' }: ViewSwitcherProps) {
           aria-hidden="true"
         />
         <span>List</span>
+      </Link>
+      <Link
+        href="/explore"
+        className="switcherButton"
+        aria-current={activeView === 'explore' ? 'page' : undefined}
+      >
+        <span
+          className={`radioCircle${activeView === 'explore' ? ' radioCircleActive' : ''}`}
+          aria-hidden="true"
+        />
+        <span>Explore</span>
       </Link>
     </div>
   );

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -24,11 +24,13 @@ export function MenuToggle() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [werksOpen, setWerksOpen] = useState(false);
+  const [prevPathname, setPrevPathname] = useState(pathname);
 
-  useEffect(() => {
+  if (prevPathname !== pathname) {
+    setPrevPathname(pathname);
     setMenuOpen(false);
     setWerksOpen(false);
-  }, [pathname]);
+  }
 
   const handleLinkClick = () => {
     setMenuOpen(false);
@@ -116,13 +118,6 @@ export function MenuToggle() {
                   onClick={handleLinkClick}
                 >
                   Grid
-                </Link>
-                <Link
-                  href="/explore"
-                  className="navButton accordionSubItem"
-                  onClick={handleLinkClick}
-                >
-                  Explore
                 </Link>
               </div>
             )}

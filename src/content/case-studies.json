@@ -21,7 +21,7 @@
       "316 Stainless Steel Pin Bushings",
       "Natural Uncut Granite Boulders"
     ],
-    "dimension": "Ø 7,200 mm Outer Ring / 450 mm Height",
+    "dimension": "\u00d8 7,200 mm Outer Ring / 450 mm Height",
     "description": [
       "Conceived as a dialogue between industrial precision and geological weight, the Circular Modular System is organized into twelve interconnecting arc benches that form a 360-degree perimeter within the central showroom.",
       "Each arc segment balances on high-clarity cast acrylic vertical fins, allowing the perforated aluminum plates to float above the warm terracotta concrete plane. At the center of the ring, raw granite boulders act as an anchoring datum."
@@ -71,7 +71,7 @@
         "columns": [
           {
             "image": "/images/projects/haf-bench/bench-overview.jpg",
-            "caption": "Fig. 01.0 — Perimeter segment installed at Werks Galleria showroom. Monolithic acrylic fins cast refracted shadows across the terracotta concrete slab.",
+            "caption": "Fig. 01.0 \u2014 Perimeter segment installed at Werks Galleria showroom. Monolithic acrylic fins cast refracted shadows across the terracotta concrete slab.",
             "figureNumber": "FIG 01.0",
             "fit": "contain",
             "aspectRatio": "1 / 1"
@@ -90,14 +90,14 @@
         "columns": [
           {
             "image": "/images/projects/haf-bench/acrylic-detail.jpg",
-            "caption": "Fig. 02.1 — Detail of 35mm clear PMMA blade coupled with twin M12 stainless fastening pins and chamfered aluminum extrusion edge.",
+            "caption": "Fig. 02.1 \u2014 Detail of 35mm clear PMMA blade coupled with twin M12 stainless fastening pins and chamfered aluminum extrusion edge.",
             "figureNumber": "FIG 02.1",
             "widthPercent": 42,
             "fit": "contain"
           },
           {
             "image": "/images/projects/haf-bench/circular-installation.jpg",
-            "caption": "Fig. 02.2 — Continuous curvature established through sequential segment interlocking.",
+            "caption": "Fig. 02.2 \u2014 Continuous curvature established through sequential segment interlocking.",
             "figureNumber": "FIG 02.2",
             "widthPercent": 58,
             "fit": "cover"
@@ -115,7 +115,7 @@
         "columns": [
           {
             "image": "/images/projects/haf-bench/display-wall.jpg",
-            "caption": "Fig. 03.1 — Suspended vertical exhibition armature and modular specimen displays.",
+            "caption": "Fig. 03.1 \u2014 Suspended vertical exhibition armature and modular specimen displays.",
             "figureNumber": "FIG 03.1",
             "widthPercent": 100,
             "fit": "cover"
@@ -5346,8 +5346,8 @@
   {
     "slug": "j-germeister-booth",
     "code": "HAF_309",
-    "title": "Jägermeister Booth",
-    "subtitle": "Jägermeister Booth by HAF WERKS",
+    "title": "J\u00e4germeister Booth",
+    "subtitle": "J\u00e4germeister Booth by HAF WERKS",
     "projectType": "Installation",
     "category": "Installation",
     "year": "Finished, 2024",
@@ -5357,7 +5357,7 @@
     "specs": [
       {
         "label": "Project",
-        "value": "Jägermeister Booth"
+        "value": "J\u00e4germeister Booth"
       },
       {
         "label": "Type",
@@ -5441,8 +5441,8 @@
   {
     "slug": "j-germeister-x-ardneks",
     "code": "HAF_325",
-    "title": "Jägermeister X Ardneks",
-    "subtitle": "Jägermeister X Ardneks by HAF WERKS",
+    "title": "J\u00e4germeister X Ardneks",
+    "subtitle": "J\u00e4germeister X Ardneks by HAF WERKS",
     "projectType": "Installation",
     "category": "Installation",
     "year": "Finished, 2024",
@@ -5452,7 +5452,7 @@
     "specs": [
       {
         "label": "Project",
-        "value": "Jägermeister X Ardneks"
+        "value": "J\u00e4germeister X Ardneks"
       },
       {
         "label": "Type",
@@ -8307,6 +8307,287 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "guess",
+    "code": "HAF_331",
+    "title": "Guess",
+    "subtitle": "Guess by HAF WERKS",
+    "projectType": "Installation",
+    "category": "Installation",
+    "year": "Finished, 2025",
+    "location": "\u2026",
+    "status": "Finished, 2025",
+    "coverImageUrl": "/images/projects/guess/01.jpg",
+    "specs": [
+      {
+        "label": "Project",
+        "value": "GUESS"
+      },
+      {
+        "label": "Type",
+        "value": "Installation"
+      },
+      {
+        "label": "Location",
+        "value": "\u2026"
+      },
+      {
+        "label": "Status",
+        "value": "Finished, 2025"
+      }
+    ],
+    "layoutRows": [
+      {
+        "id": "row-hero",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/guess/01.jpg",
+            "widthPercent": 100,
+            "fit": "cover",
+            "priority": true,
+            "aspectRatio": "3 / 2"
+          }
+        ]
+      },
+      {
+        "id": "row-01",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/02.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/03.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-02",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/04.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/05.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-03",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/06.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/07.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-04",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/08.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/09.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-05",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "flex-end",
+        "columns": [
+          {
+            "image": "/images/projects/guess/10.jpg",
+            "widthPercent": 55,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-06",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/11.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "4 / 5",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/12.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-07",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/13.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/14.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-08",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "columns": [
+          {
+            "image": "/images/projects/guess/15.jpg",
+            "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "1 / 1",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-09",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/16.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/17.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-10",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/guess/18.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/guess/19.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-11",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "flex-end",
+        "columns": [
+          {
+            "image": "/images/projects/guess/20.jpg",
+            "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
           }
         ]

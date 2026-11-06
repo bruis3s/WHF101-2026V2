@@ -368,6 +368,24 @@
   {
     "rowIndex": 14,
     "justify": "flex-start",
+    "gap": "0px",
+    "items": [
+      {
+        "title": "Guess",
+        "category": "Installation",
+        "year": "Finished, 2025",
+        "width": "50.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/guess.webp",
+        "slug": "guess",
+        "code": "HAF_331",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  {
+    "rowIndex": 15,
+    "justify": "flex-start",
     "gap": "10px",
     "items": [
       {
@@ -395,7 +413,7 @@
     ]
   },
   {
-    "rowIndex": 15,
+    "rowIndex": 16,
     "justify": "space-between",
     "gap": "0px",
     "items": [
@@ -424,7 +442,7 @@
     ]
   },
   {
-    "rowIndex": 16,
+    "rowIndex": 17,
     "justify": "space-between",
     "gap": "0px",
     "items": [
@@ -453,7 +471,7 @@
     ]
   },
   {
-    "rowIndex": 17,
+    "rowIndex": 18,
     "justify": "flex-start",
     "gap": "10px",
     "items": [
@@ -482,7 +500,7 @@
     ]
   },
   {
-    "rowIndex": 18,
+    "rowIndex": 19,
     "justify": "space-between",
     "gap": "0px",
     "items": [
@@ -511,7 +529,7 @@
     ]
   },
   {
-    "rowIndex": 19,
+    "rowIndex": 20,
     "justify": "space-between",
     "gap": "0px",
     "items": [

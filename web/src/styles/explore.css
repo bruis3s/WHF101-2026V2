@@ -1,0 +1,110 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   HAF WERKS — EXPLORE FREE ROAM CANVAS
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.explorePage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  background-color: transparent;
+}
+
+.exploreViewport {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: grab;
+  touch-action: none;
+}
+
+.exploreViewport.isDragging,
+.exploreViewport.isDragging * {
+  cursor: grabbing !important;
+}
+
+.exploreViewport.isDragging .exploreCard {
+  pointer-events: none !important;
+}
+
+.exploreCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+/* Individual Project Card (Identical to explore.html - No shadow, no hover animation) */
+.exploreCard {
+  position: absolute;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+  transform: none !important;
+  transition: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -webkit-user-drag: none !important;
+}
+
+.exploreCard:hover,
+.exploreCard:focus,
+.exploreCard:active {
+  box-shadow: none !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.exploreCardImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -webkit-user-drag: none !important;
+}
+
+.exploreCardImage {
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -webkit-user-drag: none !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.exploreCard:hover .exploreCardImage {
+  transform: none !important;
+}
+
+/* Fallback box if image is missing */
+.explorePlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-desktop);
+  padding: 10px;
+  text-align: center;
+}

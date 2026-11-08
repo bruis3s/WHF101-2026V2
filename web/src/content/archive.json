@@ -1,0 +1,164 @@
+[
+  {
+    "id": "arch-01",
+    "title": "Cast PMMA Blade Support",
+    "material": "Cast Acrylic (35mm)",
+    "year": "2026",
+    "tags": [
+      "Object",
+      "Material",
+      "Acrylic"
+    ],
+    "caption": "35mm monolithic high-clarity cast acrylic blade fin supporting perforated aluminum radial deck.",
+    "imageUrl": "/images/projects/haf-bench/acrylic-detail.jpg",
+    "linkedProject": {
+      "code": "WHF101-2026",
+      "title": "Circular Modular Bench & Display System",
+      "slug": "circular-modular-bench"
+    }
+  },
+  {
+    "id": "arch-02",
+    "title": "Radial Perforated Deck Module",
+    "material": "6061-T6 Perforated Aluminum",
+    "year": "2026",
+    "tags": [
+      "Object",
+      "Perforated Aluminum",
+      "Modular"
+    ],
+    "caption": "Curved 4.0mm sheet metal deck forming a 360-degree perimeter bench in gallery installation.",
+    "imageUrl": "/images/projects/haf-bench/bench-overview.jpg",
+    "linkedProject": {
+      "code": "WHF101-2026",
+      "title": "Circular Modular Bench & Display System",
+      "slug": "circular-modular-bench"
+    }
+  },
+  {
+    "id": "arch-03",
+    "title": "Centering Granite Megalith",
+    "material": "Raw Granite Boulder",
+    "year": "2026",
+    "tags": [
+      "Material",
+      "Stone",
+      "Installation"
+    ],
+    "caption": "Uncut natural granite boulder serving as gravitational counter-datum to lightweight suspended aluminum.",
+    "imageUrl": "/images/projects/haf-bench/circular-installation.jpg",
+    "linkedProject": {
+      "code": "WHF101-2026",
+      "title": "Circular Modular Bench & Display System",
+      "slug": "circular-modular-bench"
+    }
+  },
+  {
+    "id": "arch-04",
+    "title": "Suspended Exhibition Display Wall",
+    "material": "Anodized Aluminum & Acrylic",
+    "year": "2026",
+    "tags": [
+      "Object",
+      "Installation",
+      "Exhibition"
+    ],
+    "caption": "Vertical modular hanging exhibition system for curated objects and architectural drawings.",
+    "imageUrl": "/images/projects/haf-bench/display-wall.jpg",
+    "linkedProject": {
+      "code": "WHF101-2026",
+      "title": "Circular Modular Bench & Display System",
+      "slug": "circular-modular-bench"
+    }
+  },
+  {
+    "id": "arch-05",
+    "title": "Agora Pavilion Framework",
+    "material": "Galvanized Steel & Timber",
+    "year": "2026",
+    "tags": [
+      "Installation",
+      "Spatial",
+      "Steel"
+    ],
+    "caption": "Temporary public pavilion structure exploring transparent spatial boundaries and modular joinery.",
+    "imageUrl": "https://framerusercontent.com/images/OAXVKj9YPBSh0fUZRcZ2nJ9Dvk.jpg",
+    "linkedProject": {
+      "code": "HAF_360",
+      "title": "Brightspot Agora 2026",
+      "slug": "brightspot-agora-2026"
+    }
+  },
+  {
+    "id": "arch-06",
+    "title": "SOSCO Monolithic Long Table",
+    "material": "Cast Terrazzo & Stainless Steel",
+    "year": "2026",
+    "tags": [
+      "Object",
+      "Furniture",
+      "Terrazzo"
+    ],
+    "caption": "Continuous banquet table assembly constructed for the SOSCO seasonal gathering.",
+    "imageUrl": "https://framerusercontent.com/images/3F3oJf8EAYq4KUbF17PpAmGvVc.jpg",
+    "linkedProject": {
+      "code": "HAF_364",
+      "title": "SOSCO DINNER GATHERING SS27",
+      "slug": "sosco-dinner-gathering-ss27"
+    }
+  },
+  {
+    "id": "arch-07",
+    "title": "180SPM Retail Fixtures",
+    "material": "Brushed Aluminum & Perforated Sheet",
+    "year": "2025",
+    "tags": [
+      "Interior",
+      "Object",
+      "Aluminum"
+    ],
+    "caption": "Linear running track and display shelving with engineered aluminum brackets.",
+    "imageUrl": "https://framerusercontent.com/images/PyxXmS1ky8F50w0OQ1xIDu6AO9I.jpg",
+    "linkedProject": {
+      "code": "HAF_224",
+      "title": "180SPM AEON BSD",
+      "slug": "180spm-aeon-bsd"
+    }
+  },
+  {
+    "id": "arch-08",
+    "title": "Goods Diner Partition Louvers",
+    "material": "Solid Teak & Fluted Glass",
+    "year": "2025",
+    "tags": [
+      "Interior",
+      "Wood",
+      "Glass"
+    ],
+    "caption": "Acoustic spatial dividers balancing warmth with mid-century industrial character.",
+    "imageUrl": "https://framerusercontent.com/images/ziH07lV11tS6aJJUcbVPAfk4S8s.jpg",
+    "linkedProject": {
+      "code": "HAF_223",
+      "title": "The Goods Diner",
+      "slug": "the-goods-diner"
+    }
+  },
+  {
+    "id": "arch-09",
+    "title": "Yesterday Courtyard Canopy",
+    "material": "Corrugated Polycarbonate & Steel",
+    "year": "2023",
+    "tags": [
+      "Architecture",
+      "Canopy",
+      "Steel"
+    ],
+    "caption": "Translucent courtyard shading canopy filtering tropical sunlight into the rear garden.",
+    "imageUrl": "https://framerusercontent.com/images/pKbsSW4G34okRGSsi8sgflbTo4.jpg",
+    "linkedProject": {
+      "code": "HAF_101",
+      "title": "Yesterday Backyard",
+      "slug": "yesterday-backyard"
+    }
+  }
+]

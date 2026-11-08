@@ -1,0 +1,31 @@
+{
+  "about": {
+    "title": "about studio",
+    "statement": "an Explorative Architecture, Objects and Spatial Design Practice.",
+    "description": "H A F WERKS is an Explorative Architecture, Objects and Spatial Design Practice, established in 2020. H A F WERKS's believe in the freedom of playing around with different styles, tweaking geometrical forms, narrating fun spatial sequences, and trying out non-building materials. With their playful approach in design, H A F WERKS built many Architectures, Interior & Product Design."
+  },
+  "services": [
+    "Residential",
+    "Commercial",
+    "Installation",
+    "Object"
+  ],
+  "people": [
+    "Hanandy Andrianto",
+    "Oriana Eidelweiss",
+    "Savira Hutami Nusi",
+    "Marsha Naufal",
+    "Sara Setiadi",
+    "Galih Mardhotilah"
+  ],
+  "studio": {
+    "location": "Cirendeu, Tangerang Selatan",
+    "city": "Tangerang Selatan",
+    "country": "Indonesia"
+  },
+  "contact": {
+    "email": "hafwerks@gmail.com",
+    "phone": "+62 7880480035",
+    "phoneRaw": "+627880480035"
+  }
+}

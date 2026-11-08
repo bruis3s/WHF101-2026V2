@@ -1,0 +1,195 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   HAF WERKS — ARCHIVE PAGE STYLES
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.archivePage {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--margin) * 2);
+  padding: 0 0 60px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Title Bar */
+.archiveTitleBar {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.archiveSectionLabel {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background-color: var(--color-white);
+  padding: 4px 6px;
+  display: inline-block;
+}
+
+/* Tag Filter Buttons */
+.archiveFilterBar {
+  margin-top: 24px;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.archiveFilterButton {
+  background: var(--color-white);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  padding: 6px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: all 0.15s ease;
+}
+
+.archiveFilterButtonActive {
+  background: var(--color-text);
+  color: var(--color-white);
+}
+
+.archiveFilterButton:hover {
+  opacity: 0.8;
+}
+
+/* Grid Layout */
+.archiveGrid {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  width: 100%;
+}
+
+.archiveItemCard {
+  background-color: var(--color-white);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: opacity 0.15s ease;
+  box-sizing: border-box;
+}
+
+.archiveItemCard:hover {
+  opacity: 0.85;
+}
+
+.archiveImageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+.archiveImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.archiveItemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.archiveTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.archiveItemTitle {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+}
+
+.archiveItemYear {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+}
+
+.archiveMetaRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.archiveItemMaterial {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+}
+
+.archiveItemProject {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  color: var(--color-text);
+}
+
+.archiveEmptyState {
+  margin-top: 60px;
+  background-color: var(--color-white);
+  padding: 10px;
+  display: inline-block;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-desktop);
+  line-height: var(--line-height);
+  color: var(--color-text);
+}
+
+/* Mobile */
+@media (max-width: 809.98px) {
+  .archiveSectionLabel,
+  .archiveFilterButton,
+  .archiveItemTitle,
+  .archiveItemYear,
+  .archiveItemMaterial,
+  .archiveItemProject,
+  .archiveEmptyState {
+    font-size: var(--font-size-mobile);
+  }
+
+  .archiveGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

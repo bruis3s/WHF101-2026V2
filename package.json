@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "npm --prefix web run dev",
-    "build": "npm --prefix web run build",
+    "build": "npm --prefix web run build && cp -r web/.next .next",
     "start": "npm --prefix web run start",
     "lint": "npm --prefix web run lint"
   }

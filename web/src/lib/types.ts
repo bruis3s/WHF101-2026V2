@@ -34,7 +34,9 @@ export interface CaseStudySpec {
 
 export interface CaseStudyColumn {
   image: string;
+  video?: string;
   caption?: string;
+  captionPosition?: 'top' | 'bottom';
   figureNumber?: string;
   widthPercent?: number;
   heightPercent?: number;
@@ -42,6 +44,10 @@ export interface CaseStudyColumn {
   verticalAlign?: 'flex-start' | 'center' | 'flex-end';
   fit?: 'cover' | 'contain' | 'fit-width';
   priority?: boolean;
+  fillHeight?: boolean;
+  fill?: boolean;
+  paddingTop?: string;
+  paddingBottom?: string;
 }
 
 export interface CaseStudyRow {
@@ -54,6 +60,10 @@ export interface CaseStudyRow {
   paddingTop?: string;
   paddingBottom?: string;
   padding?: string;
+  rowType?: string;
+  figureNumber?: string;
+  title?: string;
+  caption?: string;
   columns: CaseStudyColumn[];
 }
 

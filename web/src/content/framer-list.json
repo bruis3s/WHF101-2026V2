@@ -1,5 +1,13 @@
 [
   {
+    "code": "HAF_235",
+    "title": "Nasgero SCBD",
+    "category": "Interior",
+    "location": "Fairgrounds SCBD, Jakarta Selatan",
+    "year": "2026",
+    "slug": "haf235-nasgero-scbd"
+  },
+  {
     "code": "HAF_101",
     "title": "Yesterday Backyard",
     "category": "Architecture",
@@ -14,6 +22,14 @@
     "location": "Jakarta",
     "year": "2024",
     "slug": "besarati-kynd-office"
+  },
+  {
+    "code": "HAF_104",
+    "title": "Besarati Slowbar",
+    "category": "Architecture",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "besarati-slowbar"
   },
   {
     "code": "HAF_202",
@@ -144,6 +160,14 @@
     "slug": "real-heavy"
   },
   {
+    "code": "HAF_242",
+    "title": "Kultura",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2025",
+    "slug": "haf242-kultura"
+  },
+  {
     "code": "HAF_226",
     "title": "Demie Bakmie Depok",
     "category": "Interior",
@@ -169,7 +193,7 @@
   },
   {
     "code": "HAF_309",
-    "title": "J\u00e4germeister Booth",
+    "title": "Jägermeister Booth",
     "category": "Installation",
     "location": "Jakarta Selatan",
     "year": "2023",
@@ -177,7 +201,7 @@
   },
   {
     "code": "HAF_325",
-    "title": "J\u00e4germeister X Ardneks",
+    "title": "Jägermeister X Ardneks",
     "category": "Installation",
     "location": "Jakarta",
     "year": "2024",
@@ -235,7 +259,7 @@
     "code": "HAF_342",
     "title": "Saucony AW25",
     "category": "Installation",
-    "location": "Jakarta",
+    "location": "Plaza Senayan, 3rd Floor",
     "year": "2024",
     "slug": "saucony-aw25"
   },

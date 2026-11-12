@@ -1,5 +1,17 @@
 [
   {
+    "code": "HAF_235",
+    "title": "Nasgero SCBD",
+    "category": "Interior",
+    "location": "Fairgrounds SCBD, Jakarta Selatan",
+    "year": "Finished, 2026",
+    "status": "Completed, 2026",
+    "slug": "haf235-nasgero-scbd",
+    "coverImageUrl": "/images/projects/haf235-nasgero-scbd.webp",
+    "aspectRatio": 1.5,
+    "widthPercent": 50
+  },
+  {
     "code": "HAF_101",
     "title": "Yesterday Backyard",
     "category": "Architecture",
@@ -228,6 +240,18 @@
     "widthPercent": 50
   },
   {
+    "code": "HAF_242",
+    "title": "Kultura",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "Finished, 2025",
+    "status": "Completed, 2025",
+    "slug": "haf242-kultura",
+    "coverImageUrl": "/images/projects/haf242-kultura.webp",
+    "aspectRatio": 1.5,
+    "widthPercent": 50
+  },
+  {
     "code": "HAF_227",
     "title": "Demie Bakmie BLOK M",
     "category": "Interior",
@@ -253,7 +277,7 @@
   },
   {
     "code": "HAF_309",
-    "title": "J\u00e4germeister Booth",
+    "title": "Jägermeister Booth",
     "category": "Installation",
     "location": "Jakarta",
     "year": "Finished, 2024",
@@ -265,7 +289,7 @@
   },
   {
     "code": "HAF_325",
-    "title": "J\u00e4germeister X Ardneks",
+    "title": "Jägermeister X Ardneks",
     "category": "Installation",
     "location": "Jakarta",
     "year": "Finished, 2024",
@@ -351,13 +375,13 @@
     "code": "HAF_342",
     "title": "Saucony AW25",
     "category": "Installation",
-    "location": "Jakarta",
-    "year": "2024",
-    "status": "2024",
+    "location": "Plaza Senayan, 3rd Floor",
+    "year": "Finished, 2024",
+    "status": "Completed, 2024",
     "slug": "saucony-aw25",
     "coverImageUrl": "/images/projects/saucony-aw25.webp",
-    "aspectRatio": 1.5,
-    "widthPercent": 50
+    "aspectRatio": 0.8,
+    "widthPercent": 35
   },
   {
     "code": "HAF_346",
@@ -460,11 +484,11 @@
     "title": "Besarati Slowbar",
     "category": "Architecture",
     "location": "Jakarta",
-    "year": "Finished, 2024",
-    "status": "Completed",
+    "year": "Conceptual, 2025",
+    "status": "Conceptual, 2025",
     "slug": "besarati-slowbar",
     "coverImageUrl": "/images/projects/besarati-slowbar.webp",
-    "aspectRatio": 0.796,
+    "aspectRatio": 1.778,
     "widthPercent": 30
   }
 ]

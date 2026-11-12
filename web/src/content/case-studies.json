@@ -21,7 +21,7 @@
       "316 Stainless Steel Pin Bushings",
       "Natural Uncut Granite Boulders"
     ],
-    "dimension": "\u00d8 7,200 mm Outer Ring / 450 mm Height",
+    "dimension": "Ø 7,200 mm Outer Ring / 450 mm Height",
     "description": [
       "Conceived as a dialogue between industrial precision and geological weight, the Circular Modular System is organized into twelve interconnecting arc benches that form a 360-degree perimeter within the central showroom.",
       "Each arc segment balances on high-clarity cast acrylic vertical fins, allowing the perforated aluminum plates to float above the warm terracotta concrete plane. At the center of the ring, raw granite boulders act as an anchoring datum."
@@ -66,12 +66,10 @@
         "sizingMode": "fit-width",
         "gap": "10px",
         "verticalAlign": "center",
-        "paddingTop": "0px",
-        "paddingBottom": "40px",
         "columns": [
           {
             "image": "/images/projects/haf-bench/bench-overview.jpg",
-            "caption": "Fig. 01.0 \u2014 Perimeter segment installed at Werks Galleria showroom. Monolithic acrylic fins cast refracted shadows across the terracotta concrete slab.",
+            "caption": "Fig. 01.0 — Perimeter segment installed at Werks Galleria showroom. Monolithic acrylic fins cast refracted shadows across the terracotta concrete slab.",
             "figureNumber": "FIG 01.0",
             "fit": "contain",
             "aspectRatio": "1 / 1"
@@ -85,19 +83,17 @@
         "sizingMode": "fit-width",
         "gap": "30px",
         "verticalAlign": "center",
-        "paddingTop": "0px",
-        "paddingBottom": "40px",
         "columns": [
           {
             "image": "/images/projects/haf-bench/acrylic-detail.jpg",
-            "caption": "Fig. 02.1 \u2014 Detail of 35mm clear PMMA blade coupled with twin M12 stainless fastening pins and chamfered aluminum extrusion edge.",
+            "caption": "Fig. 02.1 — Detail of 35mm clear PMMA blade coupled with twin M12 stainless fastening pins and chamfered aluminum extrusion edge.",
             "figureNumber": "FIG 02.1",
             "widthPercent": 42,
             "fit": "contain"
           },
           {
             "image": "/images/projects/haf-bench/circular-installation.jpg",
-            "caption": "Fig. 02.2 \u2014 Continuous curvature established through sequential segment interlocking.",
+            "caption": "Fig. 02.2 — Continuous curvature established through sequential segment interlocking.",
             "figureNumber": "FIG 02.2",
             "widthPercent": 58,
             "fit": "cover"
@@ -110,12 +106,10 @@
         "sizingMode": "cover",
         "gap": "10px",
         "verticalAlign": "stretch",
-        "paddingTop": "0px",
-        "paddingBottom": "40px",
         "columns": [
           {
             "image": "/images/projects/haf-bench/display-wall.jpg",
-            "caption": "Fig. 03.1 \u2014 Suspended vertical exhibition armature and modular specimen displays.",
+            "caption": "Fig. 03.1 — Suspended vertical exhibition armature and modular specimen displays.",
             "figureNumber": "FIG 03.1",
             "widthPercent": 100,
             "fit": "cover"
@@ -177,8 +171,6 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
-        "paddingTop": "20px",
-        "paddingBottom": "10px",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2026/02.jpg",
@@ -202,8 +194,6 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "space-between",
-        "paddingTop": "10px",
-        "paddingBottom": "10px",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2026/04.jpg",
@@ -227,8 +217,6 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
-        "paddingTop": "10px",
-        "paddingBottom": "10px",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2026/06.jpg",
@@ -252,8 +240,6 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "space-between",
-        "paddingTop": "10px",
-        "paddingBottom": "10px",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2026/08.jpg",
@@ -277,8 +263,6 @@
         "sizingMode": "cover",
         "gap": "0px",
         "justifyContent": "flex-end",
-        "paddingTop": "10px",
-        "paddingBottom": "10px",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2026/10.jpg",
@@ -296,8 +280,6 @@
         "gap": "30px",
         "justifyContent": "flex-start",
         "verticalAlign": "flex-start",
-        "paddingTop": "10px",
-        "paddingBottom": "10px",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2026/11.jpg",
@@ -321,8 +303,6 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
-        "paddingTop": "10px",
-        "paddingBottom": "10px",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2026/13.jpg",
@@ -2399,7 +2379,7 @@
         "justifyContent": "flex-end",
         "columns": [
           {
-            "image": "/images/projects/sonaa-cafe/07.jpg",
+            "image": "/images/projects/sonaa-cafe/07.gif",
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "1 / 1",
@@ -2426,7 +2406,8 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end",
+            "paddingBottom": "42.5px"
           },
           {
             "image": "/images/projects/sonaa-cafe/10.jpg",
@@ -2533,9 +2514,16 @@
         "id": "row-10",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
+        "gap": "30px",
         "justifyContent": "flex-start",
         "columns": [
+          {
+            "image": "/images/projects/sonaa-cafe/video-01.mp4",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "9 / 16",
+            "verticalAlign": "flex-start"
+          },
           {
             "image": "/images/projects/sonaa-cafe/19.jpg",
             "widthPercent": 50,
@@ -2549,7 +2537,7 @@
         "id": "row-11",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
+        "gap": "30px",
         "justifyContent": "space-between",
         "columns": [
           {
@@ -2557,7 +2545,14 @@
             "widthPercent": 50,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/sonaa-cafe/video-02.mp4",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "9 / 16",
+            "verticalAlign": "flex-end"
           }
         ]
       }
@@ -2769,7 +2764,7 @@
             "widthPercent": 100,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "1 / 1"
+            "aspectRatio": "3 / 2"
           }
         ],
         "verticalAlign": "center"
@@ -2778,12 +2773,19 @@
         "id": "row-01",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "flex-start",
+        "gap": "30px",
+        "justifyContent": "flex-end",
         "columns": [
           {
+            "image": "/images/projects/zodiac/11.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
             "image": "/images/projects/zodiac/02.jpg",
-            "widthPercent": 100,
+            "widthPercent": 50,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -2795,11 +2797,11 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/zodiac/03.jpg",
-            "widthPercent": 100,
+            "widthPercent": 65,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -2810,12 +2812,19 @@
         "id": "row-03",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "center",
+        "gap": "30px",
+        "justifyContent": "space-between",
         "columns": [
           {
             "image": "/images/projects/zodiac/04.jpg",
-            "widthPercent": 100,
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/zodiac/05.jpg",
+            "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -2826,12 +2835,19 @@
         "id": "row-04",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "flex-start",
+        "gap": "30px",
+        "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/zodiac/05.jpg",
-            "widthPercent": 100,
+            "image": "/images/projects/zodiac/12.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/zodiac/06.jpg",
+            "widthPercent": 50,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -2842,54 +2858,22 @@
         "id": "row-05",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "flex-start",
-        "columns": [
-          {
-            "image": "/images/projects/zodiac/06.jpg",
-            "widthPercent": 100,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-06",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "flex-start",
+        "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/zodiac/07.jpg",
-            "widthPercent": 100,
+            "image": "/images/projects/zodiac/09.jpg",
+            "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/zodiac/08.jpg",
-            "widthPercent": 100,
+            "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-07",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "flex-start",
-        "columns": [
-          {
-            "image": "/images/projects/zodiac/09.jpg",
-            "widthPercent": 100,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
         ]
       }
@@ -5346,8 +5330,8 @@
   {
     "slug": "j-germeister-booth",
     "code": "HAF_309",
-    "title": "J\u00e4germeister Booth",
-    "subtitle": "J\u00e4germeister Booth by HAF WERKS",
+    "title": "Jägermeister Booth",
+    "subtitle": "Jägermeister Booth by HAF WERKS",
     "projectType": "Installation",
     "category": "Installation",
     "year": "Finished, 2024",
@@ -5357,7 +5341,7 @@
     "specs": [
       {
         "label": "Project",
-        "value": "J\u00e4germeister Booth"
+        "value": "Jägermeister Booth"
       },
       {
         "label": "Type",
@@ -5441,8 +5425,8 @@
   {
     "slug": "j-germeister-x-ardneks",
     "code": "HAF_325",
-    "title": "J\u00e4germeister X Ardneks",
-    "subtitle": "J\u00e4germeister X Ardneks by HAF WERKS",
+    "title": "Jägermeister X Ardneks",
+    "subtitle": "Jägermeister X Ardneks by HAF WERKS",
     "projectType": "Installation",
     "category": "Installation",
     "year": "Finished, 2024",
@@ -5452,7 +5436,7 @@
     "specs": [
       {
         "label": "Project",
-        "value": "J\u00e4germeister X Ardneks"
+        "value": "Jägermeister X Ardneks"
       },
       {
         "label": "Type",
@@ -8009,9 +7993,9 @@
     "subtitle": "Besarati Slowbar by HAF WERKS",
     "projectType": "Architecture",
     "category": "Architecture",
-    "year": "Finished, 2024",
+    "year": "Conceptual, 2025",
     "location": "Jakarta",
-    "status": "Completed",
+    "status": "Conceptual, 2025",
     "coverImageUrl": "/images/projects/besarati-slowbar/01.jpg",
     "specs": [
       {
@@ -8028,26 +8012,27 @@
       },
       {
         "label": "Status",
-        "value": "Finished, 2024"
+        "value": "Conceptual, 2025"
       }
     ],
     "layoutRows": [
       {
-        "id": "row-hero",
+        "id": "row-00",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
         "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/besarati-slowbar/01.jpg",
-            "widthPercent": 60,
+            "widthPercent": 50,
             "fit": "cover",
-            "priority": true,
-            "aspectRatio": "16 / 9"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "priority": true
           }
-        ],
-        "verticalAlign": "flex-start"
+        ]
       },
       {
         "id": "row-01",
@@ -8060,14 +8045,14 @@
             "image": "/images/projects/besarati-slowbar/02.jpg",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/besarati-slowbar/03.jpg",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8076,21 +8061,14 @@
         "id": "row-02",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
-        "justifyContent": "space-between",
+        "gap": "0px",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/besarati-slowbar/04.jpg",
-            "widthPercent": 45,
+            "widthPercent": 55,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/besarati-slowbar/05.jpg",
-            "widthPercent": 50,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8099,14 +8077,21 @@
         "id": "row-03",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
+        "gap": "30px",
         "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/besarati-slowbar/06.jpg",
+            "image": "/images/projects/besarati-slowbar/05.jpg",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/besarati-slowbar/06.jpg",
+            "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8122,14 +8107,14 @@
             "image": "/images/projects/besarati-slowbar/07.jpg",
             "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "21 / 10",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/besarati-slowbar/08.jpg",
-            "widthPercent": 45,
+            "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8145,14 +8130,14 @@
             "image": "/images/projects/besarati-slowbar/09.jpg",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/besarati-slowbar/10.jpg",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8161,14 +8146,21 @@
         "id": "row-06",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
+        "gap": "30px",
         "justifyContent": "space-between",
         "columns": [
           {
             "image": "/images/projects/besarati-slowbar/11.jpg",
-            "widthPercent": 50,
+            "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/besarati-slowbar/12.jpg",
+            "widthPercent": 50,
+            "fit": "cover",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8181,18 +8173,18 @@
         "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/besarati-slowbar/12.jpg",
+            "image": "/images/projects/besarati-slowbar/13.jpg",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
           },
           {
-            "image": "/images/projects/besarati-slowbar/13.jpg",
+            "image": "/images/projects/besarati-slowbar/14.jpg",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "center"
           }
         ]
       },
@@ -8204,17 +8196,17 @@
         "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/besarati-slowbar/14.jpg",
+            "image": "/images/projects/besarati-slowbar/15.jpg",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           },
           {
-            "image": "/images/projects/besarati-slowbar/15.jpg",
+            "image": "/images/projects/besarati-slowbar/16.jpg",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8227,86 +8219,17 @@
         "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/besarati-slowbar/16.jpg",
+            "image": "/images/projects/besarati-slowbar/17.jpg",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
           },
-          {
-            "image": "/images/projects/besarati-slowbar/17.jpg",
-            "widthPercent": 50,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-10",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "30px",
-        "justifyContent": "flex-end",
-        "columns": [
           {
             "image": "/images/projects/besarati-slowbar/18.jpg",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/besarati-slowbar/19.jpg",
-            "widthPercent": 40,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-11",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "30px",
-        "justifyContent": "space-between",
-        "columns": [
-          {
-            "image": "/images/projects/besarati-slowbar/20.jpg",
-            "widthPercent": 45,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/besarati-slowbar/21.jpg",
-            "widthPercent": 40,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-12",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "30px",
-        "justifyContent": "space-between",
-        "columns": [
-          {
-            "image": "/images/projects/besarati-slowbar/22.jpg",
-            "widthPercent": 35,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/besarati-slowbar/23.jpg",
-            "widthPercent": 45,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -8321,7 +8244,7 @@
     "projectType": "Installation",
     "category": "Installation",
     "year": "Finished, 2025",
-    "location": "\u2026",
+    "location": "…",
     "status": "Finished, 2025",
     "coverImageUrl": "/images/projects/guess/01.jpg",
     "specs": [
@@ -8335,7 +8258,7 @@
       },
       {
         "label": "Location",
-        "value": "\u2026"
+        "value": "…"
       },
       {
         "label": "Status",
@@ -8586,6 +8509,2682 @@
           {
             "image": "/images/projects/guess/20.jpg",
             "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "saucony-aw25",
+    "code": "HAF_342",
+    "title": "Saucony AW25",
+    "subtitle": "Installation Spatial Design for Saucony Autumn/Winter 25 by HAF WERKS",
+    "projectType": "Installation",
+    "category": "Installation",
+    "discipline": [
+      "Spatial Design",
+      "Installation",
+      "Exhibition"
+    ],
+    "year": "Finished, 2024",
+    "location": "Plaza Senayan, 3rd Floor",
+    "status": "Completed, 2024",
+    "coverImageUrl": "/images/projects/saucony-aw25.webp",
+    "specs": [
+      {
+        "label": "Project",
+        "value": "Saucony AW25"
+      },
+      {
+        "label": "Type",
+        "value": "Installation"
+      },
+      {
+        "label": "Location",
+        "value": "Plaza Senayan, 3rd Floor"
+      },
+      {
+        "label": "Status",
+        "value": "Completed, 2024"
+      }
+    ],
+    "layoutRows": [
+      {
+        "id": "row-00",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "flex-end",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/01.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "4 / 5",
+            "caption": "Installation Spatial Design for Saucony Autumn/Winter 25",
+            "captionPosition": "top",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/saucony-aw25/02.jpg",
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "priority": true,
+            "verticalAlign": "flex-end",
+            "fillHeight": true
+          }
+        ]
+      },
+      {
+        "id": "row-01",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/03.jpg",
+            "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "4 / 5",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+          },
+          {
+            "image": "/images/projects/saucony-aw25/04.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "4 / 5",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+          }
+        ]
+      },
+      {
+        "id": "row-02",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/05.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "1 / 1",
+            "figureNumber": "02",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "captionPosition": "top",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-03",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/06.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "1 / 1",
+            "figureNumber": "01",
+            "caption": "This installation concept is emerge from the movement of people forms and natural elements"
+          },
+          {
+            "image": "/images/projects/saucony-aw25/07.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "3 / 4",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+          }
+        ]
+      },
+      {
+        "id": "row-interactive-modular",
+        "sectionHeight": "100vh",
+        "rowType": "interactive-modular",
+        "title": "We believe the exploration should be experienced by anyone who interested in how the object works.\nSo, layout it yourself",
+        "columns": []
+      },
+      {
+        "id": "row-05",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "10px",
+        "justifyContent": "flex-start",
+        "verticalAlign": "flex-start",
+        "figureNumber": "03",
+        "title": "Featured objects",
+        "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/08.jpg",
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "fill": true
+          },
+          {
+            "image": "/images/projects/saucony-aw25/09.jpg",
+            "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          }
+        ]
+      },
+      {
+        "id": "row-06",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/10.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end",
+            "paddingBottom": "42.5px"
+          },
+          {
+            "image": "/images/projects/saucony-aw25/11.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-07",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/12.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          },
+          {
+            "image": "/images/projects/saucony-aw25/13.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          }
+        ]
+      },
+      {
+        "id": "row-08",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/14.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2"
+          }
+        ]
+      },
+      {
+        "id": "row-09",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/15.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end",
+            "paddingBottom": "42.5px"
+          },
+          {
+            "image": "/images/projects/saucony-aw25/16.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-10",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/saucony-aw25/17.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          },
+          {
+            "image": "/images/projects/saucony-aw25/18.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "180spm-aeon-bsd",
+    "code": "HAF_224",
+    "title": "180SPM AEON BSD",
+    "subtitle": "Interior Design for 180SPM AEON BSD by HAF WERKS",
+    "projectType": "Interior",
+    "category": "Interior",
+    "discipline": [
+      "Interior Architecture",
+      "Retail Design",
+      "Spatial Design"
+    ],
+    "year": "Finished, 2025",
+    "location": "BSD, Tangerang",
+    "status": "Completed, 2025",
+    "coverImageUrl": "/images/projects/180spm-aeon-bsd.webp",
+    "specs": [
+      {
+        "label": "Project",
+        "value": "180SPM AEON BSD"
+      },
+      {
+        "label": "Type",
+        "value": "Interior"
+      },
+      {
+        "label": "Location",
+        "value": "BSD, Tangerang"
+      },
+      {
+        "label": "Status",
+        "value": "Completed, 2025"
+      }
+    ],
+    "layoutRows": [
+      {
+        "id": "row-hero",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/01.jpg",
+            "widthPercent": 100,
+            "fit": "cover",
+            "priority": true,
+            "aspectRatio": "1.70"
+          }
+        ]
+      },
+      {
+        "id": "row-01",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/02.jpg",
+            "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/03.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          }
+        ]
+      },
+      {
+        "id": "row-02",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/04.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2"
+          }
+        ]
+      },
+      {
+        "id": "row-03",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/05.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/06.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-04",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/07.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-05",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/08.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/09.jpg",
+            "widthPercent": 40,
+            "fit": "cover",
+            "aspectRatio": "3 / 2"
+          }
+        ]
+      },
+      {
+        "id": "row-06",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/10.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/11.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-07",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/12.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/13.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-08",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-end",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/14.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          }
+        ]
+      },
+      {
+        "id": "row-09",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/15.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/16.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-10",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/17.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/18.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-11",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/19.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/20.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          }
+        ]
+      },
+      {
+        "id": "row-12",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/21.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/22.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-13",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/180spm-aeon-bsd/23.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/180spm-aeon-bsd/24.jpg",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "the-goods-diner",
+    "code": "HAF_223",
+    "title": "The Goods Diner",
+    "subtitle": "Interior Spatial Design for The Goods Diner",
+    "projectType": "Interior",
+    "category": "Interior",
+    "discipline": [
+      "Interior Architecture",
+      "Hospitality Design",
+      "Spatial Design"
+    ],
+    "year": "Finished, 2025",
+    "location": "Jakarta",
+    "status": "Completed, 2025",
+    "coverImageUrl": "/images/projects/the-goods-diner.webp",
+    "specs": [
+      {
+        "label": "Project",
+        "value": "The Goods Diner"
+      },
+      {
+        "label": "Type",
+        "value": "Interior"
+      },
+      {
+        "label": "Location",
+        "value": "Jakarta"
+      },
+      {
+        "label": "Status",
+        "value": "Completed, 2025"
+      }
+    ],
+    "layoutRows": [
+      {
+        "id": "row-hero",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/01.jpg",
+            "widthPercent": 100,
+            "fit": "cover",
+            "priority": true,
+            "aspectRatio": "1.70"
+          }
+        ]
+      },
+      {
+        "id": "row-01",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/02.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "9 / 16",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "captionPosition": "bottom"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/03.jpg",
+            "widthPercent": 20,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          }
+        ]
+      },
+      {
+        "id": "row-02",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/04.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2"
+          }
+        ]
+      },
+      {
+        "id": "row-03",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/05.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/06.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "16 / 9"
+          }
+        ]
+      },
+      {
+        "id": "row-04",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/07.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/08.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-05",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/09.jpg",
+            "widthPercent": 20,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/10.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          }
+        ]
+      },
+      {
+        "id": "row-06",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/11.jpg",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/12.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          }
+        ]
+      },
+      {
+        "id": "row-07",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/13.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          }
+        ]
+      },
+      {
+        "id": "row-08",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/14.jpg",
+            "widthPercent": 20,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/15.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "9 / 16"
+          }
+        ]
+      },
+      {
+        "id": "row-09",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/16.jpg",
+            "widthPercent": 60,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/17.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "9 / 16",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-10",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/18.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end",
+            "paddingBottom": "42.5px"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/19.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-11",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/20.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/21.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "2 / 3"
+          }
+        ]
+      },
+      {
+        "id": "row-12",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/the-goods-diner/22.jpg",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "9 / 16",
+            "verticalAlign": "flex-end",
+            "paddingBottom": "42.5px"
+          },
+          {
+            "image": "/images/projects/the-goods-diner/23.jpg",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "haf242-kultura",
+    "code": "HAF_242",
+    "title": "Kultura",
+    "subtitle": "Interior Spatial Design for Kultura",
+    "projectType": "Interior",
+    "category": "Interior",
+    "discipline": [
+      "Interior Architecture",
+      "Hospitality Design",
+      "Spatial Design"
+    ],
+    "year": "Finished, 2025",
+    "location": "Jakarta",
+    "status": "Completed, 2025",
+    "coverImageUrl": "/images/projects/haf242-kultura.webp",
+    "specs": [
+      {
+        "label": "Project",
+        "value": "Kultura"
+      },
+      {
+        "label": "Type",
+        "value": "Interior"
+      },
+      {
+        "label": "Location",
+        "value": "Jakarta"
+      },
+      {
+        "label": "Status",
+        "value": "Completed, 2025"
+      }
+    ],
+    "layoutRows": [
+      {
+        "id": "row-hero",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/01.webp",
+            "widthPercent": 100,
+            "fit": "cover",
+            "priority": true,
+            "aspectRatio": "3 / 2"
+          }
+        ]
+      },
+      {
+        "id": "row-01",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/04.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/03.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-02",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/06.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/05.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-03",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/10.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/07.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-04",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/08.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/11.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-05",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/13.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/09.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-06",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/12.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/14.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-07",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/16.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/17.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-08",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/18.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/15.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-09",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/02.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-10",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/20.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/21.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-11",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/24.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/22.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-12",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/23.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/28.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-13",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/31.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/25.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-14",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/26.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/32.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-15",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/33.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/34.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-16",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/27.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/35.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-17",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/41.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/29.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-18",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/19.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-19",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/36.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/44.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-20",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/45.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/37.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-21",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/38.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/46.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-22",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/48.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/39.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-23",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/49.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/51.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-24",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/53.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/40.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-25",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/42.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/54.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-26",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/55.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/43.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-27",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/30.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-28",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/50.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/56.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-29",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/57.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/52.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-30",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/58.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/60.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-31",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/62.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/64.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-32",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/59.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/65.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-33",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/66.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/61.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-34",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/63.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/67.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-35",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/71.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/68.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-36",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/47.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-37",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/70.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/72.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-38",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/74.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/73.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-39",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/77.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/79.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-40",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/80.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/75.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-41",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/76.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/81.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-42",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/82.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/78.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-43",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/84.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/83.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-44",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/87.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/85.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-45",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/69.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-46",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/86.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/88.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-47",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/89.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/90.webp",
+            "widthPercent": 30,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "haf235-nasgero-scbd",
+    "code": "HAF_235",
+    "title": "Nasgero SCBD",
+    "subtitle": "Interior Spatial Architecture for Nasgero SCBD",
+    "projectType": "Interior",
+    "category": "Interior",
+    "discipline": [
+      "Interior Architecture",
+      "Hospitality Design",
+      "Spatial Design"
+    ],
+    "year": "Finished, 2026",
+    "location": "Fairgrounds SCBD, Jakarta Selatan",
+    "status": "Completed, 2026",
+    "coverImageUrl": "/images/projects/haf235-nasgero-scbd.webp",
+    "specs": [
+      {
+        "label": "Project",
+        "value": "Nasgero SCBD"
+      },
+      {
+        "label": "Type",
+        "value": "Interior"
+      },
+      {
+        "label": "Location",
+        "value": "Fairgrounds SCBD, Jakarta Selatan"
+      },
+      {
+        "label": "Status",
+        "value": "Completed, 2026"
+      }
+    ],
+    "layoutRows": [
+      {
+        "id": "row-hero",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/01.webp",
+            "widthPercent": 100,
+            "fit": "cover",
+            "priority": true,
+            "aspectRatio": "3 / 2"
+          }
+        ]
+      },
+      {
+        "id": "row-01",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/02.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-02",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/03.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/04.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-03",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/09.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/05.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-04",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/06.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-05",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/07.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/15.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-06",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/16.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/08.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-07",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/10.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-08",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/11.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/18.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-09",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/23.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/12.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-10",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/13.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-11",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/14.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/24.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-12",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/28.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/17.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-13",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/19.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-14",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/20.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/32.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-15",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/33.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "center"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/21.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-16",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/22.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-17",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/25.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/34.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-18",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/36.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/26.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-19",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/27.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-20",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/29.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/37.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-21",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/38.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/30.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-22",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/31.webp",
+            "widthPercent": 58,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-23",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/35.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "center"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/39.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-24",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/42.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/40.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-25",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "verticalAlign": "stretch",
+        "columns": [
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/41.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf235-nasgero-scbd/43.webp",
+            "widthPercent": 32,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"

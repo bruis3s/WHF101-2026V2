@@ -18,6 +18,10 @@
   body:has([data-page="case-study"]) .logoFixed {
     display: none !important;
   }
+
+  .menuContainer {
+    width: 86px;
+  }
 }
 
 /* Fixed Top-Right Menu Container (T:0, R:0 with zero gap) */
@@ -43,6 +47,7 @@
   margin: 0;
   pointer-events: auto;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 /* Nav Items Container */
@@ -52,14 +57,7 @@
   flex-wrap: nowrap;
   align-items: center;
   gap: 2px;
-}
-
-.menuClosed .navItemsList {
-  display: none !important;
-}
-
-.menuOpen .navItemsList {
-  display: flex;
+  flex-shrink: 0;
 }
 
 /* Nav Item Wrapper */
@@ -125,8 +123,7 @@
 }
 
 /* Arrow SVGs */
-.menuArrow,
-.accordionArrow {
+.menuArrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -134,7 +131,18 @@
   height: 11.66px;
   flex-shrink: 0;
   transform-origin: center center;
-  transition: transform 0.2s ease;
+  transition: none;
+}
+
+.accordionArrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  transform-origin: center center;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .menuArrow.arrowClosed {
@@ -146,7 +154,7 @@
 }
 
 .accordionArrow.accordionClosed {
-  transform: rotate(0deg);
+  transform: rotate(-90deg);
 }
 
 .accordionArrow.accordionOpen {
@@ -185,6 +193,9 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 2px;
+    overflow: visible !important;
+    width: auto !important;
+    height: auto !important;
   }
 
   .navItemsList {
@@ -192,14 +203,15 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 2px;
+    flex-shrink: 0;
   }
 
   .menuClosed .navItemsList {
-    display: none !important;
+    pointer-events: none;
   }
 
-  .menuOpen .navItemsList {
-    display: flex !important;
+  .menuClosed .navItemWrapper {
+    transform: translateX(calc(100% + 60px));
   }
 
   .navButton {

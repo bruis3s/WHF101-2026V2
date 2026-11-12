@@ -74,6 +74,8 @@ const THUMBNAILS: Record<string, string> = {
   'uss-24-saucony': '/images/thumbnails/list/uss-24-saucony.webp',
   'yesterday-backyard': '/images/thumbnails/list/yesterday-backyard.webp',
   'zodiac': '/images/thumbnails/list/zodiac.webp',
+  'haf242-kultura': '/images/thumbnails/list/haf242-kultura.webp',
+  'haf235-nasgero-scbd': '/images/thumbnails/list/haf235-nasgero-scbd.webp',
 };
 
 // Exact Framer specifications: [width, X position, Y position]
@@ -116,6 +118,8 @@ const HOVER_SPECS: Record<string, HoverSpec> = {
   'brightspot-agora-2025': { width: 300, x: 460.87, y: -438.39 },
   'brightspot-agora-2026': { width: 500, x: 257.68, y: -390.93 },
   'sosco-dinner-gathering-ss27': { width: 500, x: 117.68, y: -380.93 },
+  'haf242-kultura': { width: 500, x: 140.0, y: -350.0 },
+  'haf235-nasgero-scbd': { width: 500, x: -100.0, y: -320.0 },
 };
 
 // Framer animation spec: Spring, Time-based, 0.4s duration, 0.2 bounce, 0 delay

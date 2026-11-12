@@ -4,6 +4,7 @@ import { getCaseStudy, getCaseStudySlugs } from '@/lib/data';
 import { SpecList } from '@/components/case-study/SpecList';
 import { GalleryRow } from '@/components/case-study/GalleryRow';
 import { CaseStudyLightbox } from '@/components/case-study/CaseStudyLightbox';
+import { DraggableModularCircle } from '@/components/case-study/DraggableModularCircle';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const title = `${study.title} — HAF WERKS`;
+  const title = study.title;
   const description =
     study.subtitle ||
     `${study.title} (${study.projectType || study.category || 'Architecture & Object'}) — HAF WERKS`;
@@ -53,20 +54,26 @@ export default async function CaseStudyPage({ params }: PageProps) {
 
   const rows = study.layoutRows || [];
 
-  // Flatten all valid images in sequential order for lightbox
+  // Flatten all valid images in sequential order for lightbox (excluding interactive islands)
   const allImages = rows.flatMap((row) =>
-    (row.columns || [])
-      .filter((col) => Boolean(col.image))
-      .map((col) => ({
-        src: col.image,
-        alt: col.caption || `${study.title} photo`,
-        caption: col.caption,
-        aspectRatio: col.aspectRatio,
-      }))
+    row.rowType === 'interactive-modular' || row.id === 'row-interactive-modular'
+      ? []
+      : (row.columns || [])
+          .filter((col) => Boolean(col.image))
+          .map((col) => ({
+            src: col.image,
+            alt: col.caption || `${study.title} photo`,
+            caption: col.caption,
+            aspectRatio: col.aspectRatio,
+          }))
   );
 
   // Precompute row start indices using pure functional mapping
-  const rowCounts = rows.map((r) => (r.columns || []).filter((c) => Boolean(c.image)).length);
+  const rowCounts = rows.map((r) =>
+    r.rowType === 'interactive-modular' || r.id === 'row-interactive-modular'
+      ? 0
+      : (r.columns || []).filter((c) => Boolean(c.image)).length
+  );
   const rowStartIndices = rowCounts.map((_, i) =>
     rowCounts.slice(0, i).reduce((sum, count) => sum + count, 0)
   );
@@ -85,15 +92,26 @@ export default async function CaseStudyPage({ params }: PageProps) {
 
       <CaseStudyLightbox images={allImages}>
         <div className="gallery" id="galleryContainer">
-          {rows.map((row, idx) => (
-            <GalleryRow
-              key={row.id || idx}
-              row={row}
-              projectTitle={study.title}
-              isHero={idx === 0}
-              startIndex={rowStartIndices[idx]}
-            />
-          ))}
+          {rows.map((row, idx) => {
+            if (row.rowType === 'interactive-modular' || row.id === 'row-interactive-modular') {
+              return (
+                <DraggableModularCircle
+                  key={row.id || idx}
+                  headline={row.title}
+                />
+              );
+            }
+
+            return (
+              <GalleryRow
+                key={row.id || idx}
+                row={row}
+                projectTitle={study.title}
+                isHero={idx === 0}
+                startIndex={rowStartIndices[idx]}
+              />
+            );
+          })}
         </div>
       </CaseStudyLightbox>
     </main>

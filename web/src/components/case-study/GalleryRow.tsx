@@ -108,6 +108,7 @@ export function GalleryRow({
         aria-label={`${projectTitle} video ${idx + 1}`}
       >
         <video
+          suppressHydrationWarning
           src={mediaSrc}
           autoPlay
           loop

@@ -149,6 +149,61 @@ export function GalleryRow({
       mediaElement
     );
 
+    // Sizing logic for columns on mobile
+    let mobileWidth = '100%';
+    let mobileAlignSelf = 'stretch';
+
+    if (cols.length === 2 && !isFullBleedHero) {
+      const w0 = cols[0].widthPercent || 50;
+      const w1 = cols[1].widthPercent || 50;
+      if (w0 !== w1) {
+        const isNarrower = (idx === 0 && w0 < w1) || (idx === 1 && w1 < w0);
+        if (isNarrower) {
+          const minW = Math.min(w0, w1);
+          const maxW = Math.max(w0, w1);
+          const ratio = minW / maxW;
+          if (ratio <= 0.6) {
+            mobileWidth = '70%';
+          } else if (ratio <= 0.85) {
+            mobileWidth = '80%';
+          } else {
+            mobileWidth = '100%';
+          }
+
+          // Align narrower column according to its desktop vertical alignment or row justify
+          const vAlign = col.verticalAlign || (idx === 0 ? 'flex-start' : 'flex-end');
+          const rJust = row.justifyContent || 'flex-start';
+
+          if (vAlign === 'flex-end' || rJust === 'flex-end' || (idx === 1 && rJust === 'space-between')) {
+            mobileAlignSelf = 'flex-end';
+          } else if (vAlign === 'flex-start' || rJust === 'flex-start') {
+            mobileAlignSelf = 'flex-start';
+          } else if (rJust === 'center') {
+            mobileAlignSelf = 'center';
+          }
+        }
+      }
+    } else if (cols.length === 1 && !isFullBleedHero) {
+      const w = cols[0].widthPercent || 100;
+      if (w <= 35) {
+        mobileWidth = '70%';
+        if (row.justifyContent === 'center') {
+          mobileAlignSelf = 'center';
+        } else if (row.justifyContent === 'flex-end') {
+          mobileAlignSelf = 'flex-end';
+        } else {
+          mobileAlignSelf = 'flex-start';
+        }
+      } else if (w <= 50) {
+        mobileWidth = '85%';
+        if (row.justifyContent === 'center') {
+          mobileAlignSelf = 'center';
+        } else if (row.justifyContent === 'flex-end') {
+          mobileAlignSelf = 'flex-end';
+        }
+      }
+    }
+
     return (
       <div
         key={idx}
@@ -179,7 +234,9 @@ export function GalleryRow({
           justifyContent: col.verticalAlign || row.verticalAlign || 'flex-start',
           paddingTop: col.paddingTop || undefined,
           paddingBottom: col.paddingBottom || undefined,
-        }}
+          ['--mobile-col-width' as string]: mobileWidth,
+          ['--mobile-align-self' as string]: mobileAlignSelf,
+        } as React.CSSProperties}
       >
         {columnContent}
       </div>
@@ -211,7 +268,9 @@ export function GalleryRow({
         ...(isFullBleedHero ? { paddingTop: '0px', paddingBottom: '0px' } : {}),
         ...(row.paddingTop ? { paddingTop: row.paddingTop } : {}),
         ...(row.paddingBottom ? { paddingBottom: row.paddingBottom } : {}),
-      }}
+        ['--mobile-gap' as string]: row.gap || (cols.length > 1 ? '10px' : '0px'),
+        ['--mobile-pad-top' as string]: row.paddingTop || '10px',
+      } as React.CSSProperties}
     >
       {hasRowHeader && (
         <div className="rowHeader">

@@ -79,7 +79,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
   );
 
   return (
-    <main className="caseStudyPage" data-page="case-study">
+    <main className={`caseStudyPage page-${slug}`} data-page="case-study" data-slug={slug}>
       <h1 className="visuallyHidden">{study.title} — HAF WERKS</h1>
 
       <SpecList

@@ -669,7 +669,7 @@ body:has(.lightboxOverlay) .specList {
     width: 100% !important;
   }
 
-  /* Editorial Rows on Mobile: Natural height to fit stacked images cleanly */
+  /* Editorial Rows on Mobile: Natural height to fit stacked images cleanly with clearance for bottom specs */
   .caseStudyPage .editorialRow:not(.interactiveModularRow),
   .editorialRow:not(.interactiveModularRow) {
     height: fit-content !important;
@@ -681,10 +681,18 @@ body:has(.lightboxOverlay) .specList {
     overflow: visible !important;
     margin: 0 !important;
     flex-direction: column !important;
-    gap: 30px !important;
-    padding: 10px !important;
+    gap: var(--mobile-gap, 10px) !important;
+    padding: var(--mobile-pad-top, 10px) 10px 160px 10px !important;
     justify-content: flex-start !important;
     align-items: stretch !important;
+  }
+
+  .editorialRow .editorialColumnsRow {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: fit-content !important;
+    gap: var(--mobile-gap, 10px) !important;
   }
 
   /* Last row on Mobile: at least 100vh with bottom clearance so specList never covers images */
@@ -749,12 +757,12 @@ body:has(.lightboxOverlay) .specList {
     max-height: none !important;
     flex: 0 1 auto !important;
     min-height: 0 !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    width: var(--mobile-col-width, 100%) !important;
+    max-width: var(--mobile-col-width, 100%) !important;
+    align-self: var(--mobile-align-self, stretch) !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-start !important;
-    align-items: stretch !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
@@ -793,48 +801,48 @@ body:has(.lightboxOverlay) .specList {
   /* ── Specific Row Rules for Saucony AW25 (Matching sauconyaw25mobile.html) ── */
 
   /* row-00: 02.jpg on top (100% width, 2/3 ratio), 01.jpg on bottom right (50% width, 4/5 ratio, caption above) */
-  #row-00 {
+  .page-saucony-aw25 #row-00 {
     flex-direction: column-reverse !important;
     gap: 80px !important;
     padding: 10px 10px 80px 10px !important;
   }
 
-  #row-00 .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-00 .editorialCol:nth-child(2) {
     width: 100% !important;
     max-width: 100% !important;
     align-self: stretch !important;
   }
 
-  #row-00 .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-00 .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 2 / 3 !important;
   }
 
-  #row-00 .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-00 .editorialCol:nth-child(1) {
     width: 50% !important;
     max-width: 50% !important;
     align-self: flex-end !important;
   }
 
-  #row-00 .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-00 .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 4 / 5 !important;
   }
 
-  #row-00 .editorialCol:nth-child(1) .captionCard {
+  .page-saucony-aw25 #row-00 .editorialCol:nth-child(1) .captionCard {
     width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 10px !important;
   }
 
-  #row-00 .editorialCol:nth-child(1) .captionCard .captionBlock {
+  .page-saucony-aw25 #row-00 .editorialCol:nth-child(1) .captionCard .captionBlock {
     order: -1 !important;
     width: 100% !important;
     margin-bottom: 0 !important;
   }
 
-  #row-00 .editorialCol:nth-child(1) .captionCard .caption {
+  .page-saucony-aw25 #row-00 .editorialCol:nth-child(1) .captionCard .caption {
     font-size: 10px !important;
     line-height: 10px !important;
     letter-spacing: 0.3px !important;
@@ -843,64 +851,64 @@ body:has(.lightboxOverlay) .specList {
   }
 
   /* row-01: 03.jpg top (100%), 04.jpg bottom left (80%), gap 30px */
-  #row-01 {
+  .page-saucony-aw25 #row-01 {
     gap: 30px !important;
     padding: 10px !important;
   }
 
-  #row-01 .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-01 .editorialCol:nth-child(1) {
     width: 100% !important;
     max-width: 100% !important;
     align-self: stretch !important;
   }
 
-  #row-01 .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-01 .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 4 / 5 !important;
   }
 
-  #row-01 .editorialCol:nth-child(1) .caption {
+  .page-saucony-aw25 #row-01 .editorialCol:nth-child(1) .caption {
     text-align: left !important;
     width: 100% !important;
   }
 
-  #row-01 .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-01 .editorialCol:nth-child(2) {
     width: 80% !important;
     max-width: 80% !important;
     align-self: flex-start !important;
   }
 
-  #row-01 .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-01 .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 4 / 5 !important;
   }
 
-  #row-01 .editorialCol:nth-child(2) .caption {
+  .page-saucony-aw25 #row-01 .editorialCol:nth-child(2) .caption {
     text-align: left !important;
     width: 100% !important;
   }
 
   /* row-02: 05.jpg centered 1:1, caption on top with "02" figure number */
-  #row-02 {
+  .page-saucony-aw25 #row-02 {
     padding: 10px !important;
     min-height: calc(100vh - 20px) !important;
     justify-content: center !important;
     align-items: center !important;
   }
 
-  #row-02 .editorialCol {
+  .page-saucony-aw25 #row-02 .editorialCol {
     width: 100% !important;
     max-width: 400px !important;
     justify-content: center !important;
     align-items: center !important;
   }
 
-  #row-02 .captionCard {
+  .page-saucony-aw25 #row-02 .captionCard {
     width: 100% !important;
     align-items: center !important;
   }
 
-  #row-02 .captionBlock {
+  .page-saucony-aw25 #row-02 .captionBlock {
     width: 100% !important;
     display: flex !important;
     flex-direction: row !important;
@@ -908,71 +916,71 @@ body:has(.lightboxOverlay) .specList {
     justify-content: center !important;
   }
 
-  #row-02 .captionBlock .caption {
+  .page-saucony-aw25 #row-02 .captionBlock .caption {
     max-width: 225px !important;
     text-align: left !important;
   }
 
-  #row-02 .imageWrapper {
+  .page-saucony-aw25 #row-02 .imageWrapper {
     width: 100% !important;
     max-width: 400px !important;
     aspect-ratio: 1 / 1 !important;
   }
 
   /* row-03: 07.jpg top (100%), 06.jpg bottom right (50%), gap 30px, padding bottom 80px */
-  #row-03 {
+  .page-saucony-aw25 #row-03 {
     flex-direction: column-reverse !important;
     gap: 30px !important;
     padding: 10px 10px 80px 10px !important;
   }
 
-  #row-03 .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(2) {
     width: 100% !important;
     max-width: 100% !important;
     align-self: stretch !important;
   }
 
-  #row-03 .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 355 / 475.44 !important;
   }
 
-  #row-03 .editorialCol:nth-child(2) .caption {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(2) .caption {
     text-align: left !important;
     width: 100% !important;
   }
 
-  #row-03 .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(1) {
     width: 50% !important;
     max-width: 50% !important;
     align-self: flex-end !important;
   }
 
-  #row-03 .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 177.5 / 194.14 !important;
   }
 
-  #row-03 .editorialCol:nth-child(1) .captionCard {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(1) .captionCard {
     width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 10px !important;
   }
 
-  #row-03 .editorialCol:nth-child(1) .captionBlock {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(1) .captionBlock {
     width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 60px !important;
   }
 
-  #row-03 .editorialCol:nth-child(1) .figureNumber {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(1) .figureNumber {
     font-size: 10px !important;
     text-align: left !important;
   }
 
-  #row-03 .editorialCol:nth-child(1) .caption {
+  .page-saucony-aw25 #row-03 .editorialCol:nth-child(1) .caption {
     font-size: 10px !important;
     line-height: 10px !important;
     letter-spacing: 0.3px !important;
@@ -981,9 +989,9 @@ body:has(.lightboxOverlay) .specList {
   }
 
   /* row-interactive-modular: strictly 100vh on mobile, contained arena */
-  .caseStudyPage .interactiveModularRow,
-  .interactiveModularRow,
-  #row-interactive-modular {
+  .page-saucony-aw25 .caseStudyPage .interactiveModularRow,
+  .page-saucony-aw25 .interactiveModularRow,
+  .page-saucony-aw25 #row-interactive-modular {
     height: 100vh !important;
     min-height: 100vh !important;
     max-height: 100vh !important;
@@ -998,14 +1006,14 @@ body:has(.lightboxOverlay) .specList {
     box-sizing: border-box !important;
   }
 
-  .interactiveModularRow .modularTextWrapper {
+  .page-saucony-aw25 .interactiveModularRow .modularTextWrapper {
     width: 100% !important;
     max-width: 100% !important;
     position: relative !important;
     z-index: 2 !important;
   }
 
-  .interactiveModularRow .modularHeadline {
+  .page-saucony-aw25 .interactiveModularRow .modularHeadline {
     white-space: normal !important;
     font-size: 10px !important;
     line-height: 10px !important;
@@ -1013,7 +1021,7 @@ body:has(.lightboxOverlay) .specList {
     font-weight: 500 !important;
   }
 
-  .interactiveModularRow .modularArena {
+  .page-saucony-aw25 .interactiveModularRow .modularArena {
     position: absolute !important;
     top: 50% !important;
     left: 50% !important;
@@ -1023,7 +1031,7 @@ body:has(.lightboxOverlay) .specList {
     z-index: 10 !important;
   }
 
-  .interactiveModularRow .modularPiece {
+  .page-saucony-aw25 .interactiveModularRow .modularPiece {
     position: absolute !important;
     left: calc(var(--base-x) * 0.4px) !important;
     top: calc(var(--base-y) * 0.4px) !important;
@@ -1032,13 +1040,13 @@ body:has(.lightboxOverlay) .specList {
   }
 
   /* row-05: side-by-side row! 08.jpg fill, 09.jpg 142px (40%), caption below */
-  #row-05 {
+  .page-saucony-aw25 #row-05 {
     padding: 42px 10px 10px 10px !important;
     gap: 10px !important;
     height: fit-content !important;
   }
 
-  #row-05 .rowHeader {
+  .page-saucony-aw25 #row-05 .rowHeader {
     width: 100% !important;
     display: flex !important;
     flex-direction: row !important;
@@ -1046,7 +1054,7 @@ body:has(.lightboxOverlay) .specList {
     margin-bottom: 0 !important;
   }
 
-  #row-05 .rowImageTextContainer {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer {
     width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
@@ -1054,7 +1062,7 @@ body:has(.lightboxOverlay) .specList {
     background-color: #ffffff !important;
   }
 
-  #row-05 .rowImageTextContainer .editorialColumnsRow {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer .editorialColumnsRow {
     display: flex !important;
     flex-direction: row !important;
     gap: 10px !important;
@@ -1063,36 +1071,36 @@ body:has(.lightboxOverlay) .specList {
     align-items: flex-start !important;
   }
 
-  #row-05 .rowImageTextContainer .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer .editorialCol:nth-child(1) {
     flex: 1 1 0 !important;
     width: auto !important;
     max-width: none !important;
     height: 304.5px !important;
   }
 
-  #row-05 .rowImageTextContainer .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     height: 304.5px !important;
   }
 
-  #row-05 .rowImageTextContainer .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer .editorialCol:nth-child(2) {
     width: 142px !important;
     flex: 0 0 142px !important;
     max-width: 142px !important;
     height: 213px !important;
   }
 
-  #row-05 .rowImageTextContainer .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     height: 213px !important;
   }
 
-  #row-05 .rowImageTextContainer .rowCaptionBottom {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer .rowCaptionBottom {
     width: 100% !important;
     margin: 0 !important;
   }
 
-  #row-05 .rowImageTextContainer .rowCaptionBottom .caption {
+  .page-saucony-aw25 #row-05 .rowImageTextContainer .rowCaptionBottom .caption {
     font-size: 10px !important;
     line-height: 10px !important;
     letter-spacing: 0.3px !important;
@@ -1101,122 +1109,122 @@ body:has(.lightboxOverlay) .specList {
   }
 
   /* row-06: 10.jpg (2/3), 11.jpg (3/2), gap 10px, padding bottom 160px */
-  #row-06 {
+  .page-saucony-aw25 #row-06 {
     gap: 10px !important;
     padding: 10px 10px 160px 10px !important;
   }
 
-  #row-06 .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-06 .editorialCol:nth-child(1) {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #row-06 .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-06 .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 2 / 3 !important;
   }
 
-  #row-06 .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-06 .editorialCol:nth-child(2) {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #row-06 .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-06 .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 3 / 2 !important;
   }
 
   /* row-07: 12.jpg (100%, 2/3), 13.jpg (80%, 2/3, left aligned), gap 30px */
-  #row-07 {
+  .page-saucony-aw25 #row-07 {
     gap: 30px !important;
     padding: 10px !important;
   }
 
-  #row-07 .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-07 .editorialCol:nth-child(1) {
     width: 100% !important;
     max-width: 100% !important;
     align-self: stretch !important;
   }
 
-  #row-07 .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-07 .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 2 / 3 !important;
   }
 
-  #row-07 .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-07 .editorialCol:nth-child(2) {
     width: 80% !important;
     max-width: 80% !important;
     align-self: flex-start !important;
   }
 
-  #row-07 .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-07 .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 2 / 3 !important;
   }
 
   /* row-08: 14.jpg (100%, 3/2), padding bottom 160px */
-  #row-08 {
+  .page-saucony-aw25 #row-08 {
     padding: 10px 10px 160px 10px !important;
   }
 
-  #row-08 .editorialCol {
+  .page-saucony-aw25 #row-08 .editorialCol {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #row-08 .editorialCol .imageWrapper {
+  .page-saucony-aw25 #row-08 .editorialCol .imageWrapper {
     width: 100% !important;
     aspect-ratio: 3 / 2 !important;
   }
 
   /* row-09: 15.jpg (3/2), 16.jpg (2/3), gap 10px, padding bottom 160px */
-  #row-09 {
+  .page-saucony-aw25 #row-09 {
     gap: 10px !important;
     padding: 10px 10px 160px 10px !important;
   }
 
-  #row-09 .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-09 .editorialCol:nth-child(1) {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #row-09 .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-09 .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 3 / 2 !important;
   }
 
-  #row-09 .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-09 .editorialCol:nth-child(2) {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #row-09 .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-09 .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 2 / 3 !important;
   }
 
   /* row-10: 17.jpg (2/3), 18.jpg (2/3), gap 30px, padding bottom 160px (clearance for specList) */
-  #row-10 {
+  .page-saucony-aw25 #row-10 {
     gap: 30px !important;
     padding: 10px 10px 160px 10px !important;
   }
 
-  #row-10 .editorialCol:nth-child(1) {
+  .page-saucony-aw25 #row-10 .editorialCol:nth-child(1) {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #row-10 .editorialCol:nth-child(1) .imageWrapper {
+  .page-saucony-aw25 #row-10 .editorialCol:nth-child(1) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 2 / 3 !important;
   }
 
-  #row-10 .editorialCol:nth-child(2) {
+  .page-saucony-aw25 #row-10 .editorialCol:nth-child(2) {
     width: 100% !important;
     max-width: 100% !important;
   }
 
-  #row-10 .editorialCol:nth-child(2) .imageWrapper {
+  .page-saucony-aw25 #row-10 .editorialCol:nth-child(2) .imageWrapper {
     width: 100% !important;
     aspect-ratio: 2 / 3 !important;
   }

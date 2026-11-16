@@ -665,7 +665,7 @@ body:has(.lightboxOverlay) .specList {
 
   /* Gallery Container */
   .gallery {
-    gap: 10px !important;
+    gap: 0 !important;
     width: 100% !important;
   }
 
@@ -674,7 +674,7 @@ body:has(.lightboxOverlay) .specList {
     gap: 0 !important;
   }
 
-  /* Editorial Rows on Mobile: Natural height to fit stacked images cleanly */
+  /* Editorial Rows on Mobile: Natural height to fit stacked images cleanly with 160px bottom padding */
   .caseStudyPage:not(.page-saucony-aw25) .editorialRow:not(.interactiveModularRow),
   .editorialRow:not(.interactiveModularRow) {
     height: fit-content !important;
@@ -687,7 +687,7 @@ body:has(.lightboxOverlay) .specList {
     margin: 0 !important;
     flex-direction: column !important;
     gap: 10px !important;
-    padding: 0 10px !important;
+    padding: 10px 10px 160px 10px !important;
     justify-content: flex-start !important;
     align-items: stretch !important;
   }
@@ -714,8 +714,11 @@ body:has(.lightboxOverlay) .specList {
     padding-bottom: 160px !important;
   }
 
-  /* Hero / Thumbnail Section on Mobile: Fits content height */
-  .heroSection {
+  /* Hero / Single Image row-00 Section on Mobile: Fits content height without 160px bottom padding */
+  .heroSection,
+  #row-00.singleImageRow,
+  #row-00[data-cols="1"],
+  #row-00:has(.editorialCol:only-child) {
     height: fit-content !important;
     min-height: auto !important;
     width: 100% !important;

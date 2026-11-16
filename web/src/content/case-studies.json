@@ -2482,13 +2482,6 @@
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/toko-misteri/02.webp",
-            "widthPercent": 40,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
           }
         ],
         "verticalAlign": "flex-end"

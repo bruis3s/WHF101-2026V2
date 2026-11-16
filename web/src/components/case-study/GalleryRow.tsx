@@ -192,10 +192,14 @@ export function GalleryRow({
     );
   });
 
+  const isSingleCol = cols.length === 1;
+  const colClass = isSingleCol ? 'singleImageRow' : 'multiImageRow';
+
   return (
     <section
       id={row.id}
-      className={sectionClass}
+      data-cols={cols.length}
+      className={`${sectionClass} ${colClass}`}
       style={{
         width: '100%',
         height: sectionHeight,

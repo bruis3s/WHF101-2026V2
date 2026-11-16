@@ -665,12 +665,17 @@ body:has(.lightboxOverlay) .specList {
 
   /* Gallery Container */
   .gallery {
-    gap: 0 !important;
+    gap: 10px !important;
     width: 100% !important;
   }
 
-  /* Editorial Rows on Mobile: Natural height to fit stacked images cleanly with clearance for bottom specs */
-  .caseStudyPage .editorialRow:not(.interactiveModularRow),
+  /* Exception: Saucony AW25 keeps its prototype section spacing */
+  .page-saucony-aw25 .gallery {
+    gap: 0 !important;
+  }
+
+  /* Editorial Rows on Mobile: Natural height to fit stacked images cleanly */
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow:not(.interactiveModularRow),
   .editorialRow:not(.interactiveModularRow) {
     height: fit-content !important;
     min-height: auto !important;
@@ -681,24 +686,31 @@ body:has(.lightboxOverlay) .specList {
     overflow: visible !important;
     margin: 0 !important;
     flex-direction: column !important;
-    gap: var(--mobile-gap, 10px) !important;
-    padding: var(--mobile-pad-top, 10px) 10px 160px 10px !important;
+    gap: 10px !important;
+    padding: 0 10px !important;
     justify-content: flex-start !important;
     align-items: stretch !important;
   }
 
-  .editorialRow .editorialColumnsRow {
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .editorialColumnsRow {
     display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
     height: fit-content !important;
-    gap: var(--mobile-gap, 10px) !important;
+    gap: 10px !important;
   }
 
-  /* Last row on Mobile: at least 100vh with bottom clearance so specList never covers images */
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .rowImageTextContainer {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+
+  /* Last row on Mobile: clearance so bottom specList never covers images */
   .caseStudyPage .gallery > :last-child,
   .gallery > .editorialRow:last-child {
-    min-height: 100vh !important;
+    min-height: auto !important;
     padding-bottom: 160px !important;
   }
 
@@ -722,7 +734,7 @@ body:has(.lightboxOverlay) .specList {
     max-height: 100% !important;
     width: 100% !important;
     max-width: 100% !important;
-    flex: 0 1 auto !important;
+    flex: 1 1 100% !important;
     min-height: 0 !important;
     display: flex !important;
     justify-content: center !important;
@@ -733,6 +745,7 @@ body:has(.lightboxOverlay) .specList {
     height: auto !important;
     max-height: 100% !important;
     width: 100% !important;
+    max-width: 100% !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -750,6 +763,53 @@ body:has(.lightboxOverlay) .specList {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
+  }
+
+  /* Case study images on mobile: width fill (100%) and 10px row gap */
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .editorialCol {
+    height: auto !important;
+    max-height: none !important;
+    flex: 1 1 100% !important;
+    min-height: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    align-self: stretch !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .imageCard,
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .captionCard {
+    height: auto !important;
+    max-height: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+  }
+
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .imageWrapper,
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .fitWidthWrapper,
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .coverWrapper,
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .containWrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    position: relative !important;
+    aspect-ratio: var(--mobile-aspect-ratio, auto) !important;
+  }
+
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .coverImg,
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .containImg,
+  .caseStudyPage:not(.page-saucony-aw25) .editorialRow .fitWidthImg {
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .editorialRow .editorialCol {

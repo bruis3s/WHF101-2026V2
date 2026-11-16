@@ -85,6 +85,7 @@ export interface CaseStudy {
 }
 
 export interface ExploreLayoutItem {
+  id?: string;
   slug: string;
   x: number;
   y: number;
@@ -95,6 +96,9 @@ export interface ExploreLayoutItem {
   year?: string;
   status?: string;
   coverImageUrl?: string;
+  mediaType?: 'image' | 'video' | 'gif';
+  videoUrl?: string;
+  aspectRatio?: string;
 }
 
 export interface ExploreLayoutData {

@@ -251,7 +251,8 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
 
   // Pointer drag to move the canvas (1:1 direct tracking, NO momentum)
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
-    if (e.button !== 0) return;
+    // Only accept left click for mouse; accept all touch events
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
 
     if (rafIdRef.current !== null) {
       cancelAnimationFrame(rafIdRef.current);
@@ -369,9 +370,25 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
       }
     };
 
+    let lastTapTime = 0;
     const onTouchEnd = (e: TouchEvent) => {
       if (e.touches.length < 2) {
         touchPinchDistRef.current = null;
+      }
+
+      // Mobile double-tap on canvas to toggle between Normal and High view
+      if (e.changedTouches.length === 1 && !isDraggingRef.current && !isTransitioningRef.current) {
+        const now = performance.now();
+        if (now - lastTapTime < 320) {
+          if (targetStateRef.current === 'normal') {
+            transitionToHighView();
+          } else {
+            transitionToNormalView();
+          }
+          lastTapTime = 0;
+          return;
+        }
+        lastTapTime = now;
       }
     };
 

@@ -40,6 +40,7 @@
   left: 0;
   transform-origin: 0 0;
   will-change: transform;
+  touch-action: none !important;
 }
 
 /* Individual Project Card (Single unified layer with canvas - no subpixel layer snapping) */
@@ -60,6 +61,8 @@
   user-select: none !important;
   -webkit-user-select: none !important;
   -webkit-user-drag: none !important;
+  touch-action: none !important;
+  -webkit-touch-callout: none !important;
   content-visibility: auto;
   contain-intrinsic-size: 350px 260px;
 }
@@ -73,7 +76,7 @@
   z-index: 10 !important;
 }
 
-/* ── Caption Overlay (Slide-in from Left on Hover, identical to Grid page) ── */
+/* ── Caption Overlay (Slide-in from Left on Hover/Active, identical to Grid page) ── */
 .exploreCard .captionOverlay {
   position: absolute !important;
   bottom: 0 !important;
@@ -92,7 +95,8 @@
 }
 
 .exploreCard:hover .captionOverlay,
-.exploreCard:focus-visible .captionOverlay {
+.exploreCard:focus-visible .captionOverlay,
+.exploreCard:active .captionOverlay {
   transform: translateX(0%) !important;
 }
 
@@ -156,6 +160,8 @@
   user-select: none !important;
   -webkit-user-select: none !important;
   -webkit-user-drag: none !important;
+  touch-action: none !important;
+  -webkit-touch-callout: none !important;
 }
 
 /* ── Circular Snap Entrance (Instant appearance radiating from center, no fade, no scale) ── */
@@ -184,6 +190,8 @@
   user-select: none !important;
   -webkit-user-select: none !important;
   -webkit-user-drag: none !important;
+  touch-action: none !important;
+  -webkit-touch-callout: none !important;
   transform: none !important;
   transition: none !important;
   image-rendering: -webkit-optimize-contrast;
@@ -199,6 +207,8 @@
   user-select: none !important;
   -webkit-user-select: none !important;
   -webkit-user-drag: none !important;
+  touch-action: none !important;
+  -webkit-touch-callout: none !important;
   transform: none !important;
   transition: none !important;
 }
@@ -206,6 +216,32 @@
 .exploreCard:hover .exploreCardImage {
   transform: none !important;
   transition: none !important;
+}
+
+/* ── Mobile Responsive Adaptations (< 810px) ── */
+@media (max-width: 809.98px) {
+  .exploreCard .captionLine {
+    height: 16px !important;
+    padding: 0 4px !important;
+  }
+
+  .exploreCard .captionTitle {
+    font-size: var(--font-size-mobile) !important;
+    line-height: 16px !important;
+  }
+
+  /* Show bottom view switcher pill on mobile on explore page */
+  .explorePage .bottomBar {
+    display: flex !important;
+    bottom: 15px;
+    gap: 8px;
+  }
+
+  .explorePage .switcherButton {
+    font-size: var(--font-size-mobile);
+    height: 24px;
+    padding: 2px 8px;
+  }
 }
 
 /* Fallback box if image is missing */

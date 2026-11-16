@@ -267,6 +267,13 @@ export function MenuToggle() {
                   style={{ overflow: 'hidden' }}
                 >
                   <Link
+                    href="/werks"
+                    className="navButton accordionSubItem"
+                    onClick={handleLinkClick}
+                  >
+                    Grid
+                  </Link>
+                  <Link
                     href="/werks/list"
                     className="navButton accordionSubItem"
                     onClick={handleLinkClick}
@@ -274,11 +281,11 @@ export function MenuToggle() {
                     List
                   </Link>
                   <Link
-                    href="/werks"
+                    href="/explore"
                     className="navButton accordionSubItem"
                     onClick={handleLinkClick}
                   >
-                    Grid
+                    Explore
                   </Link>
                 </motion.div>
               )}

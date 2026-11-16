@@ -132,9 +132,9 @@ export function GalleryRow({
           alt={col.caption || `${projectTitle} image ${idx + 1}`}
           fill
           className={imgClass}
-          sizes={isFillHeight ? '(max-height: 100vh) 66vh, 600px' : (col.widthPercent ? `${col.widthPercent}vw` : '100vw')}
+          sizes="(max-width: 809.98px) 100vw, 100vw"
           priority={col.priority || startIndex === 0}
-          unoptimized={isGif}
+          unoptimized
         />
       </div>
     );

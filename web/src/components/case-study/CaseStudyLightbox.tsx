@@ -188,6 +188,7 @@ export function CaseStudyLightbox({ images, children }: CaseStudyLightboxProps) 
                   priority
                   className="lightboxImg"
                   sizes="100vw"
+                  unoptimized
                 />
               </div>
             </div>

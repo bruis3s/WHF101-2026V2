@@ -178,6 +178,8 @@ body:has([data-page="case-study"]) .logoFixed {
   height: 100%;
   object-fit: cover;
   display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
 }
 
 /* 3. Contain: Fits entirely within container */
@@ -191,6 +193,8 @@ body:has([data-page="case-study"]) .logoFixed {
   height: 100%;
   object-fit: contain;
   display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
 }
 
 .caption {
@@ -302,6 +306,8 @@ body:has(.lightboxOverlay) .specList {
   object-fit: contain !important;
   user-select: none;
   -webkit-user-select: none;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
 }
 
 .lightboxNavBtn {

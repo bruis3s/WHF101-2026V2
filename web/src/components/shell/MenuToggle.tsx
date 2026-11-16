@@ -29,11 +29,7 @@ export function MenuToggle() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [werksOpen, setWerksOpen] = useState(false);
   const [prevPathname, setPrevPathname] = useState(pathname);
-  const [isMobile, setIsMobile] = useState(() =>
-    typeof window !== 'undefined'
-      ? window.matchMedia('(max-width: 809.98px)').matches
-      : false
-  );
+  const [isMobile, setIsMobile] = useState(false);
 
   const containerRef = useRef<HTMLElement>(null);
   const menuButtonRef = useRef<HTMLButtonElement>(null);

@@ -176,15 +176,90 @@
   color: var(--color-text);
 }
 
+/* ── Coming Soon Section ── */
+.archiveComingSoonContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(100vh - 220px);
+  box-sizing: border-box;
+}
+
+.archiveComingSoonBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 520px;
+  width: 100%;
+}
+
+.archiveComingSoonStatus {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  padding: 4px 6px;
+  display: inline-block;
+}
+
+.archiveComingSoonText {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.35;
+  padding: 6px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.archiveComingSoonLink {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: var(--font-size-desktop);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  padding: 4px 8px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.archiveComingSoonLink:hover {
+  background-color: var(--color-text);
+  color: var(--color-white);
+}
+
 /* Mobile */
 @media (max-width: 809.98px) {
+  .archiveTitleBar {
+    margin-top: 42px;
+  }
+
   .archiveSectionLabel,
   .archiveFilterButton,
   .archiveItemTitle,
   .archiveItemYear,
   .archiveItemMaterial,
   .archiveItemProject,
-  .archiveEmptyState {
+  .archiveEmptyState,
+  .archiveComingSoonStatus,
+  .archiveComingSoonText,
+  .archiveComingSoonLink {
     font-size: var(--font-size-mobile);
   }
 

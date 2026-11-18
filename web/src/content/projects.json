@@ -316,8 +316,8 @@
     "title": "Guess",
     "category": "Installation",
     "location": "Jakarta",
-    "year": "Finished, 2025",
-    "status": "Finished, 2025",
+    "year": "Finished, 2024",
+    "status": "Finished, 2024",
     "slug": "guess",
     "coverImageUrl": "/images/projects/guess.webp",
     "aspectRatio": 1.5,
@@ -356,7 +356,7 @@
     "status": "Completed",
     "slug": "uss-24-saucony",
     "coverImageUrl": "/images/projects/uss-24-saucony.webp",
-    "aspectRatio": 1.333,
+    "aspectRatio": 0.667,
     "widthPercent": 45
   },
   {

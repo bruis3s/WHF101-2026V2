@@ -59,9 +59,9 @@ export default async function CaseStudyPage({ params }: PageProps) {
     row.rowType === 'interactive-modular' || row.id === 'row-interactive-modular'
       ? []
       : (row.columns || [])
-          .filter((col) => Boolean(col.image))
+          .filter((col) => Boolean(col.image || col.video))
           .map((col) => ({
-            src: col.image,
+            src: (col.video || col.image) as string,
             alt: col.caption || `${study.title} photo`,
             caption: col.caption,
             aspectRatio: col.aspectRatio,
@@ -72,7 +72,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
   const rowCounts = rows.map((r) =>
     r.rowType === 'interactive-modular' || r.id === 'row-interactive-modular'
       ? 0
-      : (r.columns || []).filter((c) => Boolean(c.image)).length
+      : (r.columns || []).filter((c) => Boolean(c.image || c.video)).length
   );
   const rowStartIndices = rowCounts.map((_, i) =>
     rowCounts.slice(0, i).reduce((sum, count) => sum + count, 0)

@@ -148,6 +148,29 @@ body:has([data-page="case-study"]) .logoFixed {
   box-sizing: border-box;
 }
 
+/* ── Day / Night Hover Interaction ── */
+.hoverMediaImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 2;
+}
+
+.hasHoverImage {
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hasHoverImage:hover .hoverMediaImg {
+    opacity: 1;
+  }
+}
+
 /* ── Sizing Modes ── */
 /* 1. Fill Height & Fit Width: Height fills 100% of section, width naturally fits image */
 .fitWidthWrapper {

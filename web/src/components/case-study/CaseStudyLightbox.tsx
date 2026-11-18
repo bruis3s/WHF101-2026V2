@@ -181,15 +181,35 @@ export function CaseStudyLightbox({ images, children }: CaseStudyLightboxProps) 
                 }}
                 title="Click for next image"
               >
-                <Image
-                  src={activeImage.src}
-                  alt={activeImage.alt}
-                  fill
-                  priority
-                  className="lightboxImg"
-                  sizes="100vw"
-                  unoptimized
-                />
+                {activeImage.src.endsWith('.mp4') ||
+                activeImage.src.endsWith('.webm') ||
+                activeImage.src.endsWith('.mov') ? (
+                  <video
+                    src={activeImage.src}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    controls
+                    className="lightboxImg"
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'contain',
+                      display: 'block',
+                    }}
+                  />
+                ) : (
+                  <Image
+                    src={activeImage.src}
+                    alt={activeImage.alt}
+                    fill
+                    priority
+                    className="lightboxImg"
+                    sizes="100vw"
+                    unoptimized
+                  />
+                )}
               </div>
             </div>
 

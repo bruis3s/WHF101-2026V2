@@ -415,7 +415,7 @@
       {
         "title": "Guess",
         "category": "Installation",
-        "year": "Finished, 2025",
+        "year": "Finished, 2024",
         "width": "45.0%",
         "aspectRatio": 1.5,
         "imgUrl": "/images/projects/guess.webp",
@@ -438,8 +438,8 @@
   },
   {
     "rowIndex": 16,
-    "justify": "space-between",
-    "gap": "0px",
+    "justify": "flex-start",
+    "gap": "10px",
     "items": [
       {
         "title": "USS 24 Dickies",
@@ -457,7 +457,7 @@
         "category": "Installation",
         "year": "Finished,2024",
         "width": "40.0%",
-        "aspectRatio": 1.333,
+        "aspectRatio": 0.667,
         "imgUrl": "/images/projects/uss-24-saucony.webp",
         "slug": "uss-24-saucony",
         "code": "HAF_337",

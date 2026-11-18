@@ -22,7 +22,8 @@ export function GalleryRow({
     isHero &&
     cols.length === 1 &&
     (!cols[0].widthPercent || cols[0].widthPercent === 100) &&
-    cols[0].fit !== 'contain';
+    cols[0].fit !== 'contain' &&
+    !cols[0].fillHeight;
 
   const sectionHeight = row.sectionHeight || '100vh';
   const sectionClass = isFullBleedHero ? 'heroSection' : 'editorialRow';
@@ -31,7 +32,7 @@ export function GalleryRow({
   const hasHeaderOrFooter = hasRowHeader || hasRowCaption;
 
   const renderedColumns = cols.map((col, idx) => {
-    const imageUrl = sanitizeImageUrl(col.image);
+    const imageUrl = sanitizeImageUrl(col.image || col.video);
     if (!imageUrl) return null;
 
     const fit = col.fit || row.sizingMode || (isFullBleedHero ? 'cover' : 'cover');
@@ -95,9 +96,11 @@ export function GalleryRow({
       </div>
     ) : null;
 
-    const isVideo = Boolean(col.video) || imageUrl.endsWith('.mp4') || imageUrl.endsWith('.webm');
+    const isVideo = Boolean(col.video) || imageUrl.endsWith('.mp4') || imageUrl.endsWith('.webm') || imageUrl.endsWith('.mov');
     const mediaSrc = col.video ? sanitizeImageUrl(col.video) : imageUrl;
     const isGif = imageUrl.endsWith('.gif');
+
+    const hoverImageUrl = col.hoverImage ? sanitizeImageUrl(col.hoverImage) : null;
 
     const mediaElement = isVideo && mediaSrc ? (
       <div
@@ -120,7 +123,7 @@ export function GalleryRow({
       </div>
     ) : (
       <div
-        className={`imageWrapper ${wrapperClass} imageClickable`}
+        className={`imageWrapper ${wrapperClass} imageClickable ${hoverImageUrl ? 'hasHoverImage' : ''}`}
         style={wrapperStyle}
         data-image-index={imageIndex}
         role="button"
@@ -131,11 +134,21 @@ export function GalleryRow({
           src={imageUrl}
           alt={col.caption || `${projectTitle} image ${idx + 1}`}
           fill
-          className={imgClass}
+          className={`${imgClass} defaultMediaImg`}
           sizes="(max-width: 809.98px) 100vw, 100vw"
           priority={col.priority || startIndex === 0}
           unoptimized
         />
+        {hoverImageUrl && (
+          <Image
+            src={hoverImageUrl}
+            alt={col.caption ? `${col.caption} (night view)` : `${projectTitle} image ${idx + 1} (night view)`}
+            fill
+            className={`${imgClass} hoverMediaImg`}
+            sizes="(max-width: 809.98px) 100vw, 100vw"
+            unoptimized
+          />
+        )}
       </div>
     );
 

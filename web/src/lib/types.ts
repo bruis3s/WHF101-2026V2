@@ -34,6 +34,7 @@ export interface CaseStudySpec {
 
 export interface CaseStudyColumn {
   image: string;
+  hoverImage?: string;
   video?: string;
   caption?: string;
   captionPosition?: 'top' | 'bottom';

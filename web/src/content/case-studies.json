@@ -697,7 +697,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/03.webp",
@@ -720,7 +720,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/05.webp",
@@ -743,7 +743,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/07.webp",
@@ -789,7 +789,7 @@
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/11.webp",
@@ -812,7 +812,7 @@
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/13.webp",
@@ -835,7 +835,7 @@
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/15.webp",
@@ -874,7 +874,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/18.webp",
@@ -897,7 +897,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/20.webp",
@@ -920,7 +920,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/22.webp",
@@ -943,7 +943,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/yesterday-backyard/24.webp",
@@ -1028,16 +1028,16 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/02.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/besarati-kynd-office/03.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -1051,16 +1051,16 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/04.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/besarati-kynd-office/05.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -1074,17 +1074,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/06.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/06-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/07.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/07-night.webp"
           }
         ]
       },
@@ -1097,16 +1099,17 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/08.webp",
-            "widthPercent": 40,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/08-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/09.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -1120,17 +1123,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/10.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/10-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/11.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/11-night.webp"
           }
         ]
       },
@@ -1143,17 +1148,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/12.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/12-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/13.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/13-night.webp"
           }
         ]
       },
@@ -1166,17 +1173,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/14.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/14-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/15.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/15-night.webp"
           }
         ]
       },
@@ -1189,17 +1198,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/16.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/16-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/17.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/17-night.webp"
           }
         ]
       },
@@ -1212,17 +1223,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/18.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "center",
+            "hoverImage": "/images/projects/besarati-kynd-office/18-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/19.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/19-night.webp"
           }
         ]
       },
@@ -1235,17 +1248,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/20.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/20-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/21.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "center",
+            "hoverImage": "/images/projects/besarati-kynd-office/21-night.webp"
           }
         ]
       },
@@ -1258,17 +1273,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/22.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/22-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/23.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/23-night.webp"
           }
         ]
       },
@@ -1281,17 +1298,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/24.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "center",
+            "hoverImage": "/images/projects/besarati-kynd-office/24-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/25.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/25-night.webp"
           }
         ]
       },
@@ -1304,17 +1323,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/26.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/26-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/27.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/27-night.webp"
           }
         ]
       },
@@ -1327,17 +1348,18 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/28.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/besarati-kynd-office/29.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/29-night.webp"
           }
         ]
       },
@@ -1350,17 +1372,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/30.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/30-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/31.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/31-night.webp"
           }
         ]
       },
@@ -1373,17 +1397,19 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/32.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end",
+            "hoverImage": "/images/projects/besarati-kynd-office/32-night.webp"
           },
           {
             "image": "/images/projects/besarati-kynd-office/33.webp",
-            "widthPercent": 50,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-start",
+            "hoverImage": "/images/projects/besarati-kynd-office/33-night.webp"
           }
         ]
       },
@@ -1396,16 +1422,16 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/34.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "5 / 4",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/besarati-kynd-office/35.webp",
-            "widthPercent": 30,
+            "widthPercent": 28,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "1 / 2",
             "verticalAlign": "flex-start"
           }
         ]
@@ -1419,17 +1445,17 @@
         "columns": [
           {
             "image": "/images/projects/besarati-kynd-office/36.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "center"
           },
           {
             "image": "/images/projects/besarati-kynd-office/37.webp",
-            "widthPercent": 45,
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "center"
           }
         ]
       }
@@ -1856,7 +1882,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/dave-s-residence/03.webp",
@@ -1879,7 +1905,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/dave-s-residence/05.webp",
@@ -1902,7 +1928,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/dave-s-residence/07.webp",
@@ -1925,7 +1951,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/dave-s-residence/09.webp",
@@ -2473,15 +2499,15 @@
         "id": "row-00",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
-        "justifyContent": "space-between",
+        "gap": "0px",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/toko-misteri/01.webp",
-            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "fillHeight": true,
+            "priority": true
           }
         ],
         "verticalAlign": "flex-end"
@@ -2583,7 +2609,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/toko-misteri/11.webp",
@@ -2812,7 +2838,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/apple-condovilla/03.webp",
@@ -2835,7 +2861,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/apple-condovilla/05.webp",
@@ -2858,7 +2884,7 @@
             "widthPercent": 50,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/apple-condovilla/07.webp",
@@ -2959,7 +2985,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/apple-condovilla/15.webp",
@@ -3035,7 +3061,7 @@
           },
           {
             "image": "/images/projects/better-goods/03.webp",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -3054,7 +3080,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/better-goods/05.webp",
@@ -3070,7 +3096,7 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "flex-end",
+        "justifyContent": "center",
         "columns": [
           {
             "image": "/images/projects/better-goods/06.webp",
@@ -3093,7 +3119,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/better-goods/08.webp",
@@ -3139,7 +3165,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/better-goods/12.webp",
@@ -3221,7 +3247,7 @@
         "columns": [
           {
             "image": "/images/projects/better-goods/18.webp",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -3278,14 +3304,14 @@
             "image": "/images/projects/sideroom/01.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/sideroom/02.webp",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-end"
           }
         ],
@@ -3302,14 +3328,14 @@
             "image": "/images/projects/sideroom/03.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/sideroom/04.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -3325,7 +3351,7 @@
             "image": "/images/projects/sideroom/05.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
@@ -3348,7 +3374,7 @@
             "image": "/images/projects/sideroom/07.webp",
             "widthPercent": 60,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -3371,7 +3397,7 @@
             "image": "/images/projects/sideroom/09.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -3387,14 +3413,14 @@
             "image": "/images/projects/sideroom/10.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/sideroom/11.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -3410,7 +3436,7 @@
             "image": "/images/projects/sideroom/12.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
@@ -3433,14 +3459,14 @@
             "image": "/images/projects/sideroom/14.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/sideroom/15.webp",
             "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -3454,9 +3480,9 @@
         "columns": [
           {
             "image": "/images/projects/sideroom/16.webp",
-            "widthPercent": 60,
+            "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -3505,10 +3531,11 @@
             "widthPercent": 60,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "3 / 2"
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
           }
         ],
-        "verticalAlign": "flex-end"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
@@ -3584,7 +3611,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/dickies/08.webp",
@@ -3650,7 +3677,7 @@
         "columns": [
           {
             "image": "/images/projects/dickies/13.webp",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -3722,7 +3749,7 @@
         "columns": [
           {
             "image": "/images/projects/salomon/02.webp",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -3741,14 +3768,14 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "flex-end",
+        "justifyContent": "center",
         "columns": [
           {
             "image": "/images/projects/salomon/04.webp",
             "widthPercent": 60,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
         ]
       },
@@ -3810,7 +3837,7 @@
             "widthPercent": 60,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/salomon/10.webp",
@@ -3833,7 +3860,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/salomon/12.webp",
@@ -3856,7 +3883,7 @@
             "widthPercent": 60,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/salomon/14.webp",
@@ -3872,7 +3899,7 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "flex-end",
+        "justifyContent": "center",
         "columns": [
           {
             "image": "/images/projects/salomon/15.webp",
@@ -3895,7 +3922,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/salomon/17.webp",
@@ -3941,7 +3968,7 @@
             "widthPercent": 60,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/salomon/21.webp",
@@ -3984,7 +4011,7 @@
         "columns": [
           {
             "image": "/images/projects/salomon/24.webp",
-            "widthPercent": 30,
+            "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -4033,7 +4060,7 @@
             "widthPercent": 60,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/salomon/29.webp",
@@ -4192,14 +4219,14 @@
             "image": "/images/projects/real-heavy/02.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/real-heavy/03.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4215,14 +4242,14 @@
             "image": "/images/projects/real-heavy/04.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "4 / 5",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/real-heavy/05.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4628,10 +4655,11 @@
             "widthPercent": 65,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "3 / 2"
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
           }
         ],
-        "verticalAlign": "flex-end"
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
@@ -4644,14 +4672,14 @@
             "image": "/images/projects/demie-bakmie-blok-m/02.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "4 / 5",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/03.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4683,7 +4711,7 @@
             "image": "/images/projects/demie-bakmie-blok-m/05.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
@@ -4722,7 +4750,7 @@
             "image": "/images/projects/demie-bakmie-blok-m/08.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
@@ -4745,14 +4773,14 @@
             "image": "/images/projects/demie-bakmie-blok-m/10.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/11.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4784,7 +4812,7 @@
             "image": "/images/projects/demie-bakmie-blok-m/13.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
@@ -4814,7 +4842,7 @@
             "image": "/images/projects/demie-bakmie-blok-m/16.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4830,14 +4858,14 @@
             "image": "/images/projects/demie-bakmie-blok-m/17.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/18.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4853,14 +4881,14 @@
             "image": "/images/projects/demie-bakmie-blok-m/19.webp",
             "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/20.webp",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4883,7 +4911,7 @@
             "image": "/images/projects/demie-bakmie-blok-m/22.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4906,7 +4934,7 @@
             "image": "/images/projects/demie-bakmie-blok-m/24.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4922,14 +4950,14 @@
             "image": "/images/projects/demie-bakmie-blok-m/25.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/26.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4945,14 +4973,14 @@
             "image": "/images/projects/demie-bakmie-blok-m/27.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "4 / 5",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/28.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4962,20 +4990,20 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
         "columns": [
           {
             "image": "/images/projects/demie-bakmie-blok-m/29.webp",
-            "widthPercent": 35,
+            "widthPercent": 42,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/30.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -4991,14 +5019,14 @@
             "image": "/images/projects/demie-bakmie-blok-m/31.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/demie-bakmie-blok-m/32.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5056,22 +5084,17 @@
         "id": "row-01",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
-        "justifyContent": "space-between",
+        "gap": "0px",
+        "justifyContent": "center",
+        "verticalAlign": "center",
         "columns": [
           {
-            "image": "/images/projects/masshiro/02.webp",
-            "widthPercent": 30,
+            "image": "/images/projects/masshiro/island-display.mp4",
+            "video": "/images/projects/masshiro/island-display.mp4",
+            "widthPercent": 36,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/masshiro/03.webp",
-            "widthPercent": 60,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "1 / 1",
+            "verticalAlign": "center"
           }
         ]
       },
@@ -5095,9 +5118,17 @@
         "id": "row-03",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
+        "gap": "30px",
         "justifyContent": "flex-end",
         "columns": [
+          {
+            "image": "/images/projects/masshiro/window-display.mp4",
+            "video": "/images/projects/masshiro/window-display.mp4",
+            "widthPercent": 28,
+            "fit": "cover",
+            "aspectRatio": "1 / 1",
+            "verticalAlign": "flex-start"
+          },
           {
             "image": "/images/projects/masshiro/05.webp",
             "widthPercent": 35,
@@ -5119,7 +5150,7 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/masshiro/07.webp",
@@ -5165,7 +5196,7 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/masshiro/11.webp",
@@ -5182,6 +5213,7 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/masshiro/12.webp",
@@ -5283,7 +5315,7 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "1 / 1",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/j-germeister-booth/05.webp",
@@ -5541,7 +5573,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "2 / 3"
+            "aspectRatio": "3 / 4"
           }
         ],
         "verticalAlign": "flex-end"
@@ -5557,14 +5589,14 @@
             "image": "/images/projects/brightspot-foodpark/02.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/brightspot-foodpark/03.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5580,14 +5612,14 @@
             "image": "/images/projects/brightspot-foodpark/04.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/brightspot-foodpark/05.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5603,14 +5635,14 @@
             "image": "/images/projects/brightspot-foodpark/06.webp",
             "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "16 / 9",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-foodpark/07.webp",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5626,14 +5658,14 @@
             "image": "/images/projects/brightspot-foodpark/08.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/brightspot-foodpark/09.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5649,14 +5681,14 @@
             "image": "/images/projects/brightspot-foodpark/10.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "3 / 4",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-foodpark/11.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5672,7 +5704,7 @@
             "image": "/images/projects/brightspot-foodpark/12.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5688,14 +5720,14 @@
             "image": "/images/projects/brightspot-foodpark/13.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "3 / 4",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-foodpark/14.webp",
             "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5711,14 +5743,14 @@
             "image": "/images/projects/brightspot-foodpark/15.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "2560 / 1810",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-foodpark/16.webp",
             "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "16 / 9",
             "verticalAlign": "flex-start"
           }
         ]
@@ -5807,7 +5839,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora/05.webp",
@@ -5827,7 +5859,7 @@
         "columns": [
           {
             "image": "/images/projects/brightspot-agora/06.webp",
-            "widthPercent": 60,
+            "widthPercent": 50,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -5846,7 +5878,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora/08.webp",
@@ -5924,7 +5956,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora/14.webp",
@@ -6088,7 +6120,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/uss-24-dickies/11.webp",
@@ -6111,7 +6143,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/uss-24-dickies/13.webp",
@@ -6245,7 +6277,7 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/uss-24-saucony/06.webp",
@@ -6291,7 +6323,7 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
         "columns": [
           {
             "image": "/images/projects/uss-24-saucony/10.webp",
@@ -6478,7 +6510,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/dickies-fw25/11.webp",
@@ -6626,21 +6658,21 @@
         "sizingMode": "cover",
         "gap": "10px",
         "justifyContent": "flex-start",
-        "verticalAlign": "center",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/dickies-photobox/07.webp",
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "center"
+            "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/dickies-photobox/08.webp",
             "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "center"
+            "verticalAlign": "flex-start"
           }
         ]
       },
@@ -6688,7 +6720,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "center"
           }
         ]
       },
@@ -6894,14 +6926,14 @@
         "columns": [
           {
             "image": "/images/projects/saucony-x-jd-id/06.webp",
-            "widthPercent": 30,
+            "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/saucony-x-jd-id/07.webp",
-            "widthPercent": 40,
+            "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -6950,7 +6982,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
         ]
       },
@@ -7044,7 +7076,7 @@
             "widthPercent": 45,
             "fit": "cover",
             "priority": true,
-            "aspectRatio": "2 / 3"
+            "aspectRatio": "4 / 5"
           }
         ],
         "verticalAlign": "flex-end"
@@ -7060,14 +7092,14 @@
             "image": "/images/projects/norda-seek-grand-indonesia/02.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/norda-seek-grand-indonesia/03.webp",
             "widthPercent": 55,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "5 / 4",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7083,14 +7115,14 @@
             "image": "/images/projects/norda-seek-grand-indonesia/04.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/norda-seek-grand-indonesia/05.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7106,14 +7138,14 @@
             "image": "/images/projects/norda-seek-grand-indonesia/06.webp",
             "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/norda-seek-grand-indonesia/07.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7123,20 +7155,20 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-end",
         "columns": [
           {
-            "image": "/images/projects/norda-seek-grand-indonesia/08.webp",
+            "image": "/images/projects/norda-seek-grand-indonesia/10.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           },
           {
-            "image": "/images/projects/norda-seek-grand-indonesia/09.webp",
-            "widthPercent": 35,
+            "image": "/images/projects/norda-seek-grand-indonesia/11.webp",
+            "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "1 / 1",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7145,21 +7177,14 @@
         "id": "row-05",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "30px",
+        "gap": "0px",
         "justifyContent": "flex-end",
         "columns": [
           {
-            "image": "/images/projects/norda-seek-grand-indonesia/10.webp",
-            "widthPercent": 35,
+            "image": "/images/projects/norda-seek-grand-indonesia/09.webp",
+            "widthPercent": 40,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/norda-seek-grand-indonesia/11.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7217,12 +7242,21 @@
         "id": "row-01",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
+        "gap": "30px",
         "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
+            "image": "/images/projects/norda-seek-plaza-senayan/video-01.mp4",
+            "video": "/images/projects/norda-seek-plaza-senayan/video-01.mp4",
+            "widthPercent": 25,
+            "fit": "cover",
+            "aspectRatio": "9 / 16",
+            "verticalAlign": "flex-start"
+          },
+          {
             "image": "/images/projects/norda-seek-plaza-senayan/02.webp",
-            "widthPercent": 30,
+            "widthPercent": 25,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -7296,7 +7330,8 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/norda-seek-plaza-senayan/08.webp",
@@ -7307,7 +7342,7 @@
           },
           {
             "image": "/images/projects/norda-seek-plaza-senayan/09.webp",
-            "widthPercent": 30,
+            "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -7319,11 +7354,12 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/norda-seek-plaza-senayan/10.webp",
-            "widthPercent": 30,
+            "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -7342,7 +7378,8 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "flex-end",
+        "justifyContent": "flex-start",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/norda-seek-plaza-senayan/12.webp",
@@ -7366,10 +7403,11 @@
         "sizingMode": "cover",
         "gap": "30px",
         "justifyContent": "flex-end",
+        "verticalAlign": "flex-start",
         "columns": [
           {
             "image": "/images/projects/norda-seek-plaza-senayan/14.webp",
-            "widthPercent": 30,
+            "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -7443,14 +7481,14 @@
             "image": "/images/projects/saucony-ss26/02.webp",
             "widthPercent": 30,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/saucony-ss26/03.webp",
             "widthPercent": 55,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "4 / 3",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7466,14 +7504,14 @@
             "image": "/images/projects/saucony-ss26/04.webp",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "4 / 3",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/saucony-ss26/05.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 4",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7489,14 +7527,14 @@
             "image": "/images/projects/saucony-ss26/06.webp",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "aspectRatio": "4 / 3",
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/saucony-ss26/07.webp",
             "widthPercent": 45,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "4 / 3",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7512,14 +7550,14 @@
             "image": "/images/projects/saucony-ss26/08.webp",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "4 / 3",
             "verticalAlign": "flex-start"
           },
           {
             "image": "/images/projects/saucony-ss26/09.webp",
             "widthPercent": 50,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "4 / 3",
             "verticalAlign": "flex-start"
           }
         ]
@@ -7608,7 +7646,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora-2025/05.webp",
@@ -7654,7 +7692,7 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora-2025/09.webp",
@@ -7686,7 +7724,7 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "flex-end",
+        "justifyContent": "flex-start",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2025/11.webp",
@@ -7732,7 +7770,7 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "flex-end",
+        "justifyContent": "center",
         "columns": [
           {
             "image": "/images/projects/brightspot-agora-2025/15.webp",
@@ -7755,7 +7793,7 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora-2025/17.webp",
@@ -7801,7 +7839,7 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora-2025/21.webp",
@@ -7847,7 +7885,7 @@
             "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/brightspot-agora-2025/25.webp",
@@ -7962,7 +8000,8 @@
             "verticalAlign": "flex-end"
           },
           {
-            "image": "/images/projects/besarati-slowbar/06.webp",
+            "image": "/images/projects/besarati-slowbar/slowbar.mp4",
+            "video": "/images/projects/besarati-slowbar/slowbar.mp4",
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "16 / 9",
@@ -7978,7 +8017,7 @@
         "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/besarati-slowbar/07.webp",
+            "image": "/images/projects/besarati-slowbar/kitchen_stop_motion.gif",
             "widthPercent": 40,
             "fit": "cover",
             "aspectRatio": "21 / 10",
@@ -8001,7 +8040,8 @@
         "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/besarati-slowbar/09.webp",
+            "image": "/images/projects/besarati-slowbar/slowbar2.mp4",
+            "video": "/images/projects/besarati-slowbar/slowbar2.mp4",
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "16 / 9",
@@ -8117,9 +8157,9 @@
     "subtitle": "Guess by HAF WERKS",
     "projectType": "Installation",
     "category": "Installation",
-    "year": "Finished, 2025",
+    "year": "Finished, 2024",
     "location": "\u2026",
-    "status": "Finished, 2025",
+    "status": "Finished, 2024",
     "coverImageUrl": "/images/projects/guess/01.webp",
     "specs": [
       {
@@ -8136,7 +8176,7 @@
       },
       {
         "label": "Status",
-        "value": "Finished, 2025"
+        "value": "Finished, 2024"
       }
     ],
     "layoutRows": [
@@ -8162,7 +8202,7 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/guess/02.webp",
@@ -8176,9 +8216,10 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-02",
@@ -8192,23 +8233,24 @@
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
             "image": "/images/projects/guess/05.webp",
             "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-03",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/guess/06.webp",
@@ -8222,16 +8264,17 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-04",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
         "columns": [
           {
             "image": "/images/projects/guess/08.webp",
@@ -8242,12 +8285,13 @@
           },
           {
             "image": "/images/projects/guess/09.webp",
-            "widthPercent": 35,
+            "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-05",
@@ -8263,18 +8307,19 @@
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-06",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
         "columns": [
           {
             "image": "/images/projects/guess/11.webp",
-            "widthPercent": 35,
+            "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "4 / 5",
             "verticalAlign": "flex-start"
@@ -8284,16 +8329,17 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-07",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/guess/13.webp",
@@ -8307,9 +8353,10 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-08",
@@ -8326,14 +8373,15 @@
             "aspectRatio": "1 / 1",
             "verticalAlign": "center"
           }
-        ]
+        ],
+        "verticalAlign": "center"
       },
       {
         "id": "row-09",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-start",
         "columns": [
           {
             "image": "/images/projects/guess/16.webp",
@@ -8344,23 +8392,24 @@
           },
           {
             "image": "/images/projects/guess/17.webp",
-            "widthPercent": 35,
+            "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-10",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "30px",
-        "justifyContent": "space-between",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/guess/18.webp",
-            "widthPercent": 35,
+            "widthPercent": 30,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
@@ -8370,16 +8419,17 @@
             "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-11",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "flex-end",
+        "justifyContent": "flex-start",
         "columns": [
           {
             "image": "/images/projects/guess/20.webp",
@@ -8388,7 +8438,8 @@
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       }
     ]
   },
@@ -8515,10 +8566,11 @@
             "caption": "This installation concept is emerge from the movement of people forms and natural elements"
           },
           {
-            "image": "/images/projects/saucony-aw25/07.webp",
+            "image": "/images/projects/saucony-aw25/vid-1.mp4",
+            "video": "/images/projects/saucony-aw25/vid-1.mp4",
             "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "3 / 4",
+            "aspectRatio": "4 / 5",
             "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
           }
         ]
@@ -9363,35 +9415,34 @@
         "sectionHeight": "100vh",
         "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
-        "verticalAlign": "center",
+        "justifyContent": "flex-end",
         "columns": [
           {
             "image": "/images/projects/haf242-kultura/01.webp",
-            "widthPercent": 100,
+            "widthPercent": 60,
             "fit": "cover",
             "priority": true,
             "aspectRatio": "3 / 2"
           }
-        ]
+        ],
+        "verticalAlign": "flex-start"
       },
       {
         "id": "row-01",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/04.webp",
+            "image": "/images/projects/haf242-kultura/22.webp",
             "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
           },
           {
-            "image": "/images/projects/haf242-kultura/03.webp",
+            "image": "/images/projects/haf242-kultura/08.webp",
             "widthPercent": 32,
             "fit": "cover",
             "aspectRatio": "2 / 3",
@@ -9403,20 +9454,19 @@
         "id": "row-02",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/06.webp",
-            "widthPercent": 32,
+            "image": "/images/projects/haf242-kultura/26.webp",
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 2",
             "verticalAlign": "flex-end"
           },
           {
-            "image": "/images/projects/haf242-kultura/05.webp",
-            "widthPercent": 48,
+            "image": "/images/projects/haf242-kultura/20.webp",
+            "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -9427,23 +9477,22 @@
         "id": "row-03",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
+          {
+            "image": "/images/projects/haf242-kultura/16.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
           {
             "image": "/images/projects/haf242-kultura/10.webp",
             "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/07.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
           }
         ]
       },
@@ -9451,23 +9500,22 @@
         "id": "row-04",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/08.webp",
+            "image": "/images/projects/haf242-kultura/53.webp",
             "widthPercent": 32,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           },
           {
-            "image": "/images/projects/haf242-kultura/11.webp",
+            "image": "/images/projects/haf242-kultura/05.webp",
             "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           }
         ]
       },
@@ -9475,23 +9523,15 @@
         "id": "row-05",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
+        "gap": "0px",
+        "justifyContent": "center",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/13.webp",
-            "widthPercent": 48,
+            "image": "/images/projects/haf242-kultura/37.webp",
+            "widthPercent": 60,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/09.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
           }
         ]
       },
@@ -9499,19 +9539,18 @@
         "id": "row-06",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/12.webp",
+            "image": "/images/projects/haf242-kultura/49.webp",
             "widthPercent": 32,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-end"
           },
           {
-            "image": "/images/projects/haf242-kultura/14.webp",
+            "image": "/images/projects/haf242-kultura/36.webp",
             "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
@@ -9523,23 +9562,22 @@
         "id": "row-07",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/16.webp",
-            "widthPercent": 30,
+            "image": "/images/projects/haf242-kultura/68.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/45.webp",
+            "widthPercent": 32,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/17.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
           }
         ]
       },
@@ -9547,22 +9585,21 @@
         "id": "row-08",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/18.webp",
-            "widthPercent": 32,
+            "image": "/images/projects/haf242-kultura/66.webp",
+            "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-end"
           },
           {
-            "image": "/images/projects/haf242-kultura/15.webp",
-            "widthPercent": 48,
+            "image": "/images/projects/haf242-kultura/67.webp",
+            "widthPercent": 35,
             "fit": "cover",
-            "aspectRatio": "3 / 2",
+            "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"
           }
         ]
@@ -9571,16 +9608,22 @@
         "id": "row-09",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "center",
-        "verticalAlign": "center",
+        "gap": "30px",
+        "justifyContent": "space-between",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/02.webp",
-            "widthPercent": 58,
+            "image": "/images/projects/haf242-kultura/86.webp",
+            "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "center"
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/haf242-kultura/14.webp",
+            "widthPercent": 45,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
           }
         ]
       },
@@ -9588,23 +9631,22 @@
         "id": "row-10",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/20.webp",
+            "image": "/images/projects/haf242-kultura/73.webp",
             "widthPercent": 48,
             "fit": "cover",
             "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
+            "verticalAlign": "flex-end"
           },
           {
-            "image": "/images/projects/haf242-kultura/21.webp",
+            "image": "/images/projects/haf242-kultura/88.webp",
             "widthPercent": 32,
             "fit": "cover",
             "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
+            "verticalAlign": "flex-start"
           }
         ]
       },
@@ -9612,20 +9654,19 @@
         "id": "row-11",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
+        "gap": "30px",
         "justifyContent": "space-between",
-        "verticalAlign": "stretch",
         "columns": [
           {
-            "image": "/images/projects/haf242-kultura/24.webp",
-            "widthPercent": 32,
+            "image": "/images/projects/haf242-kultura/40.webp",
+            "widthPercent": 48,
             "fit": "cover",
-            "aspectRatio": "2 / 3",
+            "aspectRatio": "3 / 2",
             "verticalAlign": "flex-end"
           },
           {
-            "image": "/images/projects/haf242-kultura/22.webp",
-            "widthPercent": 48,
+            "image": "/images/projects/haf242-kultura/25.webp",
+            "widthPercent": 45,
             "fit": "cover",
             "aspectRatio": "3 / 2",
             "verticalAlign": "flex-start"
@@ -9636,832 +9677,12 @@
         "id": "row-12",
         "sectionHeight": "100vh",
         "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/23.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/28.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-13",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/31.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/25.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-14",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/26.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/32.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-15",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/33.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/34.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-16",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/27.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/35.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-17",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/41.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/29.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-18",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
         "gap": "0px",
-        "justifyContent": "center",
-        "verticalAlign": "center",
+        "justifyContent": "flex-end",
         "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/19.webp",
-            "widthPercent": 58,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "center"
-          }
-        ]
-      },
-      {
-        "id": "row-19",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/36.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/44.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-20",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/45.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/37.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-21",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/38.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/46.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-22",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/48.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/39.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-23",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/49.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/51.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-24",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/53.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/40.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-25",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/42.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/54.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-26",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/55.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/43.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-27",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "center",
-        "verticalAlign": "center",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/30.webp",
-            "widthPercent": 58,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "center"
-          }
-        ]
-      },
-      {
-        "id": "row-28",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/50.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/56.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-29",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/57.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/52.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-30",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/58.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/60.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-31",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/62.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/64.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-32",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/59.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/65.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-33",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/66.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/61.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-34",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/63.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/67.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-35",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/71.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/68.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-36",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "center",
-        "verticalAlign": "center",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/47.webp",
-            "widthPercent": 58,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "center"
-          }
-        ]
-      },
-      {
-        "id": "row-37",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/70.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/72.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-38",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/74.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/73.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-39",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/77.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/79.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-40",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/80.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/75.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-41",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/76.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/81.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-42",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/82.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/78.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-43",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/84.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/83.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-44",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/87.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/85.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          }
-        ]
-      },
-      {
-        "id": "row-45",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "0px",
-        "justifyContent": "center",
-        "verticalAlign": "center",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/69.webp",
-            "widthPercent": 58,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "center"
-          }
-        ]
-      },
-      {
-        "id": "row-46",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/86.webp",
-            "widthPercent": 48,
-            "fit": "cover",
-            "aspectRatio": "3 / 2",
-            "verticalAlign": "flex-start"
-          },
-          {
-            "image": "/images/projects/haf242-kultura/88.webp",
-            "widthPercent": 32,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          }
-        ]
-      },
-      {
-        "id": "row-47",
-        "sectionHeight": "100vh",
-        "sizingMode": "cover",
-        "gap": "40px",
-        "justifyContent": "space-between",
-        "verticalAlign": "stretch",
-        "columns": [
-          {
-            "image": "/images/projects/haf242-kultura/89.webp",
-            "widthPercent": 30,
-            "fit": "cover",
-            "aspectRatio": "2 / 3",
-            "verticalAlign": "flex-end"
-          },
           {
             "image": "/images/projects/haf242-kultura/90.webp",
-            "widthPercent": 30,
+            "widthPercent": 35,
             "fit": "cover",
             "aspectRatio": "2 / 3",
             "verticalAlign": "flex-start"

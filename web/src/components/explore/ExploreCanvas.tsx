@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useCallback, useState } from 'react';
+import { useEffect, useRef, useCallback, useState, startTransition } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -47,6 +47,12 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
   // Touch pinch tracking
   const touchPinchDistRef = useRef<number | null>(null);
 
+  // Viewport frustum culling: keep active DOM elements under ~30-50 cards instead of 789
+  const lastCullPanRef = useRef({ x: 0, y: 0 });
+  const lastCullScaleRef = useRef(1.0);
+  const cullTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const initialCardIdsRef = useRef<Set<string>>(new Set());
+
   // Scale calculations for the 2 discrete states
   const getNormalScale = useCallback((vw: number) => {
     return vw < 810 ? 0.85 : 1.0;
@@ -57,6 +63,69 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
     return vw < 810 ? 0.38 : 0.42;
   }, []);
 
+  // Spatial frustum check: which cards intersect screen viewport (with generous buffer)
+  const calculateVisibleItems = useCallback(
+    (pan: { x: number; y: number }, scale: number, vw: number, vh: number, buffer = 800) => {
+      const minCanvasX = (-pan.x - buffer) / scale;
+      const maxCanvasX = (vw - pan.x + buffer) / scale;
+      const minCanvasY = (-pan.y - buffer) / scale;
+      const maxCanvasY = (vh - pan.y + buffer) / scale;
+
+      return layout.items.filter((item) => {
+        const itemRight = item.x + item.w;
+        const itemBottom = item.y + item.h;
+        return (
+          itemRight >= minCanvasX &&
+          item.x <= maxCanvasX &&
+          itemBottom >= minCanvasY &&
+          item.y <= maxCanvasY
+        );
+      });
+    },
+    [layout.items]
+  );
+
+  // Initial visible cluster (< 1400px radius) so SSR and initial hydration match deterministically
+  const [visibleItems, setVisibleItems] = useState<ExploreLayoutItem[]>(() => {
+    const initCx = layout.initialCenterX ?? layout.canvasWidth / 2;
+    const initCy = layout.initialCenterY ?? layout.canvasHeight / 2;
+    return layout.items.filter((item) => {
+      const cardCenterX = item.x + item.w / 2;
+      const cardCenterY = item.y + item.h / 2;
+      const dist = Math.hypot(cardCenterX - initCx, (cardCenterY - initCy) * 1.15);
+      return dist < 1400;
+    });
+  });
+
+  // Dynamic culling updater with movement deadband and non-blocking background render
+  const updateCulling = useCallback(
+    (force = false, overridePan?: { x: number; y: number }, overrideScale?: number) => {
+      if (typeof window === 'undefined') return;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const currentPan = overridePan ?? panRef.current;
+      const currentScale = overrideScale ?? scaleRef.current;
+
+      if (!force) {
+        const distMoved = Math.hypot(
+          currentPan.x - lastCullPanRef.current.x,
+          currentPan.y - lastCullPanRef.current.y
+        );
+        const scaleDiff = Math.abs(currentScale - lastCullScaleRef.current);
+        if (distMoved < 350 && scaleDiff < 0.04) return;
+      }
+
+      lastCullPanRef.current = { ...currentPan };
+      lastCullScaleRef.current = currentScale;
+
+      const nextVisible = calculateVisibleItems(currentPan, currentScale, vw, vh, 800);
+      startTransition(() => {
+        setVisibleItems(nextVisible);
+      });
+    },
+    [calculateVisibleItems]
+  );
+
   // Directly apply current transform to the canvas DOM element
   const applyTransform = useCallback(() => {
     if (!canvasRef.current) return;
@@ -66,8 +135,6 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
   }, []);
 
   // Butter-smooth RAF camera transition between the 2 states
-  // Uses a gentle cubic ease-in-out S-curve to eliminate initial jerk,
-  // providing a silky, gravitational glide with continuous frame updates
   const animateTransition = useCallback(
     (targetPan: { x: number; y: number }, targetScale: number, nextState: 'normal' | 'high') => {
       if (!canvasRef.current) return;
@@ -83,12 +150,23 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
         viewportRef.current.classList.add('isTransitioning');
       }
 
+      // Pre-mount incoming cards for target state so zooming has zero blank cards
+      if (typeof window !== 'undefined') {
+        const vw = window.innerWidth;
+        const vh = window.innerHeight;
+        const targetVisible = calculateVisibleItems(targetPan, targetScale, vw, vh, 450);
+        setVisibleItems((prev) => {
+          const existing = new Set(prev.map((it) => it.id || it.slug));
+          const additions = targetVisible.filter((it) => !existing.has(it.id || it.slug));
+          return additions.length > 0 ? [...prev, ...additions] : prev;
+        });
+      }
+
       const startPan = { ...panRef.current };
       const startScale = scaleRef.current;
       const startTime = performance.now();
       const duration = 750; // ms
 
-      // Luxurious ease-in-out cubic: gentle start, smooth glide, gentle settle (zero jerk, zero jump)
       const easeInOutCubic = (t: number) => {
         return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
       };
@@ -119,12 +197,13 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
           if (viewportRef.current) {
             viewportRef.current.classList.remove('isTransitioning');
           }
+          updateCulling(true, targetPan, targetScale);
         }
       };
 
       rafIdRef.current = requestAnimationFrame(step);
     },
-    []
+    [calculateVisibleItems, updateCulling]
   );
 
   // Transition to State 2: High View (Overview) - Pure center zoom, no lateral drift
@@ -182,27 +261,37 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
       scaleRef.current = normalScale;
       viewStateRef.current = 'normal';
 
-      panRef.current = {
+      const initialPan = {
         x: vw / 2 - targetCenterX * normalScale,
         y: vh / 2 - targetCenterY * normalScale,
       };
+      panRef.current = initialPan;
+      lastCullPanRef.current = { ...initialPan };
+      lastCullScaleRef.current = normalScale;
 
       if (canvasRef.current) {
         canvasRef.current.style.transition = 'none';
       }
       applyTransform();
+
+      const initialVisible = calculateVisibleItems(initialPan, normalScale, vw, vh, 400);
+      initialCardIdsRef.current = new Set(initialVisible.map((it) => it.id || it.slug));
+      setVisibleItems(initialVisible);
     };
 
     centerCamera();
     window.addEventListener('resize', centerCamera);
     return () => window.removeEventListener('resize', centerCamera);
-  }, [layout, getNormalScale, applyTransform]);
+  }, [layout, getNormalScale, applyTransform, calculateVisibleItems]);
 
-  // Cleanup animation frame on unmount
+  // Cleanup timers on unmount
   useEffect(() => {
     return () => {
       if (rafIdRef.current !== null) {
         cancelAnimationFrame(rafIdRef.current);
+      }
+      if (cullTimerRef.current) {
+        clearTimeout(cullTimerRef.current);
       }
     };
   }, []);
@@ -304,11 +393,26 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
         y: startPanRef.current.y + dy,
       };
       applyTransform();
+
+      // Debounce culling check during active swipe so dragging runs at full hardware frame rate
+      if (cullTimerRef.current) {
+        clearTimeout(cullTimerRef.current);
+      }
+      cullTimerRef.current = setTimeout(() => {
+        cullTimerRef.current = null;
+        updateCulling(false);
+      }, 160);
     }
   };
 
   const handlePointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
     if (!isPointerDownRef.current) return;
+
+    if (cullTimerRef.current) {
+      clearTimeout(cullTimerRef.current);
+      cullTimerRef.current = null;
+    }
+    updateCulling(true);
 
     const slugToNavigate = !isDraggingRef.current ? targetSlugRef.current : null;
 
@@ -445,7 +549,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
           height: `${layout.canvasHeight}px`,
         }}
       >
-        {layout.items.map((item: ExploreLayoutItem, idx: number) => {
+        {visibleItems.map((item: ExploreLayoutItem, idx: number) => {
           const imageUrl = sanitizeImageUrl(item.coverImageUrl);
           const videoUrl = item.videoUrl ? sanitizeImageUrl(item.videoUrl) : null;
           const href = `/werks/${item.slug}`;
@@ -464,6 +568,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
           const entranceDelay = Math.min(0.75, 0.02 + (distFromCenter / 1800) * 0.55);
 
           const isCenterHero = distFromCenter < 350;
+          const isInitialCard = initialCardIdsRef.current.has(item.id || item.slug);
 
           return (
             <Link
@@ -487,7 +592,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
                 draggable={false}
                 onDragStart={(e) => e.preventDefault()}
                 style={
-                  !hasEntered
+                  !hasEntered && isInitialCard
                     ? {
                         animation: `circularCardEntrance 1ms step-end ${entranceDelay.toFixed(3)}s both`,
                       }
@@ -502,7 +607,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
                     loop
                     muted
                     playsInline
-                    preload="none"
+                    preload="metadata"
                     className="exploreCardMedia"
                   />
                 ) : item.mediaType === 'gif' && imageUrl ? (

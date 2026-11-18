@@ -63,8 +63,6 @@
   -webkit-user-drag: none !important;
   touch-action: none !important;
   -webkit-touch-callout: none !important;
-  content-visibility: auto;
-  contain-intrinsic-size: 350px 260px;
 }
 
 .exploreCard:hover,

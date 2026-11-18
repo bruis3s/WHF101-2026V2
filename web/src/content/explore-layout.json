@@ -3193,7 +3193,7 @@
       "x": 3348,
       "y": 4668.9,
       "w": 360,
-      "h": 450.0,
+      "h": 450,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/sideroom/01.webp",
       "aspectRatio": "4 / 5"
@@ -3207,7 +3207,7 @@
       "x": 3348,
       "y": 5042.9,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/sideroom/15.webp",
       "aspectRatio": "4 / 5"
@@ -3221,7 +3221,7 @@
       "x": 3287.3,
       "y": 4434.9,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/sideroom/11.webp",
       "aspectRatio": "4 / 5"
@@ -3263,7 +3263,7 @@
       "x": 3103.3,
       "y": 4668.9,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/sideroom/02.webp",
       "aspectRatio": "4 / 5"
@@ -3319,7 +3319,7 @@
       "x": 2749.3,
       "y": 5006.3,
       "w": 280,
-      "h": 350.0,
+      "h": 350,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/sideroom/03.webp",
       "aspectRatio": "4 / 5"
@@ -3361,7 +3361,7 @@
       "x": 3582,
       "y": 5186.9,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/sideroom/04.webp",
       "aspectRatio": "4 / 5"
@@ -3403,7 +3403,7 @@
       "x": 3348,
       "y": 5276.9,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/sideroom/12.webp",
       "aspectRatio": "4 / 5"
@@ -4573,7 +4573,7 @@
     {
       "id": "j-germeister-booth-img-0-0",
       "slug": "j-germeister-booth",
-      "title": "J\u00e4germeister Booth",
+      "title": "Jägermeister Booth",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 6147,
@@ -4587,7 +4587,7 @@
     {
       "id": "j-germeister-booth-img-1-0",
       "slug": "j-germeister-booth",
-      "title": "J\u00e4germeister Booth",
+      "title": "Jägermeister Booth",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 6521,
@@ -4601,7 +4601,7 @@
     {
       "id": "j-germeister-booth-img-2-1",
       "slug": "j-germeister-booth",
-      "title": "J\u00e4germeister Booth",
+      "title": "Jägermeister Booth",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 6267,
@@ -4615,7 +4615,7 @@
     {
       "id": "j-germeister-booth-img-1-1",
       "slug": "j-germeister-booth",
-      "title": "J\u00e4germeister Booth",
+      "title": "Jägermeister Booth",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 6521,
@@ -4629,7 +4629,7 @@
     {
       "id": "j-germeister-booth-img-2-0",
       "slug": "j-germeister-booth",
-      "title": "J\u00e4germeister Booth",
+      "title": "Jägermeister Booth",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 6521,
@@ -4972,7 +4972,7 @@
       "x": 7709.7,
       "y": 5681.8,
       "w": 280,
-      "h": 350.0,
+      "h": 350,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/30.webp",
       "aspectRatio": "4 / 5"
@@ -5000,7 +5000,7 @@
       "x": 7057.7,
       "y": 5848.5,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/32.webp",
       "aspectRatio": "4 / 5"
@@ -5014,7 +5014,7 @@
       "x": 7359,
       "y": 6032.5,
       "w": 280,
-      "h": 350.0,
+      "h": 350,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/22.webp",
       "aspectRatio": "4 / 5"
@@ -5056,7 +5056,7 @@
       "x": 6823.7,
       "y": 5775.2,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/16.webp",
       "aspectRatio": "4 / 5"
@@ -5098,7 +5098,7 @@
       "x": 7125,
       "y": 6092.5,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/11.webp",
       "aspectRatio": "4 / 5"
@@ -5112,7 +5112,7 @@
       "x": 7893.7,
       "y": 5387.8,
       "w": 280,
-      "h": 350.0,
+      "h": 350,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/03.webp",
       "aspectRatio": "4 / 5"
@@ -5140,7 +5140,7 @@
       "x": 6823.7,
       "y": 6009.2,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/10.webp",
       "aspectRatio": "4 / 5"
@@ -5196,7 +5196,7 @@
       "x": 6589.7,
       "y": 5935.8,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/29.webp",
       "aspectRatio": "4 / 5"
@@ -5238,7 +5238,7 @@
       "x": 8187.7,
       "y": 5648.5,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/25.webp",
       "aspectRatio": "4 / 5"
@@ -5252,7 +5252,7 @@
       "x": 6823.7,
       "y": 6243.2,
       "w": 280,
-      "h": 350.0,
+      "h": 350,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/31.webp",
       "aspectRatio": "4 / 5"
@@ -5280,7 +5280,7 @@
       "x": 8187.7,
       "y": 5414.5,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/28.webp",
       "aspectRatio": "4 / 5"
@@ -5322,7 +5322,7 @@
       "x": 7978.7,
       "y": 6227.3,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/26.webp",
       "aspectRatio": "4 / 5"
@@ -5336,7 +5336,7 @@
       "x": 8212.7,
       "y": 6029.9,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/demie-bakmie-blok-m/17.webp",
       "aspectRatio": "4 / 5"
@@ -5372,7 +5372,7 @@
     {
       "id": "j-germeister-x-ardneks-img-0-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7174,
@@ -5386,7 +5386,7 @@
     {
       "id": "j-germeister-x-ardneks-img-2-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7404,
@@ -5400,7 +5400,7 @@
     {
       "id": "j-germeister-x-ardneks-img-4-1",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7548,
@@ -5414,7 +5414,7 @@
     {
       "id": "j-germeister-x-ardneks-img-3-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7441.3,
@@ -5428,7 +5428,7 @@
     {
       "id": "j-germeister-x-ardneks-img-6-1",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7548,
@@ -5442,7 +5442,7 @@
     {
       "id": "j-germeister-x-ardneks-img-1-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7220,
@@ -5456,7 +5456,7 @@
     {
       "id": "j-germeister-x-ardneks-img-7-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7207.3,
@@ -5470,7 +5470,7 @@
     {
       "id": "j-germeister-x-ardneks-img-2-1",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7732,
@@ -5484,7 +5484,7 @@
     {
       "id": "j-germeister-x-ardneks-img-0-1",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7548,
@@ -5498,7 +5498,7 @@
     {
       "id": "j-germeister-x-ardneks-img-4-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7314,
@@ -5512,7 +5512,7 @@
     {
       "id": "j-germeister-x-ardneks-img-7-1",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7368,
@@ -5526,7 +5526,7 @@
     {
       "id": "j-germeister-x-ardneks-img-1-1",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7076,
@@ -5540,7 +5540,7 @@
     {
       "id": "j-germeister-x-ardneks-img-5-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7732,
@@ -5554,7 +5554,7 @@
     {
       "id": "j-germeister-x-ardneks-img-6-0",
       "slug": "j-germeister-x-ardneks",
-      "title": "J\u00e4germeister X Ardneks",
+      "title": "Jägermeister X Ardneks",
       "category": "Installation",
       "year": "Finished, 2024",
       "x": 7842,
@@ -8053,9 +8053,10 @@
       "y": 911.9,
       "w": 360,
       "h": 450,
-      "mediaType": "image",
+      "mediaType": "video",
       "coverImageUrl": "/images/thumbnails/explore/saucony-aw25/01.webp",
-      "aspectRatio": "4 / 5"
+      "aspectRatio": "4 / 5",
+      "videoUrl": "/images/projects/saucony-aw25/vid-1.mp4"
     },
     {
       "id": "saucony-aw25-img-1-1",
@@ -8305,9 +8306,10 @@
       "y": 647.6,
       "w": 360,
       "h": 529.5,
-      "mediaType": "image",
+      "mediaType": "video",
       "coverImageUrl": "/images/thumbnails/explore/masshiro/01.webp",
-      "aspectRatio": "2 / 3"
+      "aspectRatio": "2 / 3",
+      "videoUrl": "/images/projects/masshiro/window-display.mp4"
     },
     {
       "id": "masshiro-img-7-1",
@@ -8654,7 +8656,7 @@
       "x": 2106.3,
       "y": 4734.6,
       "w": 360,
-      "h": 480.0,
+      "h": 480,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/brightspot-foodpark/01.webp",
       "aspectRatio": "3 / 4"
@@ -8780,7 +8782,7 @@
       "x": 1578.3,
       "y": 5048.2,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/brightspot-foodpark/11.webp",
       "aspectRatio": "4 / 5"
@@ -8878,7 +8880,7 @@
       "x": 3800.3,
       "y": 6818.6,
       "w": 360,
-      "h": 450.0,
+      "h": 450,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/01.webp",
       "aspectRatio": "4 / 5"
@@ -8892,7 +8894,7 @@
       "x": 3800.3,
       "y": 7362.1,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/04.webp",
       "aspectRatio": "4 / 5"
@@ -8906,7 +8908,7 @@
       "x": 3506.3,
       "y": 7170.6,
       "w": 280,
-      "h": 350.0,
+      "h": 350,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/05.webp",
       "aspectRatio": "4 / 5"
@@ -8934,7 +8936,7 @@
       "x": 4174.3,
       "y": 7024.2,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/10.webp",
       "aspectRatio": "4 / 5"
@@ -8948,7 +8950,7 @@
       "x": 4218.3,
       "y": 7362.1,
       "w": 280,
-      "h": 350.0,
+      "h": 350,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/06.webp",
       "aspectRatio": "4 / 5"
@@ -8976,7 +8978,7 @@
       "x": 3800.3,
       "y": 7596.1,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/11.webp",
       "aspectRatio": "4 / 5"
@@ -8990,7 +8992,7 @@
       "x": 3566.3,
       "y": 7596.1,
       "w": 220,
-      "h": 275.0,
+      "h": 275,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/08.webp",
       "aspectRatio": "4 / 5"
@@ -9004,7 +9006,7 @@
       "x": 4034.3,
       "y": 7626,
       "w": 130,
-      "h": 104.0,
+      "h": 104,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/norda-seek-grand-indonesia/03.webp",
       "aspectRatio": "5 / 4"
@@ -9074,7 +9076,7 @@
       "x": 6316.3,
       "y": 7163.1,
       "w": 220,
-      "h": 165.0,
+      "h": 165,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/saucony-ss26/09.webp",
       "aspectRatio": "4 / 3"
@@ -9088,7 +9090,7 @@
       "x": 6784.3,
       "y": 7424.6,
       "w": 280,
-      "h": 210.0,
+      "h": 210,
       "mediaType": "image",
       "coverImageUrl": "/images/thumbnails/explore/saucony-ss26/08.webp",
       "aspectRatio": "4 / 3"
@@ -10615,9 +10617,10 @@
       "y": 1304.1,
       "w": 360,
       "h": 202.9,
-      "mediaType": "image",
+      "mediaType": "video",
       "coverImageUrl": "/images/thumbnails/explore/besarati-slowbar/01.webp",
-      "aspectRatio": "16 / 9"
+      "aspectRatio": "16 / 9",
+      "videoUrl": "/images/projects/besarati-slowbar/slowbar.mp4"
     },
     {
       "id": "besarati-slowbar-img-4-0",
@@ -10629,8 +10632,8 @@
       "y": 1304.1,
       "w": 220,
       "h": 118.9,
-      "mediaType": "image",
-      "coverImageUrl": "/images/thumbnails/explore/besarati-slowbar/07.webp",
+      "mediaType": "gif",
+      "coverImageUrl": "/images/projects/besarati-slowbar/kitchen_stop_motion.gif",
       "aspectRatio": "21 / 10"
     },
     {

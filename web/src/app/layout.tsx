@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import localFont from 'next/font/local';
 import { SmoothScroll } from '@/components/motion/SmoothScroll';
 import { WebsiteShell } from '@/components/shell/WebsiteShell';
@@ -29,6 +29,12 @@ const helvetica = localFont({
   variable: '--font-helvetica',
   adjustFontFallback: 'Arial',
 });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://hafwerks.com'),

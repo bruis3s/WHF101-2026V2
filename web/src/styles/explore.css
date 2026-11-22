@@ -160,6 +160,10 @@
   -webkit-user-drag: none !important;
   touch-action: none !important;
   -webkit-touch-callout: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 /* ── Circular Snap Entrance (Instant appearance radiating from center, no fade, no scale) ── */
@@ -192,6 +196,8 @@
   -webkit-touch-callout: none !important;
   transform: none !important;
   transition: none !important;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: high-quality;
 }

@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import Image from 'next/image';
+import { ArrowIcon } from '@/components/icons/ArrowIcon';
 
 export interface LightboxImage {
   src: string;
@@ -225,7 +226,7 @@ export function CaseStudyLightbox({ images, children }: CaseStudyLightboxProps) 
                   className="navButton lightboxNavBtn lightboxPrev"
                   aria-label="Previous image (Left arrow)"
                 >
-                  <span>◀</span>
+                  <ArrowIcon direction="left" />
                 </button>
                 <button
                   type="button"
@@ -236,7 +237,7 @@ export function CaseStudyLightbox({ images, children }: CaseStudyLightboxProps) 
                   className="navButton lightboxNavBtn lightboxNext"
                   aria-label="Next image (Right arrow)"
                 >
-                  <span>▶</span>
+                  <ArrowIcon direction="right" />
                 </button>
               </>
             )}

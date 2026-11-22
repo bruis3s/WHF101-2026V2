@@ -40,9 +40,11 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
   // Pointer drag tracking (1:1 direct tracking, no momentum)
   const isPointerDownRef = useRef(false);
   const isDraggingRef = useRef(false);
+  const activePointerIdRef = useRef<number | null>(null);
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
   const startPanRef = useRef({ x: 0, y: 0 });
   const targetSlugRef = useRef<string | null>(null);
+  const touchCountRef = useRef(0);
 
   // Touch pinch tracking
   const touchPinchDistRef = useRef<number | null>(null);
@@ -65,11 +67,13 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
 
   // Spatial frustum check: which cards intersect screen viewport (with generous buffer)
   const calculateVisibleItems = useCallback(
-    (pan: { x: number; y: number }, scale: number, vw: number, vh: number, buffer = 800) => {
-      const minCanvasX = (-pan.x - buffer) / scale;
-      const maxCanvasX = (vw - pan.x + buffer) / scale;
-      const minCanvasY = (-pan.y - buffer) / scale;
-      const maxCanvasY = (vh - pan.y + buffer) / scale;
+    (pan: { x: number; y: number }, scale: number, vw: number, vh: number, buffer = 400) => {
+      // Scale-aware buffer so high zoom doesn't inadvertently mount 500+ items on mobile
+      const effectiveBuffer = Math.min(buffer, Math.max(120, Math.round(buffer * scale)));
+      const minCanvasX = (-pan.x - effectiveBuffer) / scale;
+      const maxCanvasX = (vw - pan.x + effectiveBuffer) / scale;
+      const minCanvasY = (-pan.y - effectiveBuffer) / scale;
+      const maxCanvasY = (vh - pan.y + effectiveBuffer) / scale;
 
       return layout.items.filter((item) => {
         const itemRight = item.x + item.w;
@@ -208,6 +212,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
 
   // Transition to State 2: High View (Overview) - Pure center zoom, no lateral drift
   const transitionToHighView = useCallback(() => {
+    setHasEntered(true);
     targetStateRef.current = 'high';
     const vw = window.innerWidth;
     const vh = window.innerHeight;
@@ -250,39 +255,46 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
 
   // Initial mount: Set camera to Normal View centered on cluster
   useEffect(() => {
-    const centerCamera = () => {
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const normalScale = getNormalScale(vw);
+    const targetCenterX = layout.initialCenterX ?? layout.canvasWidth / 2;
+    const targetCenterY = layout.initialCenterY ?? layout.canvasHeight / 2;
+
+    scaleRef.current = normalScale;
+    viewStateRef.current = 'normal';
+
+    const initialPan = {
+      x: vw / 2 - targetCenterX * normalScale,
+      y: vh / 2 - targetCenterY * normalScale,
+    };
+    panRef.current = initialPan;
+    lastCullPanRef.current = { ...initialPan };
+    lastCullScaleRef.current = normalScale;
+
+    if (canvasRef.current) {
+      canvasRef.current.style.transition = 'none';
+    }
+    applyTransform();
+
+    const initialVisible = calculateVisibleItems(initialPan, normalScale, vw, vh, 400);
+    initialCardIdsRef.current = new Set(initialVisible.map((it) => it.id || it.slug));
+    setVisibleItems(initialVisible);
+
+    // On resize: preserve current viewState and pan instead of violently resetting to start
+    const handleResize = () => {
       if (isTransitioningRef.current) return;
-      const vw = window.innerWidth;
-      const vh = window.innerHeight;
-      const normalScale = getNormalScale(vw);
-      const targetCenterX = layout.initialCenterX ?? layout.canvasWidth / 2;
-      const targetCenterY = layout.initialCenterY ?? layout.canvasHeight / 2;
-
-      scaleRef.current = normalScale;
-      viewStateRef.current = 'normal';
-
-      const initialPan = {
-        x: vw / 2 - targetCenterX * normalScale,
-        y: vh / 2 - targetCenterY * normalScale,
-      };
-      panRef.current = initialPan;
-      lastCullPanRef.current = { ...initialPan };
-      lastCullScaleRef.current = normalScale;
-
-      if (canvasRef.current) {
-        canvasRef.current.style.transition = 'none';
-      }
+      const currentVw = window.innerWidth;
+      const currentScale =
+        viewStateRef.current === 'high' ? getHighScale(currentVw) : getNormalScale(currentVw);
+      scaleRef.current = currentScale;
       applyTransform();
-
-      const initialVisible = calculateVisibleItems(initialPan, normalScale, vw, vh, 400);
-      initialCardIdsRef.current = new Set(initialVisible.map((it) => it.id || it.slug));
-      setVisibleItems(initialVisible);
+      updateCulling(true, panRef.current, currentScale);
     };
 
-    centerCamera();
-    window.addEventListener('resize', centerCamera);
-    return () => window.removeEventListener('resize', centerCamera);
-  }, [layout, getNormalScale, applyTransform, calculateVisibleItems]);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [layout, getNormalScale, getHighScale, applyTransform, calculateVisibleItems, updateCulling]);
 
   // Cleanup timers on unmount
   useEffect(() => {
@@ -340,23 +352,34 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
 
   // Pointer drag to move the canvas (1:1 direct tracking, NO momentum)
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
-    // Only accept left click for mouse; accept all touch events
+    // Only accept left click for mouse; accept touch events
     if (e.pointerType === 'mouse' && e.button !== 0) return;
 
+    // Multi-touch / pinch isolation: if already tracking a pointer, ignore new pointer for dragging
+    if (activePointerIdRef.current !== null && activePointerIdRef.current !== e.pointerId) {
+      return;
+    }
+
     if (rafIdRef.current !== null) {
-      cancelAnimationFrame(rafIdRef.current);
-      rafIdRef.current = null;
-      isTransitioningRef.current = false;
-      const vw = window.innerWidth;
-      const normalScale = getNormalScale(vw);
-      const isCloserToHigh = scaleRef.current < (normalScale + 0.4) / 2;
-      targetStateRef.current = isCloserToHigh ? 'high' : 'normal';
-      viewStateRef.current = isCloserToHigh ? 'high' : 'normal';
-      if (viewportRef.current) {
-        viewportRef.current.classList.remove('isTransitioning');
+      // If a transition is running, interrupt only for intentional mouse click, never during touch pinch
+      if (e.pointerType === 'mouse') {
+        cancelAnimationFrame(rafIdRef.current);
+        rafIdRef.current = null;
+        isTransitioningRef.current = false;
+        const vw = window.innerWidth;
+        const normalScale = getNormalScale(vw);
+        const isCloserToHigh = scaleRef.current < (normalScale + 0.4) / 2;
+        targetStateRef.current = isCloserToHigh ? 'high' : 'normal';
+        viewStateRef.current = isCloserToHigh ? 'high' : 'normal';
+        if (viewportRef.current) {
+          viewportRef.current.classList.remove('isTransitioning');
+        }
+      } else {
+        return;
       }
     }
 
+    activePointerIdRef.current = e.pointerId;
     const target = e.target as HTMLElement;
     const cardEl = target.closest('[data-slug]');
     targetSlugRef.current = cardEl ? cardEl.getAttribute('data-slug') : null;
@@ -368,7 +391,15 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
   };
 
   const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
-    if (!isPointerDownRef.current || !pointerStartRef.current || isTransitioningRef.current) return;
+    if (
+      !isPointerDownRef.current ||
+      !pointerStartRef.current ||
+      isTransitioningRef.current ||
+      e.pointerId !== activePointerIdRef.current ||
+      touchCountRef.current > 1
+    ) {
+      return;
+    }
 
     const dx = e.clientX - pointerStartRef.current.x;
     const dy = e.clientY - pointerStartRef.current.y;
@@ -406,7 +437,11 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
   };
 
   const handlePointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
-    if (!isPointerDownRef.current) return;
+    if (!isPointerDownRef.current || (activePointerIdRef.current !== null && e.pointerId !== activePointerIdRef.current)) {
+      return;
+    }
+
+    activePointerIdRef.current = null;
 
     if (cullTimerRef.current) {
       clearTimeout(cullTimerRef.current);
@@ -414,7 +449,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
     }
     updateCulling(true);
 
-    const slugToNavigate = !isDraggingRef.current ? targetSlugRef.current : null;
+    const slugToNavigate = !isDraggingRef.current && touchCountRef.current <= 1 ? targetSlugRef.current : null;
 
     try {
       if (e.currentTarget.hasPointerCapture(e.pointerId)) {
@@ -446,7 +481,22 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
     const el = viewportRef.current;
     if (!el) return;
 
+    // Prevent Safari native pinch page-zoom on iOS
+    const onGesture = (e: Event) => {
+      e.preventDefault();
+    };
+
     const onTouchStart = (e: TouchEvent) => {
+      touchCountRef.current = e.touches.length;
+      if (e.touches.length >= 2) {
+        // Multi-touch: disable single-finger pointer drag tracking immediately
+        isDraggingRef.current = false;
+        isPointerDownRef.current = false;
+        activePointerIdRef.current = null;
+        if (viewportRef.current) {
+          viewportRef.current.classList.remove('isDragging');
+        }
+      }
       if (e.touches.length === 2 && !isTransitioningRef.current) {
         const t1 = e.touches[0];
         const t2 = e.touches[1];
@@ -455,6 +505,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
     };
 
     const onTouchMove = (e: TouchEvent) => {
+      touchCountRef.current = e.touches.length;
       if (e.touches.length === 2 && touchPinchDistRef.current !== null && !isTransitioningRef.current) {
         e.preventDefault();
         const t1 = e.touches[0];
@@ -476,6 +527,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
 
     let lastTapTime = 0;
     const onTouchEnd = (e: TouchEvent) => {
+      touchCountRef.current = e.touches.length;
       if (e.touches.length < 2) {
         touchPinchDistRef.current = null;
       }
@@ -499,11 +551,15 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
     el.addEventListener('touchstart', onTouchStart, { passive: true });
     el.addEventListener('touchmove', onTouchMove, { passive: false });
     el.addEventListener('touchend', onTouchEnd, { passive: true });
+    el.addEventListener('gesturestart', onGesture);
+    el.addEventListener('gesturechange', onGesture);
 
     return () => {
       el.removeEventListener('touchstart', onTouchStart);
       el.removeEventListener('touchmove', onTouchMove);
       el.removeEventListener('touchend', onTouchEnd);
+      el.removeEventListener('gesturestart', onGesture);
+      el.removeEventListener('gesturechange', onGesture);
     };
   }, [transitionToHighView, transitionToNormalView]);
 
@@ -616,7 +672,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
                     alt={item.title}
                     fill
                     unoptimized
-                    loading={isCenterHero ? 'eager' : 'lazy'}
+                    loading="eager"
                     priority={isCenterHero}
                     sizes="(max-width: 809.98px) 70vw, 420px"
                     className="exploreCardImage"
@@ -629,7 +685,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
                     alt={item.title}
                     fill
                     unoptimized
-                    loading={isCenterHero ? 'eager' : 'lazy'}
+                    loading="eager"
                     priority={isCenterHero}
                     sizes="(max-width: 809.98px) 70vw, 420px"
                     className="exploreCardImage"

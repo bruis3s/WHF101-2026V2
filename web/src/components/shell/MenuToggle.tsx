@@ -4,18 +4,16 @@ import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
+import { ArrowIcon } from '@/components/icons/ArrowIcon';
 
 function ArrowSvg({ className }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 6 10"
-      preserveAspectRatio="none"
+    <ArrowIcon
+      direction="left"
+      width={7}
+      height={11}
       className={className}
-      aria-hidden="true"
-      style={{ width: '7px', height: '11.66px', display: 'block' }}
-    >
-      <path d="M6 10l-6-5 6-5 0 10z" fill="currentColor" />
-    </svg>
+    />
   );
 }
 

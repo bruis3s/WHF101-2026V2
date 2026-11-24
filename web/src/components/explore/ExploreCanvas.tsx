@@ -53,7 +53,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
   const lastCullPanRef = useRef({ x: 0, y: 0 });
   const lastCullScaleRef = useRef(1.0);
   const cullTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const initialCardIdsRef = useRef<Set<string>>(new Set());
+  const [initialCardIds, setInitialCardIds] = useState<Set<string>>(() => new Set());
 
   // Scale calculations for the 2 discrete states
   const getNormalScale = useCallback((vw: number) => {
@@ -278,7 +278,8 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
     applyTransform();
 
     const initialVisible = calculateVisibleItems(initialPan, normalScale, vw, vh, 400);
-    initialCardIdsRef.current = new Set(initialVisible.map((it) => it.id || it.slug));
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setInitialCardIds(new Set(initialVisible.map((it) => it.id || it.slug)));
     setVisibleItems(initialVisible);
 
     // On resize: preserve current viewState and pan instead of violently resetting to start
@@ -624,7 +625,7 @@ export function ExploreCanvas({ layout }: ExploreCanvasProps) {
           const entranceDelay = Math.min(0.75, 0.02 + (distFromCenter / 1800) * 0.55);
 
           const isCenterHero = distFromCenter < 350;
-          const isInitialCard = initialCardIdsRef.current.has(item.id || item.slug);
+          const isInitialCard = initialCardIds.has(item.id || item.slug);
 
           return (
             <Link

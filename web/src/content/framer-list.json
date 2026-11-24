@@ -96,6 +96,14 @@
     "slug": "apple-condovilla"
   },
   {
+    "code": "HAF_211",
+    "title": "RD Apartment",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "2026",
+    "slug": "rd-apartment"
+  },
+  {
     "code": "HAF_214",
     "title": "Better Goods",
     "category": "Interior",
@@ -193,7 +201,7 @@
   },
   {
     "code": "HAF_309",
-    "title": "Jägermeister Booth",
+    "title": "J\u00e4germeister Booth",
     "category": "Installation",
     "location": "Jakarta Selatan",
     "year": "2023",
@@ -201,7 +209,7 @@
   },
   {
     "code": "HAF_325",
-    "title": "Jägermeister X Ardneks",
+    "title": "J\u00e4germeister X Ardneks",
     "category": "Installation",
     "location": "Jakarta",
     "year": "2024",

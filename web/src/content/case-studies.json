@@ -10288,5 +10288,287 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "rd-apartment",
+    "code": "HAF_211",
+    "title": "RD Apartment",
+    "subtitle": "RD Apartment by HAF WERKS",
+    "projectType": "Interior",
+    "category": "Interior",
+    "discipline": [
+      "Interior",
+      "Spatial Design"
+    ],
+    "year": "Finished, 2026",
+    "location": "Jakarta",
+    "status": "Finished, 2026",
+    "coverImageUrl": "/images/projects/rd-apartment/01.webp",
+    "specs": [
+      {
+        "label": "Project",
+        "value": "RD Apartment"
+      },
+      {
+        "label": "Type",
+        "value": "Interior"
+      },
+      {
+        "label": "Location",
+        "value": "Jakarta"
+      },
+      {
+        "label": "Status",
+        "value": "Finished, 2026"
+      }
+    ],
+    "layoutRows": [
+      {
+        "id": "row-hero",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "flex-end",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/01.webp",
+            "widthPercent": 100,
+            "fit": "cover",
+            "priority": true,
+            "aspectRatio": "3 / 2"
+          }
+        ],
+        "verticalAlign": "flex-start"
+      },
+      {
+        "id": "row-01",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/02.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/rd-apartment/03.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-02",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/04.webp",
+            "video": "/images/projects/rd-apartment/video-lounge.mp4",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/rd-apartment/05.webp",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-03",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/06.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/rd-apartment/07.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-04",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "0px",
+        "justifyContent": "center",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/08.webp",
+            "video": "/images/projects/rd-apartment/stop-motion.mp4",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "center"
+          }
+        ]
+      },
+      {
+        "id": "row-05",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/10.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/rd-apartment/09.webp",
+            "video": "/images/projects/rd-apartment/video-corridor.mp4",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-06",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/12.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/rd-apartment/11.webp",
+            "video": "/images/projects/rd-apartment/video-bedroom.mp4",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-07",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/13.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/rd-apartment/14.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-08",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/15.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/rd-apartment/16.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      },
+      {
+        "id": "row-09",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/17.webp",
+            "widthPercent": 48,
+            "fit": "cover",
+            "aspectRatio": "3 / 2",
+            "verticalAlign": "flex-start"
+          },
+          {
+            "image": "/images/projects/rd-apartment/18.webp",
+            "widthPercent": 32,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          }
+        ]
+      },
+      {
+        "id": "row-10",
+        "sectionHeight": "100vh",
+        "sizingMode": "cover",
+        "gap": "30px",
+        "justifyContent": "space-between",
+        "columns": [
+          {
+            "image": "/images/projects/rd-apartment/18.webp",
+            "video": "/images/projects/rd-apartment/video-hardware.mp4",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-end"
+          },
+          {
+            "image": "/images/projects/rd-apartment/19.webp",
+            "video": "/images/projects/rd-apartment/video-evening.mp4",
+            "widthPercent": 35,
+            "fit": "cover",
+            "aspectRatio": "2 / 3",
+            "verticalAlign": "flex-start"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -98,7 +98,6 @@ export function GalleryRow({
 
     const isVideo = Boolean(col.video) || imageUrl.endsWith('.mp4') || imageUrl.endsWith('.webm') || imageUrl.endsWith('.mov');
     const mediaSrc = col.video ? sanitizeImageUrl(col.video) : imageUrl;
-    const isGif = imageUrl.endsWith('.gif');
 
     const hoverImageUrl = col.hoverImage ? sanitizeImageUrl(col.hoverImage) : null;
 

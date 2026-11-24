@@ -36,7 +36,9 @@ export function getCaseStudy(slug: string): CaseStudy | null {
     (c) =>
       c.slug === slug ||
       ((slug === 'sosco-diner-gathering' || slug === 'sosco-dinner-gathering') &&
-        c.slug === 'sosco-dinner-gathering-ss27')
+        c.slug === 'sosco-dinner-gathering-ss27') ||
+      ((slug === 'haf211-rd-apartment' || slug === 'rd-appartment' || slug === 'haf-211-rd-apartment') &&
+        c.slug === 'rd-apartment')
   );
   if (matched) return matched;
 
@@ -91,7 +93,14 @@ export function getCaseStudySlugs(): string[] {
   const fromCaseStudies = (caseStudies as CaseStudy[]).map((c) => c.slug);
   const fromProjects = (projects as Array<{ slug: string }>).map((p) => p.slug);
   return Array.from(
-    new Set([...fromCaseStudies, ...fromProjects, 'sosco-diner-gathering', 'sosco-dinner-gathering'])
+    new Set([
+      ...fromCaseStudies,
+      ...fromProjects,
+      'sosco-diner-gathering',
+      'sosco-dinner-gathering',
+      'haf211-rd-apartment',
+      'rd-appartment',
+    ])
   );
 }
 

@@ -132,6 +132,18 @@
     "widthPercent": 40
   },
   {
+    "code": "HAF_211",
+    "title": "RD Apartment",
+    "category": "Interior",
+    "location": "Jakarta",
+    "year": "Finished, 2026",
+    "status": "Finished, 2026",
+    "slug": "rd-apartment",
+    "coverImageUrl": "/images/projects/rd-apartment.webp",
+    "aspectRatio": 1.5,
+    "widthPercent": 45
+  },
+  {
     "code": "HAF_214",
     "title": "Better Goods",
     "category": "Interior",
@@ -277,7 +289,7 @@
   },
   {
     "code": "HAF_309",
-    "title": "Jägermeister Booth",
+    "title": "J\u00e4germeister Booth",
     "category": "Installation",
     "location": "Jakarta",
     "year": "Finished, 2024",
@@ -289,7 +301,7 @@
   },
   {
     "code": "HAF_325",
-    "title": "Jägermeister X Ardneks",
+    "title": "J\u00e4germeister X Ardneks",
     "category": "Installation",
     "location": "Jakarta",
     "year": "Finished, 2024",

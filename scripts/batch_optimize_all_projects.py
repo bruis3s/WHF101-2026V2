@@ -17,6 +17,7 @@ MAP = {
     'toko-misteri': 'HAF209-TOKO MISTERI (DONE)',
     'zodiac': 'HAF210-ZODIAC (DONE)',
     'apple-condovilla': 'HAF211-APPLE CONDOVILLA',
+    'rd-apartment': 'HAF211-RD APARTMENT',
     'better-goods': 'HAF214-BETTERGOODS (DONE)',
     'sideroom': 'HAF215-SIDEROOM (DONE)',
     'dickies': 'HAF218-DICKIES PURI INDAH MALL (DONE)',

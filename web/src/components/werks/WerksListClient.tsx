@@ -76,6 +76,7 @@ const THUMBNAILS: Record<string, string> = {
   'zodiac': '/images/thumbnails/list/zodiac.webp',
   'haf242-kultura': '/images/thumbnails/list/haf242-kultura.webp',
   'haf235-nasgero-scbd': '/images/thumbnails/list/haf235-nasgero-scbd.webp',
+  'rd-apartment': '/images/thumbnails/list/rd-apartment.webp',
 };
 
 // Exact Framer specifications: [width, X position, Y position]
@@ -90,6 +91,7 @@ const HOVER_SPECS: Record<string, HoverSpec> = {
   'toko-misteri': { width: 400, x: 73.55, y: -92.74 },
   'zodiac': { width: 500, x: 73.55, y: -92.74 },
   'apple-condovilla': { width: 500, x: 167.88, y: 6.72 },
+  'rd-apartment': { width: 500, x: 167.88, y: 6.72 },
   'better-goods': { width: 300, x: 73.55, y: -92.74 },
   'sideroom': { width: 400, x: -257.24, y: -312.15 },
   'dickies': { width: 500, x: 138.27, y: 53.72 },

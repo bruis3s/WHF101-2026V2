@@ -384,7 +384,7 @@
     "gap": "10px",
     "items": [
       {
-        "title": "Jägermeister X Ardneks",
+        "title": "J\u00e4germeister X Ardneks",
         "category": "Installation",
         "year": "Finished, 2024",
         "width": "40.0%",
@@ -583,11 +583,11 @@
   },
   {
     "rowIndex": 21,
-    "justify": "flex-start",
+    "justify": "space-between",
     "gap": "0px",
     "items": [
       {
-        "title": "Jägermeister Booth",
+        "title": "J\u00e4germeister Booth",
         "category": "Installation",
         "year": "Finished, 2024",
         "width": "45.0%",
@@ -595,6 +595,17 @@
         "imgUrl": "/images/projects/j-germeister-booth.webp",
         "slug": "j-germeister-booth",
         "code": "HAF_309",
+        "location": "Jakarta"
+      },
+      {
+        "title": "RD Apartment",
+        "category": "Interior",
+        "year": "Finished, 2026",
+        "width": "40.0%",
+        "aspectRatio": 1.5,
+        "imgUrl": "/images/projects/rd-apartment.webp",
+        "slug": "rd-apartment",
+        "code": "HAF_211",
         "location": "Jakarta"
       }
     ]
